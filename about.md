@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Incoming economics PhD student at UC Berkeley. 
+Incoming PhD student in Economics at UC Berkeley. I received my AB in Economics from Harvard College in 2016, and worked as a Research Analyst at the New York Fed from 2016 to 2018.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[oliverwkim@gmail.com](mailto:oliverwkim@gmail.com)
