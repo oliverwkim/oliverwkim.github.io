@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Incoming economics PhD student at UC Berkeley. 
 
 ### More Information
 
