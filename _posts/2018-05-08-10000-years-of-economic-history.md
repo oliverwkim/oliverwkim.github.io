@@ -5,4 +5,6 @@ date: 2018-05-08
 categories: economic-history
 ---
 
-Lorem ipsum dolor sit amet
+The early settlers were worse-off than their nomadic kin. They ate less varied foods, succumbed more to disease, grew shorter, and died younger. But grain is easier to store than 
+
+For the first time, there were large food surpluses.
