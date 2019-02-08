@@ -11,6 +11,6 @@ You can check out my [GoodReads profile](https://www.goodreads.com/user/show/566
 
 ### Where does the W come from?
 
-The W in my name stands for "Wyatt", like the famous lawman from the Gunfight at the OK Corral (which, coincidentally, form my other two initials). I recently learned that two movies about Wyatt Earp came out in the year before my birth. The first, 1993's _Tombstone_, starred Kurt Russell as Earp. It got decent reviews and made $56 million on a $25 million budget. The second, 1994's _Wyatt Earp_, starred Kevin Costner, who was promptly nominated by the Razzies for both Worst Actor and Worst Screen Couple. The movie made only $25 million on a $63 million budget. 
+The W in my name stands for "Wyatt", like the famous lawman from the Gunfight at the OK Corral (which, coincidentally, form my other two initials). I recently learned that two movies about Wyatt Earp came out in the year before my birth. The first, 1993's _Tombstone_, starred Kurt Russell as Earp. It got decent reviews and made $56 million on a $25 million budget. The second, 1994's _Wyatt Earp_, starred Kevin Costner, who was nominated by the Razzies for Worst Actor that year. The movie made only $25 million on a $63 million budget. 
 
 I hope my parents saw the first one.
