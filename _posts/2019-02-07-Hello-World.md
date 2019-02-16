@@ -7,7 +7,7 @@ Hello. I am a first-year PhD student in Economics at UC Berkeley, starting in 20
 
 Watch this space for my occasional musings on current events, economic history, development, and political economy. If my (current) research interests have a theme, it's understanding what policies and institutions actually _work_ in lifting people out of poverty. I am ethnically Korean, but was born in Hong Kong, and raised in Hong Kong and Singapore, which understandably makes East Asian experience a focus.
 
-You can check out my [GoodReads profile](https://www.goodreads.com/user/show/5661522-oliver-kim) for my thoughts on what I've been reading lately, some of it economics, most of it not. I have a [Twitter](http://www.twitter.com/https://twitter.com/oliverwkim), but make it a rule not to post. In my salad days I wrote a column and drew cartoons for [_The Harvard Crimson_](https://www.thecrimson.com/writer/1209815/Oliver_W._Kim/), which I hope do not reflect too poorly on me now.
+You can check out my [GoodReads profile](https://www.goodreads.com/user/show/5661522-oliver-kim) for my thoughts on what I've been reading lately, some of it economics, most of it not. I have a [Twitter](https://twitter.com/oliverwkim), but make it a rule not to post. In my salad days I wrote a column and drew cartoons for [_The Harvard Crimson_](https://www.thecrimson.com/writer/1209815/Oliver_W._Kim/), which I hope do not reflect too poorly on me now.
 
 ### Where does the W come from?
 
