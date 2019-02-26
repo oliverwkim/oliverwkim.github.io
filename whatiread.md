@@ -14,6 +14,8 @@ I organize my sources using [Feedly](https://feedly.com/i/welcome).
 
 These are the economics blogs that even non-economists follow. 
 
-Paul Krugman is the 800 pound gorilla of the blogosphere. Anything he writes will likely be linked be linked to 
+Paul Krugman is the 800 pound gorilla of the blogosphere. Anything he writes will likely be linked to by a dozen other macroeconomics bloggers. 
 
-Marginal Revolution
+Marginal Revolution is the other behemoth in the econ blogosphere, writing from the opposite side of the political spectrum. (The biggest guppy in the puddle, so to speak.) Tyler Cowen can always be relied on for a contrarian take. He seriously has his blinders on about Singapore. 
+
+## The Historians
