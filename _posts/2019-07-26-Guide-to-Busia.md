@@ -3,6 +3,8 @@ layout: post
 title: The RA's Guide to Busia
 ---
 
+![Downtown Busia ater a rainy day.](/assets/busia_guide/downtown_busia.jpeg)
+
 Spending a summer doing fieldwork in Busia has become a rite of passage for Berkeley development RAs. When I was planning my trip, I wish there’d been a guide with the collected experience of former RAs all in one place—here’s my attempt at writing it. All information is current as of summer 2019.
 
 # What to Bring
