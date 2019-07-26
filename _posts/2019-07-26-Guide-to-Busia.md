@@ -11,7 +11,7 @@ Spending a summer doing fieldwork in Busia, Kenya has become a rite of passage f
 
 ## Packing List
 
-Use [Chris Blattman's excellent list](https://chrisblattman.com/2009/04/21/field-work-in-the-tropics/) as a baseline for packing, along with whatever the travel clinic recommends. Aside from the conventional items--sunscreen, hat, outdoor shoes, Malarone—--here are some suggestions for things you might not have thought of.
+Use [Chris Blattman's excellent list](https://chrisblattman.com/2009/04/21/field-work-in-the-tropics/) as a baseline for packing, along with whatever the travel clinic recommends. Aside from the conventional items---sunscreen, hat, outdoor shoes, Malarone—--here are some suggestions for things you might not have thought of.
 
 * For men, several pairs of long pants—--jeans, khakis, the like. People hardly wear shorts here. They’re okay for around the house on weekends, but for work days and especially field days you should wear long pants. It’s helpful if they’re light and breathable.
 
@@ -27,13 +27,15 @@ Use [Chris Blattman's excellent list](https://chrisblattman.com/2009/04/21/field
 
 * $50 USD for the Kenyan tourist visa, $100 if you want the East African Visa (just ask for it when you’re at immigration). This’ll give you access to Uganda and Rwanda.
 
+* An unlocked cell phone that can take a GSM SIM card (ask your provider if you aren't sure).
+
 * _Optional:_ French press and ground coffee beans. Though Kenya is a big coffee producer, tea is the drink of choice for the locals. The only coffee you can get in Busia is instant Nescafe—--if you want “real” coffee, you’ll have to bring your own equipment. You can stock up on beans in Nairobi, which has no shortage of hipster coffee shops. I didn’t do this, but wish I had.
 
 * _Also optional:_ Download a bunch of movies to your laptop. Whatever number you bring, you’ll wish you brought more. While you’re at it, download your whole Spotify library for offline listening.
 
 ## Residency Requirements (for Berkeley first-years)
 
-If you’re a Berkeley grad student with US citizenship, you’ll want to establish California residency in your first year, or you’ll be hooked with a painful tuition bill. Time spent working in Kenya does not count towards your six-week out-of-state limit, but you’ll need a letter from the department stating that the trip is part of your graduate studies—talk to Heather Iwata in Econ or Carmen Karahalios in ARE about this. Try to get all the paperwork (letter, W2,1099/1098-T, federal and state tax returns) that you’ll need for the residency application sorted out before you leave, since this info is due in mid-July.
+If you’re a Berkeley grad student with US citizenship, you’ll want to establish California residency in your first year, or you’ll be hooked with a painful tuition bill. Time spent working in Kenya does not count towards your six-week out-of-state limit, but you’ll need a letter from the department stating that the trip is part of your graduate studies—--talk to Heather Iwata in Econ or Carmen Karahalios in ARE about this. Try to get all the paperwork (letter, W2,1099/1098-T, federal and state tax returns) that you’ll need for the residency application sorted out before you leave, since this info is due in mid-July.
 
 ## Exchanging Money
 
@@ -50,8 +52,6 @@ Take an international flight to Nairobi, then a domestic airline to Kisumu. From
 Though it might look walkable on Google Maps, Busia is actually quite a large town, and you’ll need some form of motorized transport. The most convenient way to get around is on the boda bodas (or bodas for short), motorcycle taxis. Hitch a ride on the back, hold on tight, and tell the driver where to go—it’s a 50 Ksh flat rate for anywhere in town. Make sure you have the exact amount, or they may ride off with your change.
 
 ## Getting a Phone
-
-Before you leave the States, make sure your phone is unlocked and can take a GSM SIM card.
 
 Safaricom and Airtel are the two biggest mobile providers in Kenya. Airtel offers data plans that are half the price of Safaricom’s, but Safaricom has MPESA (mobile money)---incredibly useful in Nairobi and the big cities---which lets them charge monopoly prices. 
 
