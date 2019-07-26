@@ -9,23 +9,23 @@ Spending a summer doing fieldwork in Busia has become a rite of passage for Berk
 
 Aside from the conventional items you’re told to pack—sunscreen, hat, outdoor shoes, Malarone—here are some suggestions for things you might not have thought of.
 
-For men, at least three or four pairs of long pants—jeans, khakis, the like. People hardly wear shorts here. They’re okay for around the house on weekends, but for work days and especially field days you should wear long pants. It’s helpful if they’re light and breathable.
+* For men, at least three or four pairs of long pants—jeans, khakis, the like. People hardly wear shorts here. They’re okay for around the house on weekends, but for work days and especially field days you should wear long pants. It’s helpful if they’re light and breathable.
 
-For women, my friend Noor tells me that pants are okay, but you may also want to pack some long-ish dresses as attitudes in rural areas may be more conservative.
+* For women, my friend Noor tells me that pants are okay, but you may also want to pack some long-ish dresses as attitudes in rural areas may be more conservative.
 
-A business casual outfit. (I brought a suit, but I think this was overkill. A nice shirt and pants and proper shoes would have done fine.) You may have to dress up for meetings with local officials, or just to impress your new friends at church.
+* A business casual outfit. (I brought a suit, but I think this was overkill. A nice shirt and pants and proper shoes would have done fine.) You may have to dress up for meetings with local officials, or just to impress your new friends at church.
 
-A pair of flip flops to use in the shower and around the house.
+* A pair of flip flops to use in the shower and around the house.
 
-A silk sleeping bag liner. If you ever go “camping” (the term IPA uses for spending a night out in the field) and are picky about cleanliness, these can be so helpful. They’re cheap (~$15), pack down to a small size, and can make an enormous difference in comfort. Trust me on this one. (Thanks to Chris Blattman for this tip.)
+* A silk sleeping bag liner. If you ever go “camping” (the term IPA uses for spending a night out in the field) and are picky about cleanliness, these can be so helpful. They’re cheap (~$15), pack down to a small size, and can make an enormous difference in comfort. Trust me on this one. (Thanks to Chris Blattman for this tip.)
 
-Download a bunch of movies to your laptop. Whatever number you bring, you’ll wish you brought more. While you’re at it, download your whole Spotify library for offline listening.
+* Download a bunch of movies to your laptop. Whatever number you bring, you’ll wish you brought more. While you’re at it, download your whole Spotify library for offline listening.
 
-A small flashlight or headlamp for the inevitable blackouts.
+* A small flashlight or headlamp for the inevitable blackouts.
 
-$50 USD for the Kenyan tourist visa, $100 if you want the East African Visa (just ask for it when you’re at immigration). This’ll give you access to Uganda and Rwanda.
+* $50 USD for the Kenyan tourist visa, $100 if you want the East African Visa (just ask for it when you’re at immigration). This’ll give you access to Uganda and Rwanda.
 
-Optional: French press / ground coffee beans. Though Kenya is a big coffee producer, tea is the drink of choice for the locals. The only coffee you can get in Busia is instant Nescafe—if you want “real” coffee, you’ll have to bring your own equipment. You can stock up on beans in Nairobi, which has no shortage of hipster coffee shops. I didn’t do this, but wish I had.
+* _Optional:_ French press and ground coffee beans. Though Kenya is a big coffee producer, tea is the drink of choice for the locals. The only coffee you can get in Busia is instant Nescafe—--if you want “real” coffee, you’ll have to bring your own equipment. You can stock up on beans in Nairobi, which has no shortage of hipster coffee shops. I didn’t do this, but wish I had.
 
 # Getting In
 
@@ -58,7 +58,8 @@ Another tip: once you install your new SIM, go into your phone settings and turn
 __Khetias__ is the main Western-style supermarket to buy groceries. Don’t expect too many specialty Western items, but it has plenty of the basics: pasta and tomato sauce and the like. (There is even cheese tucked away near the frozen food section.) They also sell towels and bedsheets and cookware and other household essentials.
 
 __Lynette__, who works across the street from IPA, makes the best chapati and beans in town. You’ll see most of the IPA office eating there for lunch. She’s really nice, and you can get a filling lunch for 40 shillings (40 cents).
-Anointed Hotel. 
+
+__Anointed Hotel__ is another place to eat near IPA. It specializes in _nyama choma_, Kenyan barbecue, but my personal favorite is the _omena_, sardines in tomato sauce.
 
 __Hotel Itoya.__ In my opinion, the best and probably the “fanciest” restaurant in town, and still cheap by Western standards. (Expect to pay around $5 for your meal.) Favorites are the fish Goa curry, the chicken biryani, and the pan fried fish fillet with chips (i.e. fish and chips). They also make a decent approximation of a pizza—and if you call, they’ll even deliver!
 
