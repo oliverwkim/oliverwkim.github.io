@@ -86,4 +86,4 @@ exclude:
   - CNAME
 
 #theme: jekyll-theme-minimal
-remote_theme: poole/hyde
+remote_theme: ET-Jekyll
