@@ -1,17 +1,27 @@
 ---
-layout: default
+layout: compress
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+{% include head.html %}
 
-  <div class="entry">
-    {{ content }}
-  </div>
+    <main>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+        {% include header.html %}
 
-  {% include disqus.html %}
-</article>
+        <article>
+            <h1>{{ page.title }}</h1>
+            <p class="subtitle">{{ page.date | date: "%b %-d, %Y" }}</p>
+
+            {{ page.content }}
+
+            <hr>
+
+            <p><a href="{{ site.baseurl }}/articles">← Back to all articles</a></p>
+        </article>
+
+    </main>
+
+    {% include footer-post.html %}
+
+</body>
+</html>
