@@ -180,7 +180,7 @@ section > table {
 /* 50 + 5 == 55, to be the same width as paragraph */
 section > ol,
 section > ul {
-    width: 50%;
+    width: 70%;
     -webkit-padding-start: 5%; 
 }
 
