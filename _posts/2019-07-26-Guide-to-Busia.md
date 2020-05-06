@@ -12,7 +12,7 @@ Spending a summer doing fieldwork in Busia, Kenya has become a rite of passage f
 
 ## Packing List
 
-Use [Chris Blattman's excellent list](https://chrisblattman.com/2009/04/21/field-work-in-the-tropics/) as a baseline for packing, along with whatever the travel clinic recommends. Aside from the conventional items--sunscreen, hat, outdoor shoes, Malarone—-here are some suggestions for things you might not have thought of.
+Use [Chris Blattman's excellent list](https://chrisblattman.com/2009/04/21/field-work-in-the-tropics/) as a baseline for packing, along with whatever the travel clinic recommends. Aside from the conventional items--sunscreen, hat, outdoor shoes, Malarone--here are some suggestions for things you might not have thought of.
 
 * For men, several pairs of long pants, like jeans or khakis. Adult men in Busia don't usually wear shorts. They’re okay to wear around the house on weekends, but for work and especially for the field you should wear long pants. It’s helpful if they’re light and breathable.
 
