@@ -6,7 +6,7 @@ permalink: /bookrecs/
 
 Here are some books and movies I recommend, with an eye towards "economic" themes. 
 
-##Non-Fiction
+## Non-Fiction
 * _How Asia Works_, by Joe Studwell
 * _The Gunpowder Age_, by Tonio Andrade
 * _Foreign Devils on the Silk Road_, by Peter Hopkirk
@@ -14,7 +14,7 @@ Here are some books and movies I recommend, with an eye towards "economic" theme
 * _Asia's Next Giant_, by Alice Amsden
 * _Coercion, Capital, and European States_, by Charles Tilly
 
-##Fiction/Literary Non-Fiction
+## Fiction/Literary Non-Fiction
 * _CivilWarLand in Bad Decline_, by George Saunders
 * _War and Peace_, by Leo Tolstoy
 * _Down and Out in Paris and London_, by George Orwell
@@ -27,7 +27,7 @@ Here are some books and movies I recommend, with an eye towards "economic" theme
 * _The Quiet American_, by Graham Greene
 * _The Epic of Gilgamesh_, by Unknown
 
-##Movies
+## Movies
 * _The Fog of War: Eleven Lessons from the Life of Robert McNamara_, by Errol Morris
 * _The Only Son_, by Yasujiro Ozu 
 * _Good Morning_, by Yasujiro Ozu 
