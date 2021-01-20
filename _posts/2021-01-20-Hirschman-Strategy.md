@@ -11,13 +11,13 @@ And precisely because of these tendencies, I think his ideas are ripe for a come
 
 The _Strategy of Economic Development_ is a classic of offbeat Hirschmanian insight. His main idea is simple: that the “ability to make development decisions”—not capital, or labor, or any other material factor—is the limited resource constraining economic development.
 
-If that made you scratch your head, you’re not alone. For someone conditioned to thinking in Lagrangians, pointing to the lack of “decision-making” as the main obstacle to economic growth feels fuzzy around the edges, a little like declaring that the real development was the friends we made along the way. 
+If that made you scratch your head, you’re not alone. For someone conditioned to think in Lagrangians, pointing to the lack of “decision-making” as the main obstacle to economic growth feels fuzzy around the edges, a little like declaring that the real development was the friends we made along the way. 
 
 But I’ll admit that at the end of the _Strategy_, I was won over. This is one of those rare economics books that reconfigured my view of the world, made me reconsider views that I once considered silly, and adopt much of its language in my own thinking—so much so that I’m trying to evangelize it to you right now. How did Hirschman do it?
 
 ## Hirschman's Odyssey
 
-It is unfashionable to talk about economists’ life stories—and truthfully, you don’t usually get more out of the latest instrumental variables procedure by knowing about the author’s childhood. But Albert Hirschman lived a life inseparable from his ideals, and to omit it would deprive you of a fascinating story.
+It is unfashionable to talk about economists’ life stories—and truthfully, you don’t usually get more out of the latest instrumental variables procedure by knowing about the author’s childhood. But Albert Hirschman lived a life inseparable from his ideals, and to omit it would deprive you of a fascinating story. {% marginnote "margin-note-id" "This section draws heavily from Jeremy Adelman's fantastic biography, _Worldly Philosopher: The Odyssey of Albert O. Hirschman_. If this piece interested you, I highly recommend it." %}
 
 Hirschman was born in 1915 to a well-to-do Jewish family in Berlin. He was still a teenager when he joined the Social Democratic Party, the main political opposition to the rising Nazi Party. After the Reichstag fire, with Hitler threatening to take dictatorial control, Hirschman’s cell of young activists took to the streets, passing flyers and urging people to resist. But resistance soon collapsed. With several of his friends arrested, a seventeen-year-old Hirschman was forced to flee to Paris.
 
