@@ -99,7 +99,7 @@ Hirschman is still read today in political science and sociology, but hardly eve
 In his classic 1995 essay, “the Fall and Rise of Development Economics”, Paul Krugman carved out the epitaph for Hirschman’s intellectual legacy—what he called “the High Development Theory”, of which the _Strategy_ represented the high-water mark. The coup de grace had been delivered long ago, by economics’s mathematical turn:
 
 >High development theorists were having a hard time expressing their ideas in the kind of tightly specified models that were increasingly becoming the unique language of discourse of economic analysis. They were faced with the choice of either adopting that increasingly dominant intellectual style, or finding themselves pushed into the intellectual periphery. They didn't make the transition, and as a result high development theory was largely purged from economics, even development economics…
-
+>
 >Along with some others, notably Myrdal, Hirschman didn't wait for intellectual exile: he proudly gathered up his followers and led them into the wilderness himself. Unfortunately, they perished there.
 
 For his part, Hirschman knew the direction economics was heading. Hirschman’s biographer Jeremy Adelman notes that he was anxious to show his mathematical chops---the _Strategy_ is scattered with stray equations as if to remind you of its seriousness. (Graduate students can surely relate.) But the math in the _Strategy_ is ultimately ornamental; nothing is conveyed that isn’t already in the words. Hirschman eventually gave up on formal economic modeling, a path Krugman believes led to academic obscurity. 
