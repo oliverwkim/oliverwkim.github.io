@@ -73,7 +73,7 @@ Albert Hirschman’s main goal in the _Strategy_ is to sidestep all of that. Her
 
 Now, hopefully, this makes a little bit more sense. Rather than endlessly debate which prerequisites for growth a poor country is missing, Hirschman shifts the focus to figuring out how to make the best use of the resources it already has. But, without the guidance of a grand plan, how should policy makers decide how to allocate their attention?
 
-The solution Hirschman proposes is _un_balanced growth. Instead of trying to solve all problems all at once, policy-makers should push forward in a limited number of sectors, and use the reactions and disequilibria created by those interventions to inform their next move. 
+The solution Hirschman proposes is *un*balanced growth. Instead of trying to solve all problems all at once, policy-makers should push forward in a limited number of sectors, and use the reactions and disequilibria created by those interventions to inform their next move. 
 
 Take the example of an industrial district. With limited resources, a policymaker may have to choose between building the actual factories, or laying down the highways and power-plants (what he calls Social Overhead Capital) to supply it. Based on his theory, Hirschman makes the provocative case that infrastructure should sometimes follow, not lead, private investment:
 
