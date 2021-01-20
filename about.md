@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Oliver Kim.](/images/square.jpg "Oliver Kim")
 
-Hello. I am a second-year PhD student in Economics at UC Berkeley, starting in 2018. I did my undergrad at Harvard College, graduating in 2016, and worked for two years at the New York Fed.
+I am a PhD student in Economics at UC Berkeley. I graduated from Harvard College in 2016, and worked at the New York Fed from 2016-18.
 
 Watch this space for my occasional musings on current events, economic history, development, and political economy. If my (current) research interests have a theme, it's understanding what policies and institutions actually _work_ in lifting people out of poverty. I am ethnically Korean, but was born in Hong Kong, and raised in Hong Kong and Singapore, which understandably makes East Asian experience a focus.
 
