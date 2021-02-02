@@ -18,7 +18,7 @@ But I’ll admit that at the end of the _Strategy_, I was won over. This is one 
 
 ## Hirschman's Odyssey
 
-It is unfashionable to talk about economists’ life stories—and truthfully, you don’t usually get more out of the latest instrumental variables procedure by knowing about the author’s childhood. But Albert Hirschman lived a life inseparable from his ideals, and to omit it would deprive you of a fascinating story. {% marginnote "margin-note-id" "This section draws heavily from Jeremy Adelman's fantastic biography, _Worldly Philosopher: The Odyssey of Albert O. Hirschman_. If this piece interested you, I highly recommend it." %}
+It is unfashionable to talk about economists’ life stories—and truthfully, you don’t usually get more out of the latest instrumental variables procedure by knowing about the author’s childhood. But Albert Hirschman lived a life inseparable from his ideals, and to omit it would deprive you of a fascinating story.
 
 Hirschman was born in 1915 to a well-to-do Jewish family in Berlin. He was still a teenager when he joined the Social Democratic Party, the main political opposition to the rising Nazi Party. After the Reichstag fire, with Hitler threatening to take dictatorial control, Hirschman’s cell of young activists took to the streets, passing flyers and urging people to resist. But resistance soon collapsed. With several of his friends arrested, a seventeen-year-old Hirschman was forced to flee to Paris.
 
