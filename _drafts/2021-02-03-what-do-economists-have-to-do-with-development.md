@@ -13,13 +13,13 @@ I'll focus on East Asia, the region Pritchett named, the place that I know best,
 
 When Paul Samuelson, they picked Ghana.
 
-Wolf Ladejinsky
+Wolf Ladejinsky, who had grown up in Ukraine and fled the Soviets as a boy, was. He gave key technical input to MacArthur, including advocating for land _redistribution_ as opposed to just 
 
 Albert Winsemius
 
-But for every Ladejinsky and Winsemius, there was a Walt Rostow or a (Indonesian example here).
+But for every Ladejinsky and Winsemius, there was a Walt Rostow or a group of Berkeley Boys.
 
-It would be historical malpractice to call either Ladejinsky or Winsemius a proto-randomista.
+It would be historical malpractice to call either Ladejinsky or Winsemius a proto-randomista. But the spirit of their work---calling for the blatant violation of property rights, and the active intervention of government in industry---runs very much against neoclassical orthodoxy. 
 
 
 But the economics that that proved most useful
