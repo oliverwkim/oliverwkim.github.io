@@ -15,7 +15,7 @@ When Paul Samuelson, they picked Ghana.
 
 Land reform and industrial policy.
 
-Ministry of International Trade and Industry
+Japan's all-powerful Ministry of International Trade and Industry, which had an undeniably large role in shaping the postwar economic miracle.
 
 Of the crop of foreign advisors to East Asia, two figures stand out.
 
@@ -30,7 +30,7 @@ Indeed, the intellectual influences
 Joe Studwell calls this the "triumph of the historians".
 
 
-It's also important to remember that for every Ladejinsky and Winsemius, there was a Walt Rostow or a gang of Berkeley Boys. 
+It's also important to remember that for every Ladejinsky and Winsemius, there was a Walt Rostow or a gang of Berkeley Boys.  
 
 
 
