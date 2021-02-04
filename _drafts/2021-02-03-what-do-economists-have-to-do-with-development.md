@@ -19,7 +19,7 @@ Japan's all-powerful Ministry of International Trade and Industry, which had an 
 
 Of the crop of foreign advisors to East Asia, two figures stand out.
 
-The first is Wolf Ladejinsky, who advised land reforms in Japan, Taiwan, South Vietnam, and India. Ladejinsky who had grown up in Ukraine and fled the Soviets as a boy, was. During the Occupation of Japan, he gave key technical advice to MacArthur, including advocating for land _redistribution_ as opposed to just rent reduction.
+The first is Wolf Ladejinsky, an agricultural economist who advised land reforms in Japan, Taiwan, South Vietnam, and India. Ladejinsky who had grown up in Ukraine and fled the Soviets as a boy, was. During the Occupation of Japan, he gave key technical advice to MacArthur, including advocating for land _redistribution_ as opposed to just rent reduction.
 
 A similar figure is Albert Winsemius, a Dutch UN advisor who was dispatched to Singapore in 1960. 
 
