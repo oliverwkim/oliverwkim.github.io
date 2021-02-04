@@ -9,7 +9,7 @@ Pritchett has a point, of course. But I think his question, with its focus on th
 
 ## The Triumph of the Historians
 
-I'll focus on East Asia, the region Pritchett named, the corner of the world that I know best, and really the only place that has managed to grow its way out of poverty in the last century. To spare you the suspense, the answer to my question is yes---but a qualified one, and not an answer that I think would flatter Pritchett's brand of development economics.
+I'll focus on East Asia, the region Pritchett named, the corner of the world that I know best, and really the only place that has managed to grow its way out of poverty in the last century. To spare you the suspense, the answer to my question is yes---but a qualified yes, and not an answer that I think would flatter Pritchett's brand of development economics.
 
 When Paul Samuelson, they picked Ghana.
 
