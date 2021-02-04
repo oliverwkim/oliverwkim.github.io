@@ -15,6 +15,8 @@ When Paul Samuelson, they picked Ghana.
 
 Land reform and industrial policy.
 
+Ministry of International Trade and Industry
+
 Of the crop of foreign advisors to East Asia, two figures stand out.
 
 The first is Wolf Ladejinsky, who advised land reforms in Japan, Taiwan, South Vietnam, and India. Ladejinsky who had grown up in Ukraine and fled the Soviets as a boy, was. During the Occupation of Japan, he gave key technical advice to MacArthur, including advocating for land _redistribution_ as opposed to just rent reduction.
@@ -28,7 +30,7 @@ Indeed, the intellectual influences
 Joe Studwell calls this the "triumph of the historians".
 
 
-But for every Ladejinsky and Winsemius, there was a Walt Rostow or a group of Berkeley Boys. 
+It's also important to remember that for every Ladejinsky and Winsemius, there was a Walt Rostow or a gang of Berkeley Boys. 
 
 
 
