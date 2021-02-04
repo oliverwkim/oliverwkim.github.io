@@ -15,9 +15,13 @@ When Paul Samuelson, they picked Ghana.
 
 Land reform and industrial policy.
 
-Wolf Ladejinsky, who had grown up in Ukraine and fled the Soviets as a boy, was. He gave key technical advice to MacArthur, including advocating for land _redistribution_ as opposed to just rent reduction.
 
-A similar figure is Albert Winsemius
+
+Of the crop of foreign advisors, two figures stand out.
+
+Wolf Ladejinsky, who had grown up in Ukraine and fled the Soviets as a boy, was. During the Occupation of Japan, he gave key technical advice to MacArthur, including advocating for land _redistribution_ as opposed to just rent reduction.
+
+A similar figure is Albert Winsemius, a Dutch UN advisor who was dispatched to Singapore in 1960. 
 
 But for every Ladejinsky and Winsemius, there was a Walt Rostow or a group of Berkeley Boys.
 
