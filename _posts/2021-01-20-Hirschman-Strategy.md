@@ -10,11 +10,11 @@ Hirschman was a master of those little ideas that, once you’ve heard them, are
 
 And precisely because of these tendencies, I think his ideas are ripe for a comeback.
 
-The _Strategy of Economic Development_ is a classic of offbeat Hirschmanian insight. His main idea is simple: that the “ability to make development decisions”-—not capital, or labor, or any other material factor—is the limited resource constraining economic development.
+The _Strategy of Economic Development_ is a classic of offbeat Hirschmanian insight. His main idea is simple: that the “ability to make development decisions”--not capital, or labor, or any other material factor—is the limited resource constraining economic development.
 
 If that made you scratch your head, you’re not alone. For someone conditioned to think in Lagrangians, pointing to the lack of “decision-making” as the main obstacle to economic growth feels fuzzy around the edges, a little like declaring that the real development was the friends we made along the way. 
 
-But I’ll admit that at the end of the _Strategy_, I was won over. This is one of those rare economics books that reconfigured my view of the world, made me reconsider views that I once considered silly, and adopt much of its language in my own thinking-—so much so that I’m trying to evangelize it to you right now. How did Hirschman do it?
+But I’ll admit that at the end of the _Strategy_, I was won over. This is one of those rare economics books that reconfigured my view of the world, made me reconsider views that I once considered silly, and adopt much of its language in my own thinking--so much so that I’m trying to evangelize it to you right now. How did Hirschman do it?
 
 ## Hirschman's Odyssey
 
