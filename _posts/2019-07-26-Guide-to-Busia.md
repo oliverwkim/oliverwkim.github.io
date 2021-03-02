@@ -25,7 +25,7 @@ Use [Chris Blattman's excellent list](https://chrisblattman.com/2009/04/21/field
 
 * [A silk sleeping bag liner](https://www.amazon.com/Friendly-Swede-Travel-Camping-Sleeping/dp/B016BUI130/ref=sr_1_5?keywords=sleeping+bag+liner&qid=1564141948&s=gateway&sr=8-5). If you ever go “camping” (the term IPA uses for spending a night out in the field) and are picky about cleanliness, these can be helpful. They’re around $20, pack down to a small size, and can make an enormous difference in comfort. (Thanks to Chris Blattman for this tip.)
 
-* A small flashlight or headlamp for the inevitable blackouts.
+* A small flashlight or headlamp in case of blackouts.
 
 * When you arrive at the airport, $50 USD in cash for the Kenyan tourist visa, or $100 if you want the East African Visa (just ask for it when you’re at immigration). This’ll give you access to Uganda and Rwanda.
 
