@@ -51,15 +51,15 @@ Take an international flight to Nairobi, then a domestic airline to Kisumu. From
 
 ## Getting Around
 
-Though it might look walkable on Google Maps, Busia is actually quite a large town, and you’ll need some form of motorized transport. The most convenient way to get around is on the boda bodas (or bodas for short), motorcycle taxis. Hitch a ride on the back, hold on tight, and tell the driver where to go—--it’s a 50 Ksh flat rate for anywhere in town.
+Though it might look walkable on Google Maps, Busia is actually quite a large town, and you’ll need some form of motorized transport. The most convenient way to get around is on the boda bodas (or bodas for short), motorcycle taxis. Hitch a ride on the back, hold on tight, and tell the driver where to go—-it’s a 50 Ksh flat rate for anywhere in town.
 
 ## Getting a Phone
 
-Safaricom and Airtel are the two biggest mobile providers in Kenya. Airtel offers data plans that are half the price of Safaricom’s, but Safaricom has MPESA (mobile money)---incredibly useful in Nairobi and the big cities---which lets them charge marked-up prices. 
+Safaricom and Airtel are the two biggest mobile providers in Kenya. Airtel offers data plans that are half the price of Safaricom’s, but Safaricom has MPESA (mobile money)--incredibly useful in Nairobi and the big cities--which lets them charge marked-up prices. 
 
 When you land in Nairobi, there’s an official Safaricom shop near the international arrivals exit. You’ll need your passport to register. I recommend buying as much data as you can (there’s a 25GB monthly package for 3000 shillings), along with a cheap minutes plan. While you’re at it, try and set up MPESA at the store, as only an official Safaricom store can do this for a foreigner. Note that phone minutes and data are usually sold separately; if you only buy the data plan you can’t make calls. Busia also has an official Safaricom shop if you need to top up.
 
-Another tip: once you install your new SIM, go into your phone settings and turn your SIM lock off, or at least store your SIM PIN in a safe place—--I lost my PIN, got my phone locked, and it was a huge pain to convince Safaricom to unlock it.
+Another tip: once you install your new SIM, go into your phone settings and turn your SIM lock off, or at least store your SIM PIN in a safe place—-I lost my PIN, got my phone locked, and it was a huge pain to convince Safaricom to unlock it.
 
 ## Where to Eat
 
