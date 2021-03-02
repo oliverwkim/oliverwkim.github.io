@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Real Development was the Friends We Made Along the Way
-published: false
+published: true
 ---
 
 This is a blog about development economics, and there’s surely no better way to start than by writing about Albert Hirschman—-one of the pioneers of the field, and quite possibly the most interesting person to ever become an economist. Originally I set out to write a review of Albert Hirschman’s _1958 Strategy of Economic Development_, but the tale grew in the telling—into a biography of Hirschman’s fascinating early life, then a broader history of development economics, and at last into a reflection on the current state of the field.
