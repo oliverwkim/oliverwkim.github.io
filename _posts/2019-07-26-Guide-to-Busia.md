@@ -27,7 +27,7 @@ Use [Chris Blattman's excellent list](https://chrisblattman.com/2009/04/21/field
 
 * A small flashlight or headlamp for the inevitable blackouts.
 
-* $50 USD for the Kenyan tourist visa, $100 if you want the East African Visa (just ask for it when you’re at immigration). This’ll give you access to Uganda and Rwanda.
+* When you arrive at the airport, $50 USD in cash for the Kenyan tourist visa, or $100 if you want the East African Visa (just ask for it when you’re at immigration). This’ll give you access to Uganda and Rwanda.
 
 * An unlocked cell phone that can take a GSM SIM card (ask your provider if you aren't sure).
 
