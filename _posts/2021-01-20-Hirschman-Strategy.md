@@ -1,10 +1,10 @@
----
+--
 layout: post
 title: The Real Development was the Friends We Made Along the Way
 published: true
----
+--
 
-This is a blog about development economics, and there’s surely no better way to start than by writing about Albert Hirschman—-one of the pioneers of the field, and quite possibly the most interesting person to ever become an economist. Originally I set out to write a review of Albert Hirschman’s _1958 Strategy of Economic Development_, but the tale grew in the telling—into a biography of Hirschman’s fascinating early life, then a broader history of development economics, and at last into a reflection on the current state of the field.
+This is a blog about development economics, and there’s surely no better way to start than by writing about Albert Hirschman—-one of the pioneers of the field, and quite possibly the most interesting person to ever become an economist. Originally I set out to write a review of Albert Hirschman’s _1958 Strategy of Economic Development_, but the tale grew in the telling—-into a biography of Hirschman’s fascinating early life, then a broader history of development economics, and at last into a reflection on the current state of the field.
 
 Hirschman was a master of those little ideas that, once you’ve heard them, are impossible to shake loose from your head. Because of his unconventional life story (more on that in a moment), he was an outsider for much of his academic career. Unusual for his era, he did extensive fieldwork, which helped him to develop a wry literary style that emphasized in-person observation, and an allergy to sweeping mathematical models that smoothed away the messiness of human behavior. Because of these proclivities, Hirschman and his ideas were basically exiled from the mainstream of economics in the 1960s and 1970s, swept away by the rising tide of mathematization. 
 
@@ -36,7 +36,7 @@ Over the past five years, Hirschman had fought fascism in four European countrie
 
 Albert Hirschman was twenty-five years old.
 
-Perhaps inevitably, Berkeley was something of a comedown from Europe. Berkeley Economics was still frankly a backwater—-the Keynesian revolution had not yet fully reached California. But Hirschman  made two important acquaintances: a young scholar called Alexander Gerschenkron, also fleeing Nazi persecution, also destined to become an eminent economist; and, in the Berkeley International House cafeteria, Sarah Chapiro, a Jewish emigre from France studying literature and philosophy.
+Perhaps inevitably, Berkeley was something of a comedown from Europe. The Berkeley economics department was still frankly a backwater—-the Keynesian revolution had not yet fully reached California. But Hirschman made two important acquaintances: a young scholar called Alexander Gerschenkron, also fleeing Nazi persecution, also destined to become an eminent economist; and, in the Berkeley International House cafeteria, Sarah Chapiro, a Jewish emigre from France studying literature and philosophy.
 
 Albert and Sarah married in 1941. When it was America’s turn to go to war, Hirschman enlisted (his third army in five years), and served as a translator during the Allied invasion of Italy. Bored and underused throughout the campaign, his most notable experience was at the end of the war, when he served as the interpreter for the German general Anton Dostler during the very first Allied war crimes trial.
 
@@ -114,9 +114,9 @@ Reading Krugman carefully, one can sense the intellectual tension: he sympathize
 
 But what Krugman sees as a sad inevitability of the march of progress could just as easily be recast as a disastrous loss of knowledge. Nothing prevents economists from reading old books!
 
-Within a few years of Krugman’s article, it was clear that development economics was stuck in a rut. Read William Easterly’s 2001 _The Elusive Quest for Growth_, a good summation of development thinking at the time, and the prevailing sense one gets is of frustration. According to Easterly. nothing seemed to work--not aid, not debt relief, and certainly not any of Jeffrey Sachs’s ideas. The highly-touted growth models of the 1990s proved to be not much help. Murphy, Shleifer, and Vishny 1989 is well-cited, but failed to inspire influential extensions or follow-ups, like the highest papers in the canon do. It is still respectfully included in many graduate syllabi, but more as a kind of curio, an evolutionary dead-end. More to the point, it’s doubtful that the paper’s much-vaunted algebra swayed any politician who wasn’t already convinced by the rhetoric of the Big Push.
+Within a few years of Krugman’s article, it was clear that development economics was stuck in a rut. Read William Easterly’s 2001 _The Elusive Quest for Growth_, a good summation of development thinking at the time, and the prevailing sense one gets is of frustration. According to Easterly. nothing seemed to work--not aid, not debt relief, and certainly not any of Jeffrey Sachs’s ideas. The highly-touted growth models of the 1990s proved to be not much help. Murphy, Shleifer, and Vishny 1989 is well-cited, but failed to inspire influential extensions or follow-ups, like the highest papers in the canon. It is still respectfully included in many graduate syllabi, but more as a kind of curio, an evolutionary dead-end. More to the point, it’s doubtful that the paper’s much-vaunted algebra swayed any politician who wasn’t already convinced by the rhetoric of the Big Push.
 
-In hindsight the unlearning of Hirschman’s ideas--and those of the other early pioneers of development, like W. Arthur Lewis--seem more like a victim of economists’ rigid insistence that evidence take the form of mathematical models than necessary casualties of science. Indeed, post-2008 Krugman has made a second career publicly decrying the Dark Age of Macroeconomics-—the deliberate forgetting of the hard-won Keynesian ideas of the Great Depression. It would be interesting to hear what he would make of this essay today.
+In hindsight the unlearning of Hirschman’s ideas--and those of the other early pioneers of development, like W. Arthur Lewis--seem more like victims of economists’ rigid insistence that evidence take the form of mathematical models than necessary casualties of science. Indeed, post-2008 Krugman has made a second career publicly decrying the Dark Age of Macroeconomics-—the deliberate forgetting of the hard-won Keynesian ideas of the Great Depression. It would be interesting to hear what he would make of this essay today.
 
 ## The Friends We Made Along the Way
 
