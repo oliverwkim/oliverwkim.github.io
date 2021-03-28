@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-![Oliver Kim.](images/oliver_kim_photo.jpeg "Oliver Kim")
+![Oliver Kim.]({{site.baseurl}}/images/oliver_kim_photo.jpeg "Oliver Kim")
 
 I am a PhD student in Economics at UC Berkeley. I graduated from Harvard College in 2016, and worked at the New York Fed from 2016-18.
 
