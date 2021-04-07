@@ -5,7 +5,6 @@ published: true
 ---
 
 ![Albert Hirschman.](/images/hirschman-obit-superJumbo.jpeg "Albert Hirschman")
-_Albert Hirschman_
 
 This is a blog about development economics, and there’s surely no better way to start than by writing about Albert Hirschman--one of the pioneers of the field, and quite possibly the most interesting person to ever become an economist. Originally I set out to write a review of Albert Hirschman’s _1958 Strategy of Economic Development_, but the tale grew in the telling--into a biography of Hirschman’s fascinating early life, then a broader history of development economics, and at last into a reflection on the current state of the field.
 
@@ -45,7 +44,7 @@ Albert Hirschman was twenty-five years old.
 Perhaps inevitably, Berkeley was something of a comedown from Europe. The Berkeley economics department was still frankly a backwater--the Keynesian revolution had not yet fully reached California. But Hirschman made two important acquaintances: a young scholar called Alexander Gerschenkron, also fleeing Nazi persecution, also destined to become an eminent economist; and, in the Berkeley International House cafeteria, Sarah Chapiro, a Jewish emigre from France studying literature and philosophy.
 
 ![Albert and Sarah.](/images/sarah_hirschman.jpeg "Albert and Sarah")
-_Albert and Sarah in Berkeley, with Albert in a US private's uniform_
+_Albert and Sarah in Berkeley_
 
 Albert and Sarah married in 1941. When it was America’s turn to go to war, Hirschman enlisted (his third army in five years), and served as a translator during the Allied invasion of Italy. Bored and underused throughout the campaign, his most notable experience was at the end of the war, when he served as the interpreter for the German general Anton Dostler during the very first Allied war crimes trial.
 
@@ -70,6 +69,8 @@ The Big Push is a demand-side case of “balanced growth” theory--the idea tha
 There’s a certain theoretical elegance to the Big Push/balanced growth view of the world. It’s a close cousin of the classic Keynesian story of depressions, where if everyone tries to save at once, all we end up doing is depriving each other of income (what modern economists call a coordination failure). And, of course, there’s an undeniable political appeal. For America and its allied development agencies, looking for intellectual justifications to shore up their Cold War allies, the Big Push was music to their ears.
 
 ## Slaying the Dragon
+
+![Factory in Hualien, Taiwan.](/images/factory_in_field.jpeg "Factory in Hualien, Taiwan")
 
 Hirschman, however, was not so easily impressed. Having seen firsthand the difficulties of getting things done on the ground--and the arrogance of foreign planners--he was skeptical of the grand promises made by the balanced growth theorists. During his fellowship at Yale, he worked furiously at a rebuttal--a project that eventually became his 1958 classic, _The Strategy of Economic Development_. In it, Hirschman set out to slay the dragon of the Big Push, and replace it with a theory more grounded in reality.
 
@@ -123,7 +124,7 @@ Reading Krugman carefully, one can sense the intellectual tension: he sympathize
 
 But what Krugman sees as a sad inevitability of the march of progress could just as easily be recast as a disastrous loss of knowledge. Nothing prevents economists from reading old books!
 
-Within a few years of Krugman’s article, it was clear that development economics was stuck in a rut. Read William Easterly’s 2001 _The Elusive Quest for Growth_, a good summation of development thinking at the time, and the prevailing sense one gets is of frustration. According to Easterly. nothing seemed to work--not aid, not debt relief, and certainly not any of Jeffrey Sachs’s ideas. The highly-touted growth models of the 1990s proved to be not much help. Murphy, Shleifer, and Vishny 1989 is well-cited, but failed to inspire influential extensions or follow-ups, like the highest papers in the canon. It is still respectfully included in many graduate syllabi, but more as a kind of curio, an evolutionary dead-end. More to the point, it’s doubtful that the paper’s much-vaunted algebra swayed any politician who wasn’t already convinced by the rhetoric of the Big Push.
+Within a few years of Krugman’s article, it was clear that development economics was stuck in a rut. Read William Easterly’s 2001 _The Elusive Quest for Growth_, a good summation of development thinking at the time, and the prevailing sense one gets is of frustration. According to Easterly. nothing seemed to work--not aid, not debt relief, and certainly not any of Jeffrey Sachs’s ideas. The highly-touted growth models of the 1990s proved to be not much help. Murphy, Shleifer, and Vishny 1989 is still well-cited, but has failed to become one of the standard models economists use to think about development. It is still respectfully included in many graduate syllabi, but more as a kind of curio, an evolutionary dead-end. More to the point, it’s doubtful that the paper’s much-vaunted algebra swayed any politician who wasn’t already convinced by the rhetoric of the Big Push.
 
 In hindsight the unlearning of Hirschman’s ideas--and those of the other early pioneers of development, like W. Arthur Lewis--seem more like victims of economists’ rigid insistence that evidence take the form of mathematical models than necessary casualties of science. Indeed, post-2008 Krugman has made a second career publicly decrying the Dark Age of Macroeconomics--the deliberate forgetting of the hard-won Keynesian ideas of the Great Depression. It would be interesting to hear what he would make of this essay today.
 
