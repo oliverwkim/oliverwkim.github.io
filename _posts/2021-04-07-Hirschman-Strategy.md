@@ -52,7 +52,7 @@ After returning to America, Hirschman had trouble finding work--unbeknownst to h
 
 ## The Big Push
 
-![Factory in Hualien, Taiwan.](/images/factory_in_field.jpeg "Factory in Hualien, Taiwan")
+![Factory in Hualien, Taiwan.](/images/factory_in_field.jpeg "Factory in Hualien, Taiwan"){: width="750" }
 
 Here begins Albert Hirschman’s connection to development economics. For four years Hirschman worked as an economic advisor to the Colombian government, first as a representative of the World Bank, then as a sort of freelance consultant. 
 
