@@ -4,6 +4,8 @@ title: The Real Development was the Friends We Made Along the Way
 published: true
 ---
 
+![Albert Hirschman.](/images/hirschman-obit-superJumbo.jpeg "Albert Hirschman")
+
 This is a blog about development economics, and there’s surely no better way to start than by writing about Albert Hirschman--one of the pioneers of the field, and quite possibly the most interesting person to ever become an economist. Originally I set out to write a review of Albert Hirschman’s _1958 Strategy of Economic Development_, but the tale grew in the telling--into a biography of Hirschman’s fascinating early life, then a broader history of development economics, and at last into a reflection on the current state of the field.
 
 Hirschman was a master of those little ideas that, once you’ve heard them, are impossible to shake loose from your head. Because of his unconventional life story (more on that in a moment), he was an outsider for much of his academic career. Unusual for his era, he did extensive fieldwork, which helped him to develop a wry literary style that emphasized in-person observation, and an allergy to sweeping mathematical models that smoothed away the messiness of human behavior. Because of these proclivities, Hirschman and his ideas were basically exiled from the mainstream of economics in the 1960s and 1970s, swept away by the rising tide of mathematization. 
@@ -17,6 +19,8 @@ If that made you scratch your head, you’re not alone. For someone conditioned 
 But I’ll admit that at the end of the _Strategy_, I was won over. This is one of those rare economics books that reconfigured my view of the world, made me reconsider views that I once considered silly, and adopt much of its language in my own thinking--so much so that I’m trying to evangelize it to you right now. How did Hirschman do it?
 
 ## Hirschman's Odyssey
+
+![Civil War, by Gerd Arntz.](/images/gerd_arntz.gif "Gerd Arntz")
 
 It is unfashionable to talk about economists’ life stories--and truthfully, you don’t usually get more out of the latest instrumental variables procedure by knowing about the author’s childhood. But Albert Hirschman lived a life inseparable from his ideals, and to omit it would deprive you of a fascinating story.
 
@@ -130,7 +134,7 @@ The methodological switch to RCTs has not been without controversy; I’ll leave
 
 Not to say that we’re perfect; nor even to say that we should seek approval from this defunct economist. For his part, I suspect that Hirschman would like development to use more qualitative evidence, and speak more to other social sciences, like sociology and anthropology. He would also probably wish that more economists finally learned to write better. 
 
-On our side, we should not underrate what we’ve learned since Hirschman’s time. For instance, while Hirschman takes the novel step of integrating politics into his analysis of pressure points, he tends to view it in rather antiseptic terms, treating it as a force that responds neatly to demands and pressures from the population. Writing in 1958, his view of development does not yet anticipate the likes of Mobutu Sese Seko or Ferdinand Marcos. (Hirschman later returned to correct this oversight in his classic _Exit, Voice, and Loyalty_.)
+On our side, we should not underrate what we’ve learned since Hirschman’s time. For instance, while Hirschman takes the novel step of integrating politics into his analysis of pressure points, he tends to view it in rather antiseptic terms, treating it as a force that responds neatly to demands and pressures from the population. Writing in 1958, his view of development does not yet anticipate the likes of Mobutu Sese Seko or Ferdinand Marcos--or the continued US support that made their misrule possible. (Hirschman later returned to correct this oversight in his classic _Exit, Voice, and Loyalty_.)
 
 On the other hand, failure to predict the future is forgivable--after all, we’re economists here. The more severe omission of the _Strategy_ comes from Hirschman’s failure to look backwards. Hirschman was by temperament an optimist, more interested in finding solutions for poverty than wondering why people were poor in the first place. But the developing world of the 1950s was far from a blank slate. History is almost entirely absent from the _Strategy_. There are snippets, here and there, that suggest a broader awareness of the scars wrought by colonialism--like when Hirschman laments the division between _indígenas_ and _mestizos_ in Peru--but he never really advances the view that the lack of decision-making capacity may stem from these deep historical causes. It’s a shame.
 
