@@ -5,6 +5,7 @@ published: true
 ---
 
 ![Albert Hirschman.](/images/hirschman-obit-superJumbo.jpeg "Albert Hirschman")
+_Albert Hirschman_
 
 This is a blog about development economics, and there’s surely no better way to start than by writing about Albert Hirschman--one of the pioneers of the field, and quite possibly the most interesting person to ever become an economist. Originally I set out to write a review of Albert Hirschman’s _1958 Strategy of Economic Development_, but the tale grew in the telling--into a biography of Hirschman’s fascinating early life, then a broader history of development economics, and at last into a reflection on the current state of the field.
 
@@ -21,6 +22,7 @@ But I’ll admit that at the end of the _Strategy_, I was won over. This is one 
 ## Hirschman's Odyssey
 
 ![Civil War, by Gerd Arntz.](/images/gerd_arntz.gif "Gerd Arntz")
+_Civil War, by Gerd Arntz_
 
 It is unfashionable to talk about economists’ life stories--and truthfully, you don’t usually get more out of the latest instrumental variables procedure by knowing about the author’s childhood. But Albert Hirschman lived a life inseparable from his ideals, and to omit it would deprive you of a fascinating story.
 
@@ -41,6 +43,9 @@ Over the past five years, Hirschman had fought fascism in four European countrie
 Albert Hirschman was twenty-five years old.
 
 Perhaps inevitably, Berkeley was something of a comedown from Europe. The Berkeley economics department was still frankly a backwater--the Keynesian revolution had not yet fully reached California. But Hirschman made two important acquaintances: a young scholar called Alexander Gerschenkron, also fleeing Nazi persecution, also destined to become an eminent economist; and, in the Berkeley International House cafeteria, Sarah Chapiro, a Jewish emigre from France studying literature and philosophy.
+
+![Albert and Sarah.](/images/sarah_hirschman.jpeg "Albert and Sarah")
+_Albert and Sarah in Berkeley, with Albert in a US private's uniform_
 
 Albert and Sarah married in 1941. When it was America’s turn to go to war, Hirschman enlisted (his third army in five years), and served as a translator during the Allied invasion of Italy. Bored and underused throughout the campaign, his most notable experience was at the end of the war, when he served as the interpreter for the German general Anton Dostler during the very first Allied war crimes trial.
 
