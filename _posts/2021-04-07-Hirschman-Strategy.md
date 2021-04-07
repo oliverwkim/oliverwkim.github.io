@@ -8,6 +8,8 @@ published: true
 
 This is a blog about development economics, and there’s surely no better way to start than by writing about Albert Hirschman--one of the pioneers of the field, and quite possibly the most interesting person to ever become an economist. Originally I set out to write a review of Albert Hirschman’s _1958 Strategy of Economic Development_, but the tale grew in the telling--into a biography of Hirschman’s fascinating early life, then a broader history of development economics, and at last into a reflection on the current state of the field.
 
+<!--more-->
+
 Hirschman was a master of those little ideas that, once you’ve heard them, are impossible to shake loose from your head. Because of his unconventional life story (more on that in a moment), he was an outsider for much of his academic career. Unusual for his era, he did extensive fieldwork, which helped him to develop a wry literary style that emphasized in-person observation, and an allergy to sweeping mathematical models that smoothed away the messiness of human behavior. Because of these proclivities, Hirschman and his ideas were basically exiled from the mainstream of economics in the 1960s and 1970s, swept away by the rising tide of mathematization. 
 
 And precisely because of these tendencies, I think his ideas are ripe for a comeback.
