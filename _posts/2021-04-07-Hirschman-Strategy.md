@@ -52,6 +52,8 @@ After returning to America, Hirschman had trouble finding work--unbeknownst to h
 
 ## The Big Push
 
+![Factory in Hualien, Taiwan.](/images/factory_in_field.jpeg "Factory in Hualien, Taiwan")
+
 Here begins Albert Hirschman’s connection to development economics. For four years Hirschman worked as an economic advisor to the Colombian government, first as a representative of the World Bank, then as a sort of freelance consultant. 
 
 By all accounts, Hirschman’s years in Bogotá were happy ones--he liked Colombia, as did Sarah and his two young girls. Despite the tragic violence of the ongoing La Violencia, Colombia was experiencing rapid economic growth, and Hirschman got the chance to work on practical problems, like advising low-cost urban housing projects and helping the Colombian government write up loan proposals for the World Bank.
@@ -70,7 +72,7 @@ There’s a certain theoretical elegance to the Big Push/balanced growth view of
 
 ## Slaying the Dragon
 
-![Factory in Hualien, Taiwan.](/images/factory_in_field.jpeg "Factory in Hualien, Taiwan")
+![The Strategy of Economic Development.](/images/strategy.jpeg "The Strategy of Economic Development")
 
 Hirschman, however, was not so easily impressed. Having seen firsthand the difficulties of getting things done on the ground--and the arrogance of foreign planners--he was skeptical of the grand promises made by the balanced growth theorists. During his fellowship at Yale, he worked furiously at a rebuttal--a project that eventually became his 1958 classic, _The Strategy of Economic Development_. In it, Hirschman set out to slay the dragon of the Big Push, and replace it with a theory more grounded in reality.
 
@@ -140,7 +142,7 @@ The methodological switch to RCTs has not been without controversy; I’ll leave
 
 Not to say that we’re perfect; nor even to say that we should seek approval from this defunct economist. For his part, I suspect that Hirschman would like development to use more qualitative evidence, and speak more to other social sciences, like sociology and anthropology. He would also probably wish that more economists finally learned to write better. 
 
-On our side, we should not underrate what we’ve learned since Hirschman’s time. For instance, while Hirschman takes the novel step of integrating politics into his analysis of pressure points, he tends to view it in rather antiseptic terms, treating it as a force that responds neatly to demands and pressures from the population. Writing in 1958, his view of development does not yet anticipate the likes of Mobutu Sese Seko or Ferdinand Marcos--or the continued US support that made their misrule possible. (Hirschman later returned to correct this oversight in his classic _Exit, Voice, and Loyalty_.)
+On our side, we should not underrate what we’ve learned since Hirschman’s time. For instance, while Hirschman takes the novel step of integrating politics into his analysis of pressure points, he tends to view it in rather antiseptic terms, treating it as a force that responds neatly to demands and pressures from the population. Writing in 1958, his view of development does not yet anticipate the likes of Mobutu Sese Seko or Ferdinand Marcos--or the continued US support that made their misrule possible. (Hirschman later returned to partly correct this oversight in his classic _Exit, Voice, and Loyalty_.)
 
 On the other hand, failure to predict the future is forgivable--after all, we’re economists here. The more severe omission of the _Strategy_ comes from Hirschman’s failure to look backwards. Hirschman was by temperament an optimist, more interested in finding solutions for poverty than wondering why people were poor in the first place. But the developing world of the 1950s was far from a blank slate. History is almost entirely absent from the _Strategy_. There are snippets, here and there, that suggest a broader awareness of the scars wrought by colonialism--like when Hirschman laments the division between _indígenas_ and _mestizos_ in Peru--but he never really advances the view that the lack of decision-making capacity may stem from these deep historical causes. It’s a shame.
 
