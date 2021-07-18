@@ -3,7 +3,6 @@ layout: post
 title: The Real Development was the Friends We Made Along the Way
 published: true
 excerpt_separator: <!--more-->
-
 ---
 
 ![Albert Hirschman.](/images/hirschman-obit-superJumbo.jpeg "Albert Hirschman")
