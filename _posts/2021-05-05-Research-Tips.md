@@ -15,7 +15,7 @@ Here are some tips with fairly broad applicability to research students, closer 
 * **Berkeley dev students**: If you're going to the field for the summer, before you leave, make sure you get all Berkeley residency paperwork squared away. I have more info about this on my Busia tips page.
 
 ## Second Year
-* **Berkeley-specific**: In my view, one of Berkeley's "secret weapons" is the Undergrad Research Assistant Program (URAP), where you can hire undergrad RAs in exchange for course credit and (crucially) mentorship.
+* **Berkeley-specific**: In my view, one of Berkeley's "secret weapons" is the Undergrad Research Assistant Program (URAP), where you can hire undergrad RAs in exchange for course credit and (crucially) mentorship. I've had great experiences with the RAs I've worked with, who have helped me digitize/clean historical data and do some preliminary data analysis. Having weekly meetings with your RAs is also a great way to force yourself into a regular schedule, and make steady progress on data-intensive projects.
 * **Berkeley-specific**: If you're interested in economic history, and you feel like the existing course options don't cover areas you're interested in, it's possible to set up a reading course in your second year with a professor. I did one on East Asian economic development with Brad DeLong and Barry Eichengreen, and it was a fascinating experience that set up a lot of my later research. In retrospect, it's kind of amazing blessing to have more faculty than students in a room, studying whatever it is the student finds interesting.
 
 ## Third Year
