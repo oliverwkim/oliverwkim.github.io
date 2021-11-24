@@ -13,6 +13,8 @@ permalink: /research/
 
 <p><span class="sans">Land Reform and the Taiwanese Miracle</span>, with Jen Kuan Wang</p>
 
+<p><span class="sans">Unlocking the Chinese Miracle</span>, with Joel Ferguson</p>
+
+<p><span class="sans">International Forecast Errors: Causes and Consequences</span>, with Tomas Breach</p>
+
 <p><span class="sans">The Political Origins of East Asian Land Reform</span></p>
-
-
