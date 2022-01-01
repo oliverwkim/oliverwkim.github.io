@@ -32,7 +32,7 @@ var svg = d3.select("#forecasts")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_connectedscatter.csv", function(data) {
+d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(data) {
 
     // List of groups (here I have one group per column)
     var allGroup = ["France", "Kenya"]
@@ -72,7 +72,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/da
       .append("path")
         .datum(data)
         .attr("d", d3.line()
-          .x(function(d) { return x(+d.time) })
+          .x(function(d) { return x(+d.year) })
           .y(function(d) { return y(+d.valueA) })
         )
         .attr("stroke", function(d){ return myColor("valueA") })
@@ -83,7 +83,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/da
     function update(selectedGroup) {
 
       // Create new data with the selection?
-      var dataFilter = data.map(function(d){return {time: d.time, value:d[selectedGroup]} })
+      var dataFilter = data.map(function(d){return {year: d.year, value:d[selectedGroup]} })
 
       // Give these new data to update line
       line
@@ -91,7 +91,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/da
           .transition()
           .duration(1000)
           .attr("d", d3.line()
-            .x(function(d) { return x(+d.time) })
+            .x(function(d) { return x(+d.year) })
             .y(function(d) { return y(+d.value) })
           )
           .attr("stroke", function(d){ return myColor(selectedGroup) })
