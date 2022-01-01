@@ -47,7 +47,7 @@ var parseDate = d3.timeParse("%Y").parse;
 d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
 		return { 
 			date : d3.timeParse("%Y")(d.year), 
-			France : d.France 
+			France : +d.France 
 		}
 	},
 	function(data) {
