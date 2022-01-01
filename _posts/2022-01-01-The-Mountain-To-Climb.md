@@ -42,13 +42,18 @@ d3.select("#selectButton")
   .text(function (d) { return d; }) // text showed in the menu
   .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
-var parseDate = d3.time.format("%Y").parse;
+var parseDate = d3.timeParse("%Y").parse;
 
-d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(data) {
-    data.forEach(function(d) {
-        d.year = parseDate(d.year);
-        d.France = +d.debt;
-    });
+d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
+		return { 
+			date : d3.timeParse("%Y")(d.year), 
+			France : d.France 
+		}
+	},
+	function(data) {
+
+	// When reading the csv, I must format variables:
+	
 
 
     // A color scale: one color for each group
