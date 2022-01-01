@@ -77,7 +77,7 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(data) {
         )
         .attr("stroke", function(d){ return myColor("valueA") })
         .style("stroke-width", 4)
-        .style("fill", "none")
+        .style("fill", "none");
 
     // A function that update the chart
     function update(selectedGroup) {
@@ -103,7 +103,7 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(data) {
         var selectedOption = d3.select(this).property("value")
         // run the updateChart function with this selected option
         update(selectedOption)
-    })
+    });
 
 })
 
