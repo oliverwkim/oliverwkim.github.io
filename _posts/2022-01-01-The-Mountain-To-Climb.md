@@ -20,6 +20,9 @@ In some sense, then, this exercise is agnostic. It shows us, based on historical
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
 <script>
+// https://www.d3-graph-gallery.com/graph/line_basic.html
+// https://www.d3-graph-gallery.com/graph/line_select.html
+
 var margin = {top: 10, right: 100, bottom: 30, left: 30},
     width = 460 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
@@ -42,6 +45,50 @@ d3.select("#selectButton")
   .text(function (d) { return d; }) // text showed in the menu
   .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
+
+d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv",
+
+  // When reading the csv, I must format variables:
+  function(d){
+    return { 
+    	date : d3.timeParse("%Y")(d.year), 
+    	value : +d.France 
+    }
+  },
+
+  // Now I can use this dataset:
+  function(data) {
+
+    // Add X axis --> it is a date format
+    var x = d3.scaleTime()
+      .domain(d3.extent(data, function(d) { return d.date; }))
+      .range([ 0, width ]);
+    svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+    // Add Y axis
+    var y = d3.scaleLinear()
+      .domain([0, d3.max(data, function(d) { return +d.value; })])
+      .range([ height, 0 ]);
+    svg.append("g")
+      .call(d3.axisLeft(y));
+
+    // Add the line
+    svg.append("path")
+      .datum(data)
+      .attr("fill", "none")
+      .attr("stroke", "steelblue")
+      .attr("stroke-width", 1.5)
+      .attr("d", d3.line()
+        .x(function(d) { return x(d.date) })
+        .y(function(d) { return y(d.value) })
+        )
+
+})
+
+
+/*
 var parseDate = d3.timeParse("%Y").parse;
 
 d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
@@ -116,5 +163,6 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
     });
 
 })
+*/
 
 </script>
