@@ -44,7 +44,7 @@ d3.select("#selectButton")
 	.append('option')
   .text(function (d) { return d; }) // text showed in the menu
   .attr("value", function (d) { return d; }); // corresponding value returned by the button
-
+/*
 
 d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", d3.autoType,
 
