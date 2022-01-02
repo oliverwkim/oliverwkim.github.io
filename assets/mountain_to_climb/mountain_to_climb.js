@@ -26,17 +26,6 @@ var svg = d3.select("#forecasts")
 
 d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
 
-  // When reading the csv, I must format variables:
-  /*function(d){
-
-    console.log(d)
-    return { 
-      date : +d.year,
-    	value : parseFloat(d.France)
-    }
-  },*/
-
-  // Now I can use this dataset:
   function(data) {
 
     data.date = +data.year
@@ -45,6 +34,9 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
     // get country names, remove first element
     allGroup = data.columns
     allGroup.shift();
+
+    d3.select("#projection").html("At 7% growth, it will take <select id=\"selectButton\"></select> " + 
+        Math.round(calculateYears(2328.76, 63485.57, 0.07)) + " years to catch up to <select id=\"catchupCountry\"></select>.")
 
     // Make select button
     d3.select("#selectButton")
@@ -55,6 +47,16 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
       .text(function (d) { return d; }) // text showed in the menu
       .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
+    d3.select("#catchupCountry")
+      .selectAll('myOptions')
+      .data(allGroup)
+      .enter()
+      .append('option')
+      .text(function (d) { return d; }) // text showed in the menu
+      .attr("value", function (d) { return d; })
+      .property("selected", function(d){ return d === "United States"}); // corresponding value returned by the button
+
+    updateButtons()
 
     // A color scale: one color for each group
     var myColor = d3.scaleOrdinal()
@@ -90,18 +92,19 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
-      d3.select("#projection").html("At 7% growth, it will take <strong>Afghanistan</strong> " + 
-          Math.round(calculateYears(2328.76, 63485.57, 0.07)) + " years to catch up to the US.")
-
 
     // A function that updates the chart
-    function update(selectedGroup) {
+    function update(selectedGroup, catchupCountry) {
 
       // Create new data with the selection?
       var dataFilter = data.map(function(d){return {year: d.year, value:parseFloat(d[selectedGroup])} })
 
       // grab most recent GDP value
       var lastGDP = dataFilter[dataFilter.length - 1].value
+
+      // grab catchup country
+      var dataFilterCatchup = data.map(function(d){return {year: d.year, value:parseFloat(d[catchupCountry])} })
+      var lastGDPCatchup = dataFilterCatchup[dataFilterCatchup.length - 1].value
 
       // Give these new data to update line
       line
@@ -116,39 +119,52 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
           .attr("stroke", function(d){ return myColor(selectedGroup) })
 
       // update text   
-      d3.select("#projection").html("At 7% growth, it will take <strong>" + selectedGroup + "</strong> " + 
-          Math.round(calculateYears(lastGDP, 63485.57, 0.07)) + " years to catch up to the US.")
+      d3.select("#projection").html("At 7% growth, it will take <select id=\"selectButton\"></select>  " + 
+          Math.round(calculateYears(lastGDP, lastGDPCatchup, 0.07)) + " years to catch up to <select id=\"catchupCountry\"></select>")
+
+      d3.select("#catchupCountry")
+        .selectAll('myOptions')
+        .data(allGroup)
+        .enter()
+        .append('option')
+        .text(function (d) { return d; }) // text showed in the menu
+        .attr("value", function (d) { return d; })
+        .property("selected", function(d){
+          return d === catchupCountry;
+        }); 
+
+      d3.select("#selectButton")
+        .selectAll('myOptions')
+        .data(allGroup)
+        .enter()
+        .append('option')
+        .text(function (d) { return d; }) // text showed in the menu
+        .attr("value", function (d) { return d; })
+        .property("selected", function(d){
+               return d === selectedGroup;
+          }); 
+
+
+        updateButtons();
+
 
     }
 
-    // When the button is changed, run the updateChart function
-    d3.select("#selectButton").on("change", function(d) {
+    function updateButtons (){
 
-        // recover the option that has been chosen
-        var selectedOption = d3.select(this).property("value")
+        // When the button is changed, run the updateChart function
+        d3.selectAll("#selectButton, #catchupCountry").on("change", function(d) {
 
-        // run the updateChart function with this selected option
-        update(selectedOption)
-    });
+            // recover the options that have been chosen
+            var selectedOption = d3.select("#selectButton").property("value")
+            var catchupCountry = d3.select("#catchupCountry").property("value")
 
-}
-)
+            // run the updateChart function with this selected option
+            update(selectedOption, catchupCountry)
+        });
 
+    }
 
-/*
-var parseDate = d3.timeParse("%Y").parse;
-
-d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
-		return { 
-			date : d3.timeParse("%Y")(d.year), 
-			France : +d.France 
-		}
-	},
-	function(data) {
-
-	// When reading the csv, I must format variables:
-	
 
 
 })
-*/
