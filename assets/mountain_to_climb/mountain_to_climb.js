@@ -91,7 +91,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
         .style("fill", "none");
 
       d3.select("#projection").html("At 7% growth, it will take <strong>Afghanistan</strong> " + 
-          Math.round(calculateYears(lastGDP, 63485.57, 0.07)) + " years to catch up to the US.")
+          Math.round(calculateYears(2328.76, 63485.57, 0.07)) + " years to catch up to the US.")
 
 
     // A function that updates the chart
