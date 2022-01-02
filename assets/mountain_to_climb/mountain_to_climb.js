@@ -1,6 +1,16 @@
 // https://www.d3-graph-gallery.com/graph/line_basic.html
 // https://www.d3-graph-gallery.com/graph/line_select.html
 
+
+function calculateRate (start, end, years){
+  return Math.pow(end / start, 1 / years) - 1
+}
+
+function calculateYears (start, end, rate){
+  return Math.log(end / start) / Math.log(1 + rate)
+}
+
+
 var margin = {top: 10, right: 100, bottom: 30, left: 100},
     width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
@@ -80,11 +90,17 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
-    // A function that update the chart
+    d3.select("#projection").text("Afghanistan")
+
+
+    // A function that updates the chart
     function update(selectedGroup) {
 
       // Create new data with the selection?
       var dataFilter = data.map(function(d){return {year: d.year, value:parseFloat(d[selectedGroup])} })
+
+      // grab most recent GDP value
+      var lastGDP = dataFilter[dataFilter.length - 1].value
 
       // Give these new data to update line
       line
@@ -97,12 +113,19 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
             .y(function(d) { return y(d.value) })
           )
           .attr("stroke", function(d){ return myColor(selectedGroup) })
+
+      // update text   
+      d3.select("#projection").html("At 7% growth, it will take <strong>" + selectedGroup + "</strong> " + 
+          Math.round(calculateYears(lastGDP, 63485.57, 0.07)) + " years to catch up to the US.")
+
     }
 
     // When the button is changed, run the updateChart function
     d3.select("#selectButton").on("change", function(d) {
+
         // recover the option that has been chosen
         var selectedOption = d3.select(this).property("value")
+
         // run the updateChart function with this selected option
         update(selectedOption)
     });
