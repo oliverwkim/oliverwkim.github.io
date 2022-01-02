@@ -24,18 +24,22 @@ d3.select("#selectButton")
   .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
 
-d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", 
+d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
 
   // When reading the csv, I must format variables:
   function(d){
+
+    console.log(d)
     return { 
-    	date : d3.timeParse("%Y")(d.year), 
-    	value : +d.France 
+      date : +d.year,
+    	value : +d["France"]
     }
   },
 
   // Now I can use this dataset:
   function(data) {
+
+    console.log(data[0]);
 
     // Add X axis --> it is a date format
     var x = d3.scaleTime()
@@ -52,6 +56,8 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv",
     svg.append("g")
       .call(d3.axisLeft(y));
 
+    console.log(data)
+
     // Add the line
     svg.append("path")
       .datum(data)
@@ -60,10 +66,11 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv",
       .attr("stroke-width", 1.5)
       .attr("d", d3.line()
         .x(function(d) { return x(d.date) })
-        .y(function(d) { return y(d.value) })
+        .y(function(d) { return y(d.date) })
         )
 
-})
+}
+)
 
 
 /*
