@@ -24,7 +24,7 @@ d3.select("#selectButton")
   .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
 
-d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", d3.autoType,
+d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", 
 
   // When reading the csv, I must format variables:
   function(d){
