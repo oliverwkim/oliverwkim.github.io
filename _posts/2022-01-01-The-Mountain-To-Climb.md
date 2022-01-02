@@ -11,6 +11,7 @@ At current trends, how long would it take for Kenya to reach South Korean levels
 
 <!-- Create a div where the graph will take place -->
 <div id="projection"></div>
+
 <div id="forecasts"></div>
 
 Economic growth is not everything. The economic needs of human beings need to be balanced against the preservation of the environment and the quality of non-human lives. The distribution of economic output also matters: if a small elite hoards all the economic gains, then for the average person headline GDP growth hardly matters. But we know that, on average, the availability and quality of things that make safer and healthier lives possible--health care, education, housing, entertainment, freedom from violence--grow with incomes per capita. The largest reduction in poverty we know of, the Chinese economic miracle, was made possible by rapid economic growth. 
