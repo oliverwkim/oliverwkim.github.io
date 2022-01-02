@@ -1,8 +1,8 @@
 // https://www.d3-graph-gallery.com/graph/line_basic.html
 // https://www.d3-graph-gallery.com/graph/line_select.html
 
-var margin = {top: 10, right: 100, bottom: 30, left: 30},
-    width = 460 - margin.left - margin.right,
+var margin = {top: 10, right: 100, bottom: 30, left: 100},
+    width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 var svg = d3.select("#forecasts")
@@ -13,79 +13,37 @@ var svg = d3.select("#forecasts")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-var allGroup = ["France", "Kenya"];
-
-d3.select("#selectButton")
-  .selectAll('myOptions')
- 	.data(allGroup)
-  .enter()
-	.append('option')
-  .text(function (d) { return d; }) // text showed in the menu
-  .attr("value", function (d) { return d; }); // corresponding value returned by the button
-
 
 d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
 
   // When reading the csv, I must format variables:
-  function(d){
+  /*function(d){
 
     console.log(d)
     return { 
       date : +d.year,
-    	value : +d["France"]
+    	value : parseFloat(d.France)
     }
-  },
+  },*/
 
   // Now I can use this dataset:
   function(data) {
 
-    console.log(data[0]);
+    data.date = +data.year
+    console.log(data.columns)
 
-    // Add X axis --> it is a date format
-    var x = d3.scaleTime()
-      .domain(d3.extent(data, function(d) { return d.date; }))
-      .range([ 0, width ]);
-    svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+    // get country names, remove first element
+    allGroup = data.columns
+    allGroup.shift();
 
-    // Add Y axis
-    var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return +d.value; })])
-      .range([ height, 0 ]);
-    svg.append("g")
-      .call(d3.axisLeft(y));
-
-    console.log(data)
-
-    // Add the line
-    svg.append("path")
-      .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
-      .attr("d", d3.line()
-        .x(function(d) { return x(d.date) })
-        .y(function(d) { return y(d.date) })
-        )
-
-}
-)
-
-
-/*
-var parseDate = d3.timeParse("%Y").parse;
-
-d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
-		return { 
-			date : d3.timeParse("%Y")(d.year), 
-			France : +d.France 
-		}
-	},
-	function(data) {
-
-	// When reading the csv, I must format variables:
-	
+    // Make select button
+    d3.select("#selectButton")
+      .selectAll('myOptions')
+      .data(allGroup)
+      .enter()
+      .append('option')
+      .text(function (d) { return d; }) // text showed in the menu
+      .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
 
     // A color scale: one color for each group
@@ -114,10 +72,11 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
       .append("path")
         .datum(data)
         .attr("d", d3.line()
+          .defined(function(d) { return d.Afghanistan != 0; })
           .x(function(d) { return x(+d.year) })
-          .y(function(d) { return y(+d.France) })
+          .y(function(d) { return y(+d.Afghanistan) })
         )
-        .attr("stroke", function(d){ return myColor("France") })
+        .attr("stroke", function(d){ return myColor("Afghanistan") })
         .style("stroke-width", 4)
         .style("fill", "none");
 
@@ -125,7 +84,7 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
     function update(selectedGroup) {
 
       // Create new data with the selection?
-      var dataFilter = data.map(function(d){return {year: d.year, value:d[selectedGroup]} })
+      var dataFilter = data.map(function(d){return {year: d.year, value:parseFloat(d[selectedGroup])} })
 
       // Give these new data to update line
       line
@@ -133,8 +92,9 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
           .transition()
           .duration(1000)
           .attr("d", d3.line()
-            .x(function(d) { return x(+d.year) })
-            .y(function(d) { return y(+d.value) })
+            .defined(function(d) { return d.value != 0; })
+            .x(function(d) { return x(d.year) })
+            .y(function(d) { return y(d.value) })
           )
           .attr("stroke", function(d){ return myColor(selectedGroup) })
     }
@@ -146,6 +106,25 @@ d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
         // run the updateChart function with this selected option
         update(selectedOption)
     });
+
+}
+)
+
+
+/*
+var parseDate = d3.timeParse("%Y").parse;
+
+d3.csv("/assets/mountain_to_climb/weo_2021_10_long.csv", function(d){
+		return { 
+			date : d3.timeParse("%Y")(d.year), 
+			France : +d.France 
+		}
+	},
+	function(data) {
+
+	// When reading the csv, I must format variables:
+	
+
 
 })
 */
