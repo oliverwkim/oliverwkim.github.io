@@ -4,11 +4,6 @@ title: The Mountain To Climb
 published: true
 ---
 
-At current trends, how long would it take for Kenya to reach South Korean levels of GDP?
-
-<!-- Initialize a select button -->
-<select id="selectButton"></select>
-
 <!-- Create a div where the graph will take place -->
 <div id="projection"></div>
 
