@@ -14,18 +14,13 @@ function updateProjection(lastGDP, lastGDPCatchup, growthRate){
   var growthRateText = Math.round(+growthRate * 100 * 10 ) / 10
 
   if (growthRate < 0 && +lastGDP < +lastGDPCatchup) {
-      d3.select("#projection").html("At <select id = \"growthRates\" ></select>, " +
-      "<select id=\"selectCountry\"></select> will never reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+      d3.select("#projection").html("Never at current rates. ")
   } 
   else if (+lastGDP >= +lastGDPCatchup) {
-      d3.select("#projection").html("At <select id = \"growthRates\" ></select>, " +
-      "<select id=\"selectCountry\"></select> has already surpassed <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+      d3.select("#projection").html("Already richer. ")
   }
   else {
-    d3.select("#projection").html("At <select id = \"growthRates\" ></select>, " +
-      "it will take <select id=\"selectCountry\"></select>  " +
-      "<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, growthRate)) + "</strong> " + 
-      "years to reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+    d3.select("#projection").html("<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, growthRate)) + "</strong> years")
   }
 }
 
@@ -147,7 +142,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
       var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
       var growth30yr   = calculateRate(GDP30yr, GDPlast, 30)
-      
+
       growthRates = [growth10yr, growth30yr, 0.07];
 
       // Give these new data to update line
@@ -163,7 +158,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           .attr("stroke", function(d){ return myColor(selectedCountry) })
 
       growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
-      console.log(growthRateNum)
 
       // update everything
       updateProjection(GDPlast, lastGDPCatchup, growthRateNum);

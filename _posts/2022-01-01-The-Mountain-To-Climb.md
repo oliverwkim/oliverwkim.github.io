@@ -6,7 +6,13 @@ custom_css: mountain_to_climb
 
 ---
 
-<!-- Create a div where the graph will take place -->
+
+<div id="interface">
+	At <select id = "growthRates" ></select>, 
+	how long will it take for <select id="selectCountry"></select>   
+	to reach <select id="catchupCountry"></select>'s current GDP per capita?
+</div>
+
 <div id="projection"></div>
 
 <div id="forecasts"></div>
