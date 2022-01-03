@@ -14,14 +14,14 @@ select {
 	}
 
 #interface {
-	font-size:  1.4em;
+	font-size:  1.4rem;
 	margin-bottom:  2em;
 	width:  600px;
 
 }
 
 #projection {
-	font-size: 4em;
+	font-size: 4rem;
 	font-weight: bold;
 	text-align:  right;
 }
