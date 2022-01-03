@@ -130,13 +130,9 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     // A function that updates the chart
     function update(selectedCountry, catchupCountry, growthRate) {
 
-      console.log(growthRate)
-
       selectedCountryGDP = data.filter(function(row){ 
           return row.country == selectedCountry;
       });
-
-      console.log(selectedCountryGDP)
 
       catchupCountryGDP = data.filter(function(row){ 
           return row.country == catchupCountry;
@@ -151,8 +147,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
       var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
       var growth30yr   = calculateRate(GDP30yr, GDPlast, 30)
-      growthRates = [growth10yr, growth30yr, 0.05];
-      console.log(growthRates)
+      
+      growthRates = [growth10yr, growth30yr, 0.07];
 
       // Give these new data to update line
       line
