@@ -15,7 +15,7 @@ Economic growth is not everything. The economic needs of human beings need to be
 
 In some sense, then, this exercise is agnostic. It shows us, based on historical experience, how long it would take to bring the incomes of current developing countries to the level of those enjoyed in the rich world. It does not say which policies to enact, or even if these projected paths of growth are desirable. It is then up to us--or, more correctly, the people living in these developing countries--to decide what paths align most with their values.
 
-Source: Penn World Tables v10
+_Source: Penn World Tables v10. Version 0.5._
 
 <script src="http://d3js.org/d3.v4.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
