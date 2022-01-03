@@ -15,10 +15,10 @@ custom_css: mountain_to_climb
 </div>
 <div id="projection"></div>
 </div>
-<div style="clear: both"></div>
+<div style="clear: both; margin-bottom: 2em;"></div>
 <div id="forecasts"></div>
 
-As we enter a new year, it's worth th
+As we enter a new year, it's worth thinking 
 
 Some stark examples:
 
