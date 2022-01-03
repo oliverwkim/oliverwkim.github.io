@@ -66,7 +66,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     // grab most recent GDP value
     var GDP30yr  = +selectedCountryGDP[selectedCountryGDP.length - 31].rgdpe_pc
     var GDP10yr  = +selectedCountryGDP[selectedCountryGDP.length - 11].rgdpe_pc
+
+    var GDPfirst   = +selectedCountryGDP[0].rgdpe_pc
     var GDPlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].rgdpe_pc
+
+    var yearfirst   = +selectedCountryGDP[0].year
+    var yearlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].year
 
     var lastGDPCatchup = +catchupCountryGDP[catchupCountryGDP.length - 1].rgdpe_pc
 
@@ -121,14 +126,15 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
-    svg.append('line')
+    // trend line
+    var trendline = svg.append('line')
       .style("stroke", "lightgray")
       .style("stroke-width", 2)
       .style("stroke-dasharray", ("3, 3"))
-      .attr("x1", 0)
-      .attr("y1", 0)
-      .attr("x2", 200)
-      .attr("y2", 200); 
+      .attr("x1", x(yearfirst) )
+      .attr("y1", y(GDPfirst) )
+      .attr("x2", x(yearlast))
+      .attr("y2", y(GDPlast) ); 
 
 
 
@@ -146,7 +152,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       // grab most recent GDP value
       var GDP30yr  = +selectedCountryGDP[selectedCountryGDP.length - 31].rgdpe_pc
       var GDP10yr  = +selectedCountryGDP[selectedCountryGDP.length - 11].rgdpe_pc
+
+      var GDPfirst   = +selectedCountryGDP[0].rgdpe_pc
       var GDPlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].rgdpe_pc
+
+      var yearfirst   = +selectedCountryGDP[0].year
+      var yearlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].year
 
       var lastGDPCatchup = +catchupCountryGDP[catchupCountryGDP.length - 1].rgdpe_pc
 
@@ -167,7 +178,17 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           )
           .attr("stroke", function(d){ return myColor(selectedCountry) })
 
-      growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
+      // trend line
+      trendline
+        .transition()
+        .style("stroke", "lightgray")
+        .style("stroke-width", 2)
+        .style("stroke-dasharray", ("3, 3"))
+        .attr("x1", x(yearfirst) )
+        .attr("y1", y(GDPfirst) )
+        .attr("x2", x(yearlast))
+        .attr("y2", y(GDPlast) ); 
+        growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
 
       // update everything
       updateProjection(GDPlast, lastGDPCatchup, growthRateNum);
