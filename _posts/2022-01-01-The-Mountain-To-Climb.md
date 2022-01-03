@@ -3,6 +3,7 @@ layout: post
 title: The Mountain To Climb
 published: true
 custom_css: mountain_to_climb
+excerpt: At current growth rates, how long will it take for developing countries to catch up to the rich world?
 
 ---
 

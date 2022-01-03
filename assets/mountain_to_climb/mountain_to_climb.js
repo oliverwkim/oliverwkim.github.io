@@ -136,13 +136,28 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
+
+    x1 = yearfirst;
+    m = (GDPlast - GDP10yr) / (yearlast - yearMinus10);
+    b = GDPlast - m * yearlast;
+    y1 = GDPlast - m * yearlast;
+
+    if (y1 < 0){
+      y1 = 100;
+      x1 = Math.round(-b / m);
+      console.log(m)
+      console.log(b)
+      console.log(x1)
+    }
+
+
     // trend line
     var trendline = svg.append('line')
       .style("stroke", "lightgray")
       .style("stroke-width", 2)
       .style("stroke-dasharray", ("3, 3"))
-      .attr("x1", x(yearMinus10) )
-      .attr("y1", y(GDP10yr) )
+      .attr("x1", x(x1) )
+      .attr("y1", y(y1) )
       .attr("x2", x(yearlast))
       .attr("y2", y(GDPlast) ); 
 
@@ -194,7 +209,14 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         case "recent 10-year growth rates":
           x1 = yearfirst;
           m = (GDPlast - GDP10yr) / (yearlast - yearMinus10);
+          b = GDPlast - m * yearlast
           y1 = GDPlast - m * (yearlast - yearfirst) ;
+
+          if (y1 < 0){
+            y1 = 0;
+            x1 = -b / x
+            console.log(x1)
+          }
         break;
 
         case getFlagEmoji('CN') + " Chinese miracle growth rates":
