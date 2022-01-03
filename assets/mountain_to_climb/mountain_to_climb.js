@@ -136,20 +136,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
-
-    x1 = yearfirst;
-    m = (GDPlast - GDP10yr) / (yearlast - yearMinus10);
-    b = GDPlast - m * yearlast;
-    y1 = GDPlast - m * yearlast;
-
-    if (y1 < 0){
-      y1 = 100;
-      x1 = Math.round(-b / m);
-      console.log(m)
-      console.log(b)
-      console.log(x1)
-    }
-
+    y1 = 100;
+    x1 = yearlast - 10 * Math.log( GDPlast / 100 ) / Math.log(GDPlast / GDP10yr)
 
     // trend line
     var trendline = svg.append('line')
@@ -175,7 +163,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       });
 
       // grab most recent GDP value
-      var GDP30yr  = +selectedCountryGDP[selectedCountryGDP.length - 31].rgdpe_pc
       var GDP10yr  = +selectedCountryGDP[selectedCountryGDP.length - 11].rgdpe_pc
 
       var GDPfirst   = +selectedCountryGDP[0].rgdpe_pc
@@ -207,15 +194,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
       switch(growthRate){
         case "recent 10-year growth rates":
-          x1 = yearfirst;
-          m = (GDPlast - GDP10yr) / (yearlast - yearMinus10);
-          b = GDPlast - m * yearlast
-          y1 = GDPlast - m * (yearlast - yearfirst) ;
+          y1 = 100;
+          x1 = yearlast - 10 * Math.log( GDPlast / 100 ) / Math.log(GDPlast / GDP10yr);
 
-          if (y1 < 0){
-            y1 = 0;
-            x1 = -b / x
-            console.log(x1)
+          if (x1 <= 1950){
+            x1 = 1950;
+            y1 = GDPlast / Math.pow(GDPlast / GDP10yr, (yearlast - 1950) / 10);
           }
         break;
 
