@@ -29,7 +29,7 @@ function updateProjection(lastGDP, lastGDPCatchup, historicalGrowth){
 }
 
 function getFlagEmoji(countryCode) {
-  const codePoints = countryCode
+  var codePoints = countryCode
     .toUpperCase()
     .split('')
     .map(char =>  127397 + char.charCodeAt());
@@ -56,45 +56,23 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         return row.country == "France";
     });
 
-
-    console.log(uniqueValues);
   });
 
 d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
 
   function(data) {
-    console.log(data)
 
     var selectedCountry = "Kenya"
 
-
     // get country names
     countries = d3.map(data, function(d){return d.country;}).keys()
+    flags = d3.map(data, function(d){return getFlagEmoji(d.iso2c);}).keys()
 
     growthOptions = ['current growth rate', 'Chinese growth miracle', 'Taiwanese growth miracle', 'Soviet growth miracle'];
 
     updateProjection(2328.76, 63485.57, 0.03)
-
-    // Make select button
-    d3.select("#selectButton")
-      .selectAll('myOptions')
-      .data(countries)
-      .enter()
-      .append('option')
-      .text(function (d) { return d; }) // text showed in the menu
-      .attr("value", function (d) { return d; })
-      .property("selected", function(d){ return d === selectedCountry}); // corresponding value returned by the button
-
-    d3.select("#catchupCountry")
-      .selectAll('myOptions')
-      .data(countries)
-      .enter()
-      .append('option')
-      .text(function (d) { return d; }) // text showed in the menu
-      .attr("value", function (d) { return d; })
-      .property("selected", function(d){ return d === "United States"}); // corresponding value returned by the button
-
-    updateButtons()
+    makeButtons(selectedCountry, "United States");
+    updateButtons();
 
     // A color scale: one color for each group
     var myColor = d3.scaleOrdinal()
@@ -188,35 +166,37 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           .attr("stroke", function(d){ return myColor(selectedCountry) })
 
       // update text   
-      updateProjection(lastGDP, lastGDPCatchup, historicalGrowth)
+      updateProjection(lastGDP, lastGDPCatchup, historicalGrowth);
+
+      makeButtons(selectedCountry, catchupCountry);
+
+      updateButtons();
+
+
+    }
+
+    function makeButtons (selectedCountry, catchupCountry){
+      // Make select button
+      d3.select("#selectButton")
+        .selectAll('myOptions')
+        .data(countries)
+        .enter()
+        .append('option')
+        .text(function (d) { return flags[countries.indexOf(d)] + ' ' + d; }) // text showed in the menu
+        .attr("value", function (d) { return d; })
+        .property("selected", function(d){ return d === selectedCountry}); // corresponding value returned by the button
 
       d3.select("#catchupCountry")
         .selectAll('myOptions')
         .data(countries)
         .enter()
         .append('option')
-        .text(function (d) { return d; }) // text showed in the menu
+        .text(function (d) { return flags[countries.indexOf(d)] + ' ' + d; }) // text showed in the menu
         .attr("value", function (d) { return d; })
-        .property("selected", function(d){
-          return d === catchupCountry;
-        }); 
-
-      d3.select("#selectButton")
-        .selectAll('myOptions')
-        .data(countries)
-        .enter()
-        .append('option')
-        .text(function (d) { return d; }) // text showed in the menu
-        .attr("value", function (d) { return d; })
-        .property("selected", function(d){
-               return d === selectedCountry;
-          }); 
-
-
-        updateButtons();
-
+        .property("selected", function(d){ return d === catchupCountry}); // corresponding value returned by the button
 
     }
+
 
     function updateButtons (){
 
@@ -232,6 +212,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         });
 
     }
+
 
 
 
