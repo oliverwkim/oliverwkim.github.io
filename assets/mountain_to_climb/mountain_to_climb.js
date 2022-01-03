@@ -13,10 +13,12 @@ function calculateYears (start, end, rate){
 function updateProjection(lastGDP, lastGDPCatchup, historicalGrowth){
   var historicalGrowthPct = Math.round(historicalGrowth * 100 * 10 ) / 10
 
-
-  if (historicalGrowth < 0 && lastGDP < lastGDPCatchup) {
+  if (historicalGrowth < 0 && +lastGDP < +lastGDPCatchup) {
       d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
       "<select id=\"selectButton\"></select> will never reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+  } else if (+lastGDP >= +lastGDPCatchup) {
+      d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
+      "<select id=\"selectButton\"></select> has already surpassed <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
   }
   else {
     d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
@@ -107,8 +109,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .domain( [100,100000])
       .range([ height, 0 ]);
 
-    var s = d3.scaleLog().domain([100, 100000]).range([1000, 0])
-
     svg.append("g")
       .call(d3.axisLeft(y).tickFormat(function (d) {
         return y.tickFormat(4, d3.format(",d"))(d) })).attr("class", "axis");
@@ -133,8 +133,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       console.log(dataFilter)
 
       // grab most recent GDP value
-      var firstGDP  = dataFilter[0].rgdpe_pc
-      var lastGDP   = dataFilter[dataFilter.length - 1].rgdpe_pc
+      var firstGDP  = +dataFilter[0].rgdpe_pc
+      var lastGDP   = +dataFilter[dataFilter.length - 1].rgdpe_pc
 
       var firstGDPyear = dataFilter[0].year
       var lastGDPyear   = dataFilter[dataFilter.length - 1].year
