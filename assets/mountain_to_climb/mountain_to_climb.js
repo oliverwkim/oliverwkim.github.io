@@ -72,17 +72,18 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
     var yearfirst   = +selectedCountryGDP[0].year
     var yearlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].year
+    var yearMinus10   = yearlast - 10
 
     var lastGDPCatchup = +catchupCountryGDP[catchupCountryGDP.length - 1].rgdpe_pc
 
     var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
-    var growth30yr   = calculateRate(GDP30yr, GDPlast, 30)
+    var growthAll   = calculateRate(GDPfirst, GDPlast, yearlast - yearfirst)
 
     growthOptions = ['recent 10-year growth rates', 
-                     'recent 30-year growth rates',
+                     'average historical growth rates',
                       getFlagEmoji('CN') + ' Chinese miracle growth rates'];
 
-    growthRates = [growth10yr, growth30yr, 0.07];
+    growthRates = [growth10yr, growthAll, 0.07];
 
     updateProjection(GDPlast, lastGDPCatchup, growth10yr)
     makeButtons(selectedCountry, catchupCountry, 'recent 10-year growth rates');
@@ -102,7 +103,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).tickFormat(d3.format("d"))).attr("class", "axis");
+      .call(d3.axisBottom(x).tickFormat(d3.format("d")).ticks(5)).attr("class", "axis");
 
     // Add Y axis
     var y = d3.scaleLog()
@@ -112,6 +113,15 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     svg.append("g")
       .call(d3.axisLeft(y).tickFormat(function (d) {
         return y.tickFormat(4, d3.format(",d"))(d) })).attr("class", "axis");
+
+    svg.append("text")
+        .attr("class", "y label")
+        .attr("text-anchor", "end")
+        .attr("y", 6)
+        .attr("dy", ".75em")
+        .style("font-size", "12px")
+        .text("Real GDP per capita (2017 US$)");
+
 
     // Initialize line
     var line = svg
@@ -131,8 +141,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .style("stroke", "lightgray")
       .style("stroke-width", 2)
       .style("stroke-dasharray", ("3, 3"))
-      .attr("x1", x(yearfirst) )
-      .attr("y1", y(GDPfirst) )
+      .attr("x1", x(yearMinus10) )
+      .attr("y1", y(GDP10yr) )
       .attr("x2", x(yearlast))
       .attr("y2", y(GDPlast) ); 
 
@@ -157,14 +167,16 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       var GDPlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].rgdpe_pc
 
       var yearfirst   = +selectedCountryGDP[0].year
-      var yearlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].year
+      var yearlast    = +selectedCountryGDP[selectedCountryGDP.length - 1].year
+      var yearMinus10 = yearlast - 10
 
       var lastGDPCatchup = +catchupCountryGDP[catchupCountryGDP.length - 1].rgdpe_pc
 
       var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
       var growth30yr   = calculateRate(GDP30yr, GDPlast, 30)
+      var growthAll   = calculateRate(GDPfirst, GDPlast, yearlast - yearfirst)
 
-      growthRates = [growth10yr, growth30yr, 0.07];
+      growthRates = [growth10yr, growthAll, 0.07];
 
       // Give these new data to update line
       line
@@ -178,14 +190,30 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           )
           .attr("stroke", function(d){ return myColor(selectedCountry) })
 
+      switch(growthRate){
+        case "recent 10-year growth rates":
+          x1 = yearfirst;
+          m = (GDPlast - GDP10yr) / (yearlast - yearMinus10);
+          y1 = GDPlast - m * (yearlast - yearfirst) ;
+        break;
+
+        case getFlagEmoji('CN') + " Chinese miracle growth rates":
+        case "average historical growth rates":
+          x1 = yearfirst;
+          y1 = GDPfirst;
+        break;
+
+      }
+
+
       // trend line
       trendline
         .transition()
         .style("stroke", "lightgray")
         .style("stroke-width", 2)
         .style("stroke-dasharray", ("3, 3"))
-        .attr("x1", x(yearfirst) )
-        .attr("y1", y(GDPfirst) )
+        .attr("x1", x(x1) )
+        .attr("y1", y(y1) )
         .attr("x2", x(yearlast))
         .attr("y2", y(GDPlast) ); 
         growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
@@ -233,9 +261,9 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         d3.selectAll("#selectCountry, #catchupCountry, #growthRates").on("change", function(d) {
 
             // recover the options that have been chosen
-            var selectedOption = d3.select("#selectCountry").property("value")
-            var catchupCountry = d3.select("#catchupCountry").property("value")
-            var growthRate = d3.select("#growthRates").property("value")
+            var selectedOption  = d3.select("#selectCountry").property("value")
+            var catchupCountry  = d3.select("#catchupCountry").property("value")
+            var growthRate      = d3.select("#growthRates").property("value")
 
             // run the updateChart function with this selected option
             update(selectedOption, catchupCountry, growthRate)
