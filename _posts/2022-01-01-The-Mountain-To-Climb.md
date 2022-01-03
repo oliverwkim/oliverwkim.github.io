@@ -22,9 +22,11 @@ Some stark examples:
 
 * Even at a spectacular Chinese rate of growth, the Democratic Republic of the Congo will take 
 
-* 
+* It will take over a thousand years for Guinea-Bissau to reach the 2019 GDP per capita of its former colonizer Portugal at its current rate of progress.
 
-Economic growth is not everything. The economic needs of human beings need to be balanced against the preservation of the environment and the quality of non-human lives. The distribution of economic output also matters: if a small elite hoards all the economic gains, then for the average person headline GDP growth hardly matters. But we know that, on average, the availability and quality of things that make safer and healthier lives possible--health care, education, housing, entertainment, freedom from violence--grow with incomes per capita. The largest reduction in poverty we know of, the Chinese economic miracle, was made possible by rapid economic growth. 
+* Even with 
+
+Economic growth is not everything. The economic needs of human beings need to be balanced against the preservation of the environment and the quality of non-human lives. The distribution of economic output also matters: if a small elite hoards all the economic gains, then for the average person headline GDP growth is largely irrelevant. But we know that, on average, the availability and quality of things that make safer and healthier lives possible--health care, education, housing, entertainment, freedom from violence--grow with incomes per capita. The largest reduction in poverty we know of, the Chinese economic miracle, was made possible by rapid economic growth. 
 
 In some sense, then, this exercise is agnostic. It shows us, based on historical experience, how long it would take to bring the incomes of current developing countries to the level of those enjoyed in the rich world. It does not say which policies to enact, or even if these projected paths of growth are desirable. It is then up to us--or, more correctly, the people living in these developing countries--to decide what paths align most with their values.
 
