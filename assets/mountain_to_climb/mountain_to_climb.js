@@ -10,6 +10,15 @@ function calculateYears (start, end, rate){
   return Math.log(end / start) / Math.log(1 + rate)
 }
 
+function updateProjection(lastGDP, lastGDPCatchup, historicalGrowth){
+  var historicalGrowthPct = Math.round(historicalGrowth * 100 * 10 ) / 10
+
+    d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
+      "it will take <select id=\"selectButton\"></select>  " +
+      "<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, 0.07)) + "</strong> " + 
+      "years to reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+}
+
 
 var margin = {top: 10, right: 100, bottom: 30, left: 100},
     width = 800 - margin.left - margin.right,
@@ -35,8 +44,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
     allGroup = data.columns
     allGroup.shift();
 
-    d3.select("#projection").html("At 7% growth, it will take <select id=\"selectButton\"></select> " + 
-        Math.round(calculateYears(2328.76, 63485.57, 0.07)) + " years to catch up to <select id=\"catchupCountry\"></select>.")
+    updateProjection(2328.76, 63485.57, 0.03)
 
     // Make select button
     d3.select("#selectButton")
@@ -67,18 +75,23 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
     var x = d3.scaleLinear()
       .domain([1980,2020])
       .range([ 0, width ]);
+
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+      .call(d3.axisBottom(x).tickFormat(d3.format("d")));
 
     // Add Y axis
-    var y = d3.scaleLinear()
-      .domain( [0,60000])
+    var y = d3.scaleLog()
+      .domain( [100,100000])
       .range([ height, 0 ]);
-    svg.append("g")
-      .call(d3.axisLeft(y));
 
-    // Initialize line with group a
+    var s = d3.scaleLog().domain([100, 100000]).range([1000, 0])
+
+    svg.append("g")
+      .call(d3.axisLeft(y).tickFormat(function (d) {
+        return y.tickFormat(4, d3.format(",d"))(d) }) );
+
+    // Initialize line with Afghanistan
     var line = svg
       .append('g')
       .append("path")
@@ -92,6 +105,20 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
+      var selectedGroup = "Afghanistan"
+
+      var dataFilter = data.map(function(d){return {year: d.year, value:parseFloat(d[selectedGroup])} })
+
+      // grab most recent GDP value
+      var firstGDP  = dataFilter[0].value
+      var lastGDP   = dataFilter[dataFilter.length - 1].value
+
+      var firstGDPyear = dataFilter[0].year
+      var lastGDPyear   = dataFilter[dataFilter.length - 1].year
+
+      var historicalGrowth   = calculateRate(firstGDP, lastGDP, lastGDPyear - firstGDPyear)
+      console.log(historicalGrowth)
+
 
     // A function that updates the chart
     function update(selectedGroup, catchupCountry) {
@@ -100,7 +127,14 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
       var dataFilter = data.map(function(d){return {year: d.year, value:parseFloat(d[selectedGroup])} })
 
       // grab most recent GDP value
-      var lastGDP = dataFilter[dataFilter.length - 1].value
+      var firstGDP  = dataFilter[0].value
+      var lastGDP   = dataFilter[dataFilter.length - 1].value
+
+      var firstGDPyear = dataFilter[0].year
+      var lastGDPyear   = dataFilter[dataFilter.length - 1].year
+
+      var historicalGrowth   = calculateRate(firstGDP, lastGDP, lastGDPyear - firstGDPyear)
+      console.log(historicalGrowth)
 
       // grab catchup country
       var dataFilterCatchup = data.map(function(d){return {year: d.year, value:parseFloat(d[catchupCountry])} })
@@ -119,8 +153,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
           .attr("stroke", function(d){ return myColor(selectedGroup) })
 
       // update text   
-      d3.select("#projection").html("At 7% growth, it will take <select id=\"selectButton\"></select>  " + 
-          Math.round(calculateYears(lastGDP, lastGDPCatchup, 0.07)) + " years to catch up to <select id=\"catchupCountry\"></select>")
+      updateProjection(lastGDP, lastGDPCatchup, historicalGrowth)
 
       d3.select("#catchupCountry")
         .selectAll('myOptions')
