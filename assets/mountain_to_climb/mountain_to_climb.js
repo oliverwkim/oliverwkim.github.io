@@ -42,6 +42,8 @@ var svg = d3.select("#forecasts")
 
 d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
 
+d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
+
   function(data) {
 
     data.date = +data.year
