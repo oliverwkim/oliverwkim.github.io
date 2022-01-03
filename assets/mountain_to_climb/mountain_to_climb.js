@@ -10,20 +10,21 @@ function calculateYears (start, end, rate){
   return Math.log(end / start) / Math.log(1 + rate)
 }
 
-function updateProjection(lastGDP, lastGDPCatchup, historicalGrowth){
-  var historicalGrowthPct = Math.round(historicalGrowth * 100 * 10 ) / 10
+function updateProjection(lastGDP, lastGDPCatchup, growthRate){
+  var growthRateText = Math.round(+growthRate * 100 * 10 ) / 10
 
-  if (historicalGrowth < 0 && +lastGDP < +lastGDPCatchup) {
-      d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
-      "<select id=\"selectButton\"></select> will never reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
-  } else if (+lastGDP >= +lastGDPCatchup) {
-      d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
-      "<select id=\"selectButton\"></select> has already surpassed <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+  if (growthRate < 0 && +lastGDP < +lastGDPCatchup) {
+      d3.select("#projection").html("At <select id = \"growthRates\" ></select>, " +
+      "<select id=\"selectCountry\"></select> will never reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+  } 
+  else if (+lastGDP >= +lastGDPCatchup) {
+      d3.select("#projection").html("At <select id = \"growthRates\" ></select>, " +
+      "<select id=\"selectCountry\"></select> has already surpassed <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
   }
   else {
-    d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
-      "it will take <select id=\"selectButton\"></select>  " +
-      "<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, historicalGrowth)) + "</strong> " + 
+    d3.select("#projection").html("At <select id = \"growthRates\" ></select>, " +
+      "it will take <select id=\"selectCountry\"></select>  " +
+      "<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, growthRate)) + "</strong> " + 
       "years to reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
   }
 }
@@ -35,8 +36,6 @@ function getFlagEmoji(countryCode) {
     .map(char =>  127397 + char.charCodeAt());
   return String.fromCodePoint(...codePoints);
 }
-
-
 
 var margin = {top: 10, right: 100, bottom: 30, left: 100},
     width = 1000 - margin.left - margin.right,
@@ -51,27 +50,42 @@ var svg = d3.select("#forecasts")
           "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
-  function(data){
-    filteredData = data.filter(function(row){ 
-        return row.country == "France";
-    });
-
-  });
-
-d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
 
   function(data) {
-
-    var selectedCountry = "Kenya"
 
     // get country names
     countries = d3.map(data, function(d){return d.country;}).keys()
     flags = d3.map(data, function(d){return getFlagEmoji(d.iso2c);}).keys()
 
-    growthOptions = ['current growth rate', 'Chinese growth miracle', 'Taiwanese growth miracle', 'Soviet growth miracle'];
+    var selectedCountry = "Kenya"
+    var catchupCountry = "United States"
 
-    updateProjection(2328.76, 63485.57, 0.03)
-    makeButtons(selectedCountry, "United States");
+    selectedCountryGDP = data.filter(function(row){ 
+        return row.country == selectedCountry;
+    });
+
+    catchupCountryGDP = data.filter(function(row){ 
+        return row.country == catchupCountry;
+    });
+
+    // grab most recent GDP value
+    var GDP30yr  = +selectedCountryGDP[selectedCountryGDP.length - 31].rgdpe_pc
+    var GDP10yr  = +selectedCountryGDP[selectedCountryGDP.length - 11].rgdpe_pc
+    var GDPlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].rgdpe_pc
+
+    var lastGDPCatchup = +catchupCountryGDP[catchupCountryGDP.length - 1].rgdpe_pc
+
+    var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
+    var growth30yr   = calculateRate(GDP30yr, GDPlast, 30)
+
+    growthOptions = ['recent 10-year growth rates', 
+                     'recent 30-year growth rates',
+                      getFlagEmoji('CN') + ' Chinese miracle growth rates'];
+
+    growthRates = [growth10yr, growth30yr, 0.07];
+
+    updateProjection(GDPlast, lastGDPCatchup, growth10yr)
+    makeButtons(selectedCountry, catchupCountry, 'recent 10-year growth rates');
     updateButtons();
 
     // A color scale: one color for each group
@@ -79,12 +93,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .domain(countries)
       .range(d3.schemeSet2);
 
-    // Add X axis --> it is a date format
+    svg.style("font", "30px 'Lato', sans-serif");
+
+    // Add X axis
     var x = d3.scaleLinear()
       .domain([1950,2020])
       .range([ 0, width ]);
-
-    svg.style("font", "30px 'Lato', sans-serif");
 
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -99,15 +113,11 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .call(d3.axisLeft(y).tickFormat(function (d) {
         return y.tickFormat(4, d3.format(",d"))(d) })).attr("class", "axis");
 
-    dataFilter = data.filter(function(row){ 
-        return row.country == selectedCountry;
-    });
-
-    // Initialize line with Kenya
+    // Initialize line
     var line = svg
       .append('g')
       .append("path")
-        .datum(dataFilter)
+        .datum(selectedCountryGDP)
         .attr("d", d3.line()
           .x(function(d) { return x(+d.year) })
           .y(function(d) { return y(+d.rgdpe_pc) })
@@ -116,46 +126,37 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
-      console.log(dataFilter)
-
-      // grab most recent GDP value
-      var firstGDP  = +dataFilter[0].rgdpe_pc
-      var lastGDP   = +dataFilter[dataFilter.length - 1].rgdpe_pc
-
-      var firstGDPyear = dataFilter[0].year
-      var lastGDPyear   = dataFilter[dataFilter.length - 1].year
-
-      var historicalGrowth   = calculateRate(firstGDP, lastGDP, lastGDPyear - firstGDPyear)
-      console.log(historicalGrowth)
-
 
     // A function that updates the chart
-    function update(selectedCountry, catchupCountry) {
+    function update(selectedCountry, catchupCountry, growthRate) {
 
-      // Create new data with the selection?
-      dataFilter = data.filter(function(row){ 
+      console.log(growthRate)
+
+      selectedCountryGDP = data.filter(function(row){ 
           return row.country == selectedCountry;
       });
 
-      // grab most recent GDP value
-      var firstGDP  = dataFilter[0].rgdpe_pc
-      var lastGDP   = dataFilter[dataFilter.length - 1].rgdpe_pc
+      console.log(selectedCountryGDP)
 
-      var firstGDPyear = dataFilter[0].year
-      var lastGDPyear   = dataFilter[dataFilter.length - 1].year
-
-      var historicalGrowth   = calculateRate(firstGDP, lastGDP, lastGDPyear - firstGDPyear)
-      console.log(historicalGrowth)
-
-      // grab catchup country
-      dataFilterCatchup = data.filter(function(row){ 
+      catchupCountryGDP = data.filter(function(row){ 
           return row.country == catchupCountry;
       });
-      var lastGDPCatchup = dataFilterCatchup[dataFilterCatchup.length - 1].rgdpe_pc
+
+      // grab most recent GDP value
+      var GDP30yr  = +selectedCountryGDP[selectedCountryGDP.length - 31].rgdpe_pc
+      var GDP10yr  = +selectedCountryGDP[selectedCountryGDP.length - 11].rgdpe_pc
+      var GDPlast   = +selectedCountryGDP[selectedCountryGDP.length - 1].rgdpe_pc
+
+      var lastGDPCatchup = +catchupCountryGDP[catchupCountryGDP.length - 1].rgdpe_pc
+
+      var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
+      var growth30yr   = calculateRate(GDP30yr, GDPlast, 30)
+      growthRates = [growth10yr, growth30yr, 0.05];
+      console.log(growthRates)
 
       // Give these new data to update line
       line
-          .datum(dataFilter)
+          .datum(selectedCountryGDP)
           .transition()
           .duration(1000)
           .attr("d", d3.line()
@@ -165,50 +166,58 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           )
           .attr("stroke", function(d){ return myColor(selectedCountry) })
 
-      // update text   
-      updateProjection(lastGDP, lastGDPCatchup, historicalGrowth);
+      growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
+      console.log(growthRateNum)
 
-      makeButtons(selectedCountry, catchupCountry);
-
+      // update everything
+      updateProjection(GDPlast, lastGDPCatchup, growthRateNum);
+      makeButtons(selectedCountry, catchupCountry, growthRate);
       updateButtons();
-
-
     }
 
-    function makeButtons (selectedCountry, catchupCountry){
-      // Make select button
-      d3.select("#selectButton")
+    function makeButtons (selectedCountry, catchupCountry, growthRate){
+      d3.select("#selectCountry")
         .selectAll('myOptions')
         .data(countries)
         .enter()
         .append('option')
-        .text(function (d) { return flags[countries.indexOf(d)] + ' ' + d; }) // text showed in the menu
+        .text(function (d) { return flags[countries.indexOf(d)] + ' ' + d; }) 
         .attr("value", function (d) { return d; })
-        .property("selected", function(d){ return d === selectedCountry}); // corresponding value returned by the button
+        .property("selected", function(d){ return d === selectedCountry}); 
 
       d3.select("#catchupCountry")
         .selectAll('myOptions')
         .data(countries)
         .enter()
         .append('option')
-        .text(function (d) { return flags[countries.indexOf(d)] + ' ' + d; }) // text showed in the menu
+        .text(function (d) { return flags[countries.indexOf(d)] + ' ' + d; }) 
         .attr("value", function (d) { return d; })
-        .property("selected", function(d){ return d === catchupCountry}); // corresponding value returned by the button
+        .property("selected", function(d){ return d === catchupCountry}); 
 
+      d3.select('#growthRates')
+        .selectAll('myOptions')
+        .data(growthOptions)
+        .enter()
+        .append('option')
+        .text(function (d) { return d; }) 
+        .attr("value", function (d) { return d; })
+        .property("selected", function(d){ return d === growthRate}); 
+ 
     }
 
 
     function updateButtons (){
 
         // When the button is changed, run the updateChart function
-        d3.selectAll("#selectButton, #catchupCountry").on("change", function(d) {
+        d3.selectAll("#selectCountry, #catchupCountry, #growthRates").on("change", function(d) {
 
             // recover the options that have been chosen
-            var selectedOption = d3.select("#selectButton").property("value")
+            var selectedOption = d3.select("#selectCountry").property("value")
             var catchupCountry = d3.select("#catchupCountry").property("value")
+            var growthRate = d3.select("#growthRates").property("value")
 
             // run the updateChart function with this selected option
-            update(selectedOption, catchupCountry)
+            update(selectedOption, catchupCountry, growthRate)
         });
 
     }
