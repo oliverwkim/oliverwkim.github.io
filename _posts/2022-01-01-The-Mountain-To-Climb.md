@@ -9,8 +9,9 @@ custom_css: mountain_to_climb
 
 <div id="interface">
 	At <select id = "growthRates" ></select>, 
-	how long will it take for <select id="selectCountry"></select>   
-	to reach <select id="catchupCountry"></select>'s current GDP per capita?
+	how long will it take for <select id="selectCountry"></select> 
+	to reach current GDP per capita in
+	<select id="catchupCountry"></select>?
 </div>
 
 <div id="projection"></div>
