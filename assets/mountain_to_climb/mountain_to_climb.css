@@ -30,6 +30,7 @@ select {
 	float:  left;
 	font-size: 4rem;
 	font-weight: bold;
+	padding-top: 30px;
 	text-align:  right;
 	width:  40%;
 }
