@@ -2,6 +2,8 @@
 layout: post
 title: The Mountain To Climb
 published: true
+custom_css: mountain_to_climb
+
 ---
 
 <!-- Create a div where the graph will take place -->
