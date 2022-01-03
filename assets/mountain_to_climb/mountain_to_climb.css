@@ -13,20 +13,25 @@ select {
 		background:  blue;
 	}
 
+#toolbar {
+	clear:  both;
+	margin-bottom: 1.5rem;
+	width:  1000px;
+}
+
 #interface {
 	font-size:  1.4rem;
-	margin-bottom:  2rem;
-	width:  600px;
+	float: left;
+	width:  60%;
 
 }
 
 #projection {
+	float:  left;
 	font-size: 4rem;
 	font-weight: bold;
 	text-align:  right;
-	margin-bottom:  1rem;
-	width:  1000px;
-
+	width:  40%;
 }
 
 .axis {

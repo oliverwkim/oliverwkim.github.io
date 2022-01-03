@@ -6,17 +6,19 @@ custom_css: mountain_to_climb
 
 ---
 
-
+<div id="toolbar">
 <div id="interface">
 	At <select id = "growthRates" ></select>, 
 	how long will it take for <select id="selectCountry"></select> 
 	to reach current GDP per capita in
 	<select id="catchupCountry"></select>?
 </div>
-
 <div id="projection"></div>
-
+</div>
+<div style="clear: both"></div>
 <div id="forecasts"></div>
+
+As we enter a new year, it's worth th
 
 Some stark examples:
 
