@@ -13,10 +13,17 @@ function calculateYears (start, end, rate){
 function updateProjection(lastGDP, lastGDPCatchup, historicalGrowth){
   var historicalGrowthPct = Math.round(historicalGrowth * 100 * 10 ) / 10
 
+
+  if (historicalGrowth < 0 && lastGDP < lastGDPCatchup) {
+      d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
+      "<select id=\"selectButton\"></select> will never reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+  }
+  else {
     d3.select("#projection").html("At its current growth rate (" + historicalGrowthPct + "%/yr), " +
       "it will take <select id=\"selectButton\"></select>  " +
-      "<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, 0.07)) + "</strong> " + 
+      "<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, historicalGrowth)) + "</strong> " + 
       "years to reach <select id=\"catchupCountry\"></select>'s current GDP per capita. ")
+  }
 }
 
 
