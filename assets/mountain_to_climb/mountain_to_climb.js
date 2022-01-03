@@ -28,6 +28,14 @@ function updateProjection(lastGDP, lastGDPCatchup, historicalGrowth){
   }
 }
 
+function getFlagEmoji(countryCode) {
+  const codePoints = countryCode
+    .toUpperCase()
+    .split('')
+    .map(char =>  127397 + char.charCodeAt());
+  return String.fromCodePoint(...codePoints);
+}
+
 
 
 var margin = {top: 10, right: 100, bottom: 30, left: 100},
