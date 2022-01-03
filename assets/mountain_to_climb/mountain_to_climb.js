@@ -20,9 +20,10 @@ function updateProjection(lastGDP, lastGDPCatchup, historicalGrowth){
 }
 
 
+
 var margin = {top: 10, right: 100, bottom: 30, left: 100},
-    width = 800 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 1000 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
 
 var svg = d3.select("#forecasts")
   .append("svg")
@@ -31,7 +32,6 @@ var svg = d3.select("#forecasts")
   .append("g")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
-
 
 d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
 
@@ -43,6 +43,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
     // get country names, remove first element
     allGroup = data.columns
     allGroup.shift();
+
+    growthOptions = ['current growth rate', 'Chinese growth miracle', 'Taiwanese growth miracle', 'Soviet growth miracle'];
 
     updateProjection(2328.76, 63485.57, 0.03)
 
@@ -76,9 +78,11 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
       .domain([1980,2020])
       .range([ 0, width ]);
 
+    svg.style("font", "30px 'Lato', sans-serif");
+
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+      .call(d3.axisBottom(x).tickFormat(d3.format("d"))).attr("class", "axis");
 
     // Add Y axis
     var y = d3.scaleLog()
@@ -89,7 +93,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
 
     svg.append("g")
       .call(d3.axisLeft(y).tickFormat(function (d) {
-        return y.tickFormat(4, d3.format(",d"))(d) }) );
+        return y.tickFormat(4, d3.format(",d"))(d) })).attr("class", "axis");
 
     // Initialize line with Afghanistan
     var line = svg

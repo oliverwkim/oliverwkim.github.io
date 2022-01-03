@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 select {
+	background-color: transparent;
 	border: 0;
 	border-bottom:  1px dotted black;
 	font:  1.4rem/2rem et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	text-align: center;
+}
+
+	select option {
+
+	}
+
+#projection {
+	margin-bottom:  2em;
+}
+
+.axis {
+	font: 'Lato', sans-serif;
+	font-size: 20px;
 }
