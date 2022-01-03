@@ -40,18 +40,26 @@ var svg = d3.select("#forecasts")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
+d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
+  function(data){
+    filteredData = data.filter(function(row){ 
+        return row.country == "France";
+    });
 
-d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv", 
+
+    console.log(uniqueValues);
+  });
+
+d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
 
   function(data) {
+    console.log(data)
 
-    data.date = +data.year
-    console.log(data.columns)
+    var selectedCountry = "Kenya"
 
-    // get country names, remove first element
-    allGroup = data.columns
-    allGroup.shift();
+
+    // get country names
+    countries = d3.map(data, function(d){return d.country;}).keys()
 
     growthOptions = ['current growth rate', 'Chinese growth miracle', 'Taiwanese growth miracle', 'Soviet growth miracle'];
 
@@ -60,15 +68,16 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
     // Make select button
     d3.select("#selectButton")
       .selectAll('myOptions')
-      .data(allGroup)
+      .data(countries)
       .enter()
       .append('option')
       .text(function (d) { return d; }) // text showed in the menu
-      .attr("value", function (d) { return d; }); // corresponding value returned by the button
+      .attr("value", function (d) { return d; })
+      .property("selected", function(d){ return d === selectedCountry}); // corresponding value returned by the button
 
     d3.select("#catchupCountry")
       .selectAll('myOptions')
-      .data(allGroup)
+      .data(countries)
       .enter()
       .append('option')
       .text(function (d) { return d; }) // text showed in the menu
@@ -79,12 +88,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
 
     // A color scale: one color for each group
     var myColor = d3.scaleOrdinal()
-      .domain(allGroup)
+      .domain(countries)
       .range(d3.schemeSet2);
 
     // Add X axis --> it is a date format
     var x = d3.scaleLinear()
-      .domain([1980,2020])
+      .domain([1950,2020])
       .range([ 0, width ]);
 
     svg.style("font", "30px 'Lato', sans-serif");
@@ -104,27 +113,28 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
       .call(d3.axisLeft(y).tickFormat(function (d) {
         return y.tickFormat(4, d3.format(",d"))(d) })).attr("class", "axis");
 
-    // Initialize line with Afghanistan
+    dataFilter = data.filter(function(row){ 
+        return row.country == selectedCountry;
+    });
+
+    // Initialize line with Kenya
     var line = svg
       .append('g')
       .append("path")
-        .datum(data)
+        .datum(dataFilter)
         .attr("d", d3.line()
-          .defined(function(d) { return d.Afghanistan != 0; })
           .x(function(d) { return x(+d.year) })
-          .y(function(d) { return y(+d.Afghanistan) })
+          .y(function(d) { return y(+d.rgdpe_pc) })
         )
-        .attr("stroke", function(d){ return myColor("Afghanistan") })
+        .attr("stroke", function(d){ return myColor(selectedCountry) })
         .style("stroke-width", 4)
         .style("fill", "none");
 
-      var selectedGroup = "Afghanistan"
-
-      var dataFilter = data.map(function(d){return {year: d.year, value:parseFloat(d[selectedGroup])} })
+      console.log(dataFilter)
 
       // grab most recent GDP value
-      var firstGDP  = dataFilter[0].value
-      var lastGDP   = dataFilter[dataFilter.length - 1].value
+      var firstGDP  = dataFilter[0].rgdpe_pc
+      var lastGDP   = dataFilter[dataFilter.length - 1].rgdpe_pc
 
       var firstGDPyear = dataFilter[0].year
       var lastGDPyear   = dataFilter[dataFilter.length - 1].year
@@ -134,14 +144,16 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
 
 
     // A function that updates the chart
-    function update(selectedGroup, catchupCountry) {
+    function update(selectedCountry, catchupCountry) {
 
       // Create new data with the selection?
-      var dataFilter = data.map(function(d){return {year: d.year, value:parseFloat(d[selectedGroup])} })
+      dataFilter = data.filter(function(row){ 
+          return row.country == selectedCountry;
+      });
 
       // grab most recent GDP value
-      var firstGDP  = dataFilter[0].value
-      var lastGDP   = dataFilter[dataFilter.length - 1].value
+      var firstGDP  = dataFilter[0].rgdpe_pc
+      var lastGDP   = dataFilter[dataFilter.length - 1].rgdpe_pc
 
       var firstGDPyear = dataFilter[0].year
       var lastGDPyear   = dataFilter[dataFilter.length - 1].year
@@ -150,8 +162,10 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
       console.log(historicalGrowth)
 
       // grab catchup country
-      var dataFilterCatchup = data.map(function(d){return {year: d.year, value:parseFloat(d[catchupCountry])} })
-      var lastGDPCatchup = dataFilterCatchup[dataFilterCatchup.length - 1].value
+      dataFilterCatchup = data.filter(function(row){ 
+          return row.country == catchupCountry;
+      });
+      var lastGDPCatchup = dataFilterCatchup[dataFilterCatchup.length - 1].rgdpe_pc
 
       // Give these new data to update line
       line
@@ -159,18 +173,18 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
           .transition()
           .duration(1000)
           .attr("d", d3.line()
-            .defined(function(d) { return d.value != 0; })
+            .defined(function(d) { return d.rgdpe_pc != 0; })
             .x(function(d) { return x(d.year) })
-            .y(function(d) { return y(d.value) })
+            .y(function(d) { return y(d.rgdpe_pc) })
           )
-          .attr("stroke", function(d){ return myColor(selectedGroup) })
+          .attr("stroke", function(d){ return myColor(selectedCountry) })
 
       // update text   
       updateProjection(lastGDP, lastGDPCatchup, historicalGrowth)
 
       d3.select("#catchupCountry")
         .selectAll('myOptions')
-        .data(allGroup)
+        .data(countries)
         .enter()
         .append('option')
         .text(function (d) { return d; }) // text showed in the menu
@@ -181,13 +195,13 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/weo_2021_10_long.csv",
 
       d3.select("#selectButton")
         .selectAll('myOptions')
-        .data(allGroup)
+        .data(countries)
         .enter()
         .append('option')
         .text(function (d) { return d; }) // text showed in the menu
         .attr("value", function (d) { return d; })
         .property("selected", function(d){
-               return d === selectedGroup;
+               return d === selectedCountry;
           }); 
 
 
