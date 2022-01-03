@@ -13,9 +13,17 @@ select {
 		background:  blue;
 	}
 
-#projection {
+#interface {
+	font-size:  1.4em;
 	margin-bottom:  2em;
 	width:  600px;
+
+}
+
+#projection {
+	font-size: 4em;
+	font-weight: bold;
+	text-align:  right;
 }
 
 .axis {

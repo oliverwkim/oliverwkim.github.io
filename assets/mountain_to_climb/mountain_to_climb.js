@@ -161,7 +161,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
       // update everything
       updateProjection(GDPlast, lastGDPCatchup, growthRateNum);
-      makeButtons(selectedCountry, catchupCountry, growthRate);
+      //makeButtons(selectedCountry, catchupCountry, growthRate);
       updateButtons();
     }
 
