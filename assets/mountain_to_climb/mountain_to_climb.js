@@ -32,7 +32,7 @@ function getFlagEmoji(countryCode) {
   return String.fromCodePoint(...codePoints);
 }
 
-var margin = {top: 10, right: 100, bottom: 30, left: 100},
+var margin = {top: 10, right: 100, bottom: 30, left: 120},
     width = 1000 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
 
@@ -117,9 +117,11 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     svg.append("text")
         .attr("class", "y label")
         .attr("text-anchor", "end")
-        .attr("y", 6)
+        .attr("transform", "rotate(-90)")
+        .attr("y", -margin.left + 20)
+        .attr("x", -margin.top + 20)
         .attr("dy", ".75em")
-        .style("font-size", "12px")
+        .style("font-size", "16px")
         .text("Real GDP per capita (2017 US$)");
 
 
@@ -148,6 +150,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .attr("y1", y(y1) )
       .attr("x2", x(yearlast))
       .attr("y2", y(GDPlast) ); 
+
+
 
 
 
