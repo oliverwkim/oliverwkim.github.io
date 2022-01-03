@@ -18,7 +18,7 @@ custom_css: mountain_to_climb
 <div style="clear: both; margin-bottom: 2em;"></div>
 <div id="forecasts"></div>
 
-As we enter a new year, it's worth thinking 
+As we enter a new year, it's worth thinking about the problem of economic growth, particularly for the hundreds of millions who still live in extreme poverty. This tool will
 
 Some stark examples:
 
@@ -27,6 +27,8 @@ Some stark examples:
 * It will take over a thousand years for Guinea-Bissau to reach the 2019 GDP per capita of its former colonizer Portugal at its current rate of progress.
 
 * Even with 
+
+This data is current as of 2019; it does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid).
 
 Economic growth is not everything. The economic needs of human beings need to be balanced against the preservation of the environment and the quality of non-human lives. The distribution of economic output also matters: if a small elite hoards all the economic gains, then for the average person headline GDP growth is largely irrelevant. But we know that, on average, the availability and quality of things that make safer and healthier lives possible--health care, education, housing, entertainment, freedom from violence--grow with incomes per capita. The largest reduction in poverty we know of, the Chinese economic miracle, was made possible by rapid economic growth. 
 

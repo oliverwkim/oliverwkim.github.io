@@ -121,6 +121,16 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("stroke-width", 4)
         .style("fill", "none");
 
+    svg.append('line')
+      .style("stroke", "lightgray")
+      .style("stroke-width", 2)
+      .style("stroke-dasharray", ("3, 3"))
+      .attr("x1", 0)
+      .attr("y1", 0)
+      .attr("x2", 200)
+      .attr("y2", 200); 
+
+
 
     // A function that updates the chart
     function update(selectedCountry, catchupCountry, growthRate) {
