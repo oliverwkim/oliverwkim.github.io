@@ -146,7 +146,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("x", -margin.top + 30)
         .attr("dy", ".75em")
         .style("font-size", "20px")
-        .text("Real GDP per capita, PPP-adj. (2017 US$)");
+        .text("GDP per capita, 2017 US$");
 
     svg.append("text")
         .attr("class", "y label")
@@ -154,7 +154,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("y", height + 50)
         .attr("x", width)
         .style("font-size", "16px")
-        .text("Data current as of 2019. Source: PWT v10.");
+        .text("2019 Real GDP per capita (PPP-adjusted) in 2017 US$. Source: PWT v10.");
 
     // Initialize line
     var line = svg
