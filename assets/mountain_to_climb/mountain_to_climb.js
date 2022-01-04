@@ -303,6 +303,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     }
 
     function makeButtons (selectedCountry, catchupCountry, growthRate){
+        d3.select("#selectCountry, #catchupCountry, #growthRates").selectAll("*").remove();
+
       d3.select("#selectCountry")
         .selectAll('myOptions')
         .data(countries)
@@ -316,6 +318,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .selectAll('myOptions')
         .data(countries)
         .enter()
+        .html('')
         .append('option')
         .text(function (d) { return flags[countries.indexOf(d)] + ' ' + d; }) 
         .attr("value", function (d) { return d; })
@@ -325,6 +328,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .selectAll('myOptions')
         .data(growthOptions)
         .enter()
+        .html('')
         .append('option')
         .text(function (d) { return d; }) 
         .attr("value", function (d) { return d; })
