@@ -326,20 +326,21 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("x2", x(catchupPoint))
         .attr("y2", y(lastGDPCatchup) ); 
 
-      targetlabel
-        .transition()
-        .style("opacity", 1)
-        .attr("x", x(startYear) + 10)
-        .attr("y", y(lastGDPCatchup) -10)       
-        .style("font-size", "16px")
-        .style("fill", "gray")
-        .attr("dy", "0em")
-        .text(catchupCountry + ": $" + numberWithCommas(Math.round(lastGDPCatchup)))
 
+        catchupLabel
+            .attr("x", x(catchupPoint) -   15)
+            .attr("y", y(lastGDPCatchup) - 10)       
+            .style("font-size", "16px")
+            .attr("dy", "0em")
+            .style("fill", "gray")
+            .html(Math.round(catchupPoint))
+
+
+          console.log('will catchup')
       }
       else if (growthRate != "recent 10-year growth rates" && growthRate != "average historical growth rates"){
         trendline.style('opacity', 0);
-        targetlabel.style('opacity', 0);
+        catchupLabel.html('');
       }
       else {
         trendline
@@ -353,9 +354,18 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("x2", x(yearlast))
         .attr("y2", y(GDPlast) ); 
 
-        targetlabel.style('opacity', 0);
+        catchupLabel.html('');
       }
 
+      targetlabel
+        .transition()
+        .style("opacity", 1)
+        .attr("x", x(startYear) + 10)
+        .attr("y", y(lastGDPCatchup) -10)       
+        .style("font-size", "16px")
+        .style("fill", "gray")
+        .attr("dy", "0em")
+        .text(catchupCountry + ": $" + numberWithCommas(Math.round(lastGDPCatchup)))
 
 
         // target line 
@@ -384,14 +394,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           .style("fill", "gray")
           .attr("dy", "0em")
           .html(Math.round(growthRateNum * 100) + "%/yr" )
-              // Add X axis
-    catchupLabel
-            .attr("x", x(catchupPoint) -   15)
-            .attr("y", y(lastGDPCatchup) - 10)       
-            .style("font-size", "16px")
-            .attr("dy", "0em")
-            .style("fill", "gray")
-            .html(Math.round(catchupPoint))
+
 
       svg.select("g")
         .transition()
