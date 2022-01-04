@@ -29,7 +29,8 @@ Joe Studwell's _Asian Godfathers_ is a little too down for my tastes.
 
 Lee Kuan Yew's _From Third World to First_, which covers Lee's long premiership, starting with Singapore's unceremonious exit from the Malaysian Federation, is worth reading. The book is blatantly self-serving (Lee was famously thin-skinned, fond of suing his perceived enemies into oblivion), but utterly fascinating in how it covers the nuts-and-bolts of how one sets up a country.  Who does one call to get diplomatic recognition from the UN? How does one organize an army from scratch?
 
-(I've always found it funny that, in the original 1960s _Star Trek_, Spock names "Lee Kuan" as one of history's worst would-be world conquerors, up there with Caesar, Napoleon, and Hitler. While he never quite made it out of Singapore, Lee Kuan Yew had a nasty authoritarian streak, and likely had an influence on China's melding of capitalist economics with political repression.)
+(I've always found it funny that, in the original 1960s _Star Trek_, Spock names "Lee Kuan" as one of history's worst would-be world conquerors, up there with Caesar, Napoleon, and Hitler. While he never quite conquered his way out of Singapore, Lee Kuan Yew had a nasty authoritarian streak, and likely influenced China's move towards capitalist economics blended with political repression.)
+
 
 
 
