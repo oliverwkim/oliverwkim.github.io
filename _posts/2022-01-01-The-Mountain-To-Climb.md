@@ -23,7 +23,7 @@ As we enter a new year, it's worth thinking about the problem of economic growth
 
 The figures lay bare the harsh logic of compounding economic growth, and the staggering levels of inequality between countries. Some stark examples:
 
-* Even at a spectacular Chinese rate of growth (5%/year), the <button value="D.R. Congo" id="example">Democratic Republic of the Congo</button> will take 61 years to reach current income levels in the United States.
+* Even at a spectacular Chinese rate of growth (5%/year), the <button value="the D.R. Congo" id="example">Democratic Republic of the Congo</button> will take 61 years to reach current income levels in the United States.
 
 * At its average historical growth rate, it will take over 300 years for <button value="Guinea-Bissau" id="example">Guinea-Bissau</button> to reach the 2019 GDP per capita of its former colonizer Portugal.
 

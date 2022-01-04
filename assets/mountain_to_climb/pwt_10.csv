@@ -579,56 +579,56 @@ AZE,Azerbaijan,2016,14001.91,AZ
 AZE,Azerbaijan,2017,14917.56,AZ
 AZE,Azerbaijan,2018,16544.62,AZ
 AZE,Azerbaijan,2019,16135.62,AZ
-BHS,Bahamas,1970,19125.21,BS
-BHS,Bahamas,1971,18993.97,BS
-BHS,Bahamas,1972,17880.96,BS
-BHS,Bahamas,1973,18711.94,BS
-BHS,Bahamas,1974,15577.93,BS
-BHS,Bahamas,1975,12771.73,BS
-BHS,Bahamas,1976,14210.41,BS
-BHS,Bahamas,1977,15813.46,BS
-BHS,Bahamas,1978,18166.12,BS
-BHS,Bahamas,1979,22299.54,BS
-BHS,Bahamas,1980,25737.71,BS
-BHS,Bahamas,1981,22943.28,BS
-BHS,Bahamas,1982,21251.03,BS
-BHS,Bahamas,1983,21359.55,BS
-BHS,Bahamas,1984,26060.66,BS
-BHS,Bahamas,1985,28594.63,BS
-BHS,Bahamas,1986,28480.43,BS
-BHS,Bahamas,1987,30524.94,BS
-BHS,Bahamas,1988,30366.02,BS
-BHS,Bahamas,1989,31594.79,BS
-BHS,Bahamas,1990,30537.94,BS
-BHS,Bahamas,1991,27749.18,BS
-BHS,Bahamas,1992,26762.02,BS
-BHS,Bahamas,1993,25725.53,BS
-BHS,Bahamas,1994,26240.46,BS
-BHS,Bahamas,1995,26368.85,BS
-BHS,Bahamas,1996,29582.68,BS
-BHS,Bahamas,1997,31317.56,BS
-BHS,Bahamas,1998,33867.95,BS
-BHS,Bahamas,1999,36779.05,BS
-BHS,Bahamas,2000,38724.16,BS
-BHS,Bahamas,2001,37397.22,BS
-BHS,Bahamas,2002,40956.03,BS
-BHS,Bahamas,2003,39724.89,BS
-BHS,Bahamas,2004,38057.83,BS
-BHS,Bahamas,2005,39949.46,BS
-BHS,Bahamas,2006,39253.78,BS
-BHS,Bahamas,2007,40540.07,BS
-BHS,Bahamas,2008,38579.67,BS
-BHS,Bahamas,2009,35144.11,BS
-BHS,Bahamas,2010,34198.84,BS
-BHS,Bahamas,2011,34297.43,BS
-BHS,Bahamas,2012,35399.37,BS
-BHS,Bahamas,2013,33835.8,BS
-BHS,Bahamas,2014,34637.57,BS
-BHS,Bahamas,2015,34669.78,BS
-BHS,Bahamas,2016,34744.88,BS
-BHS,Bahamas,2017,35656.18,BS
-BHS,Bahamas,2018,36128.58,BS
-BHS,Bahamas,2019,37005.09,BS
+BHS,the Bahamas,1970,19125.21,BS
+BHS,the Bahamas,1971,18993.97,BS
+BHS,the Bahamas,1972,17880.96,BS
+BHS,the Bahamas,1973,18711.94,BS
+BHS,the Bahamas,1974,15577.93,BS
+BHS,the Bahamas,1975,12771.73,BS
+BHS,the Bahamas,1976,14210.41,BS
+BHS,the Bahamas,1977,15813.46,BS
+BHS,the Bahamas,1978,18166.12,BS
+BHS,the Bahamas,1979,22299.54,BS
+BHS,the Bahamas,1980,25737.71,BS
+BHS,the Bahamas,1981,22943.28,BS
+BHS,the Bahamas,1982,21251.03,BS
+BHS,the Bahamas,1983,21359.55,BS
+BHS,the Bahamas,1984,26060.66,BS
+BHS,the Bahamas,1985,28594.63,BS
+BHS,the Bahamas,1986,28480.43,BS
+BHS,the Bahamas,1987,30524.94,BS
+BHS,the Bahamas,1988,30366.02,BS
+BHS,the Bahamas,1989,31594.79,BS
+BHS,the Bahamas,1990,30537.94,BS
+BHS,the Bahamas,1991,27749.18,BS
+BHS,the Bahamas,1992,26762.02,BS
+BHS,the Bahamas,1993,25725.53,BS
+BHS,the Bahamas,1994,26240.46,BS
+BHS,the Bahamas,1995,26368.85,BS
+BHS,the Bahamas,1996,29582.68,BS
+BHS,the Bahamas,1997,31317.56,BS
+BHS,the Bahamas,1998,33867.95,BS
+BHS,the Bahamas,1999,36779.05,BS
+BHS,the Bahamas,2000,38724.16,BS
+BHS,the Bahamas,2001,37397.22,BS
+BHS,the Bahamas,2002,40956.03,BS
+BHS,the Bahamas,2003,39724.89,BS
+BHS,the Bahamas,2004,38057.83,BS
+BHS,the Bahamas,2005,39949.46,BS
+BHS,the Bahamas,2006,39253.78,BS
+BHS,the Bahamas,2007,40540.07,BS
+BHS,the Bahamas,2008,38579.67,BS
+BHS,the Bahamas,2009,35144.11,BS
+BHS,the Bahamas,2010,34198.84,BS
+BHS,the Bahamas,2011,34297.43,BS
+BHS,the Bahamas,2012,35399.37,BS
+BHS,the Bahamas,2013,33835.8,BS
+BHS,the Bahamas,2014,34637.57,BS
+BHS,the Bahamas,2015,34669.78,BS
+BHS,the Bahamas,2016,34744.88,BS
+BHS,the Bahamas,2017,35656.18,BS
+BHS,the Bahamas,2018,36128.58,BS
+BHS,the Bahamas,2019,37005.09,BS
 BHR,Bahrain,1970,16225.85,BH
 BHR,Bahrain,1971,15897.83,BH
 BHR,Bahrain,1972,16834.26,BH
@@ -1902,66 +1902,66 @@ CYM,Cayman Islands,2016,64682.63,KY
 CYM,Cayman Islands,2017,64996.77,KY
 CYM,Cayman Islands,2018,68103.52,KY
 CYM,Cayman Islands,2019,70208.34,KY
-CAF,Central African Republic,1960,1481.194,CF
-CAF,Central African Republic,1961,1575.753,CF
-CAF,Central African Republic,1962,1559.759,CF
-CAF,Central African Republic,1963,1438.396,CF
-CAF,Central African Republic,1964,1481.681,CF
-CAF,Central African Republic,1965,1453.262,CF
-CAF,Central African Republic,1966,1404.094,CF
-CAF,Central African Republic,1967,1272.77,CF
-CAF,Central African Republic,1968,1529.456,CF
-CAF,Central African Republic,1969,1501.055,CF
-CAF,Central African Republic,1970,1534.021,CF
-CAF,Central African Republic,1971,1460.578,CF
-CAF,Central African Republic,1972,1403.048,CF
-CAF,Central African Republic,1973,1481.285,CF
-CAF,Central African Republic,1974,1341.844,CF
-CAF,Central African Republic,1975,1276.046,CF
-CAF,Central African Republic,1976,1272.131,CF
-CAF,Central African Republic,1977,1315.075,CF
-CAF,Central African Republic,1978,1318.451,CF
-CAF,Central African Republic,1979,1261.286,CF
-CAF,Central African Republic,1980,1134.065,CF
-CAF,Central African Republic,1981,1302.625,CF
-CAF,Central African Republic,1982,1255.069,CF
-CAF,Central African Republic,1983,1164.604,CF
-CAF,Central African Republic,1984,1224.174,CF
-CAF,Central African Republic,1985,1325.215,CF
-CAF,Central African Republic,1986,1267.111,CF
-CAF,Central African Republic,1987,1153.26,CF
-CAF,Central African Republic,1988,1191.375,CF
-CAF,Central African Republic,1989,1230.455,CF
-CAF,Central African Republic,1990,1194.41,CF
-CAF,Central African Republic,1991,1147.42,CF
-CAF,Central African Republic,1992,1070.777,CF
-CAF,Central African Republic,1993,1017.94,CF
-CAF,Central African Republic,1994,1166.996,CF
-CAF,Central African Republic,1995,1152.925,CF
-CAF,Central African Republic,1996,988.1868,CF
-CAF,Central African Republic,1997,1031.609,CF
-CAF,Central African Republic,1998,1058.626,CF
-CAF,Central African Republic,1999,1034.167,CF
-CAF,Central African Republic,2000,1040.435,CF
-CAF,Central African Republic,2001,1033.5,CF
-CAF,Central African Republic,2002,1007.591,CF
-CAF,Central African Republic,2003,933.959,CF
-CAF,Central African Republic,2004,940.7437,CF
-CAF,Central African Republic,2005,932.9184,CF
-CAF,Central African Republic,2006,969.0728,CF
-CAF,Central African Republic,2007,1000.758,CF
-CAF,Central African Republic,2008,1008.144,CF
-CAF,Central African Republic,2009,1063.221,CF
-CAF,Central African Republic,2010,1098.297,CF
-CAF,Central African Republic,2011,1116.234,CF
-CAF,Central African Republic,2012,1227.75,CF
-CAF,Central African Republic,2013,803.4609,CF
-CAF,Central African Republic,2014,770.4182,CF
-CAF,Central African Republic,2015,826.8715,CF
-CAF,Central African Republic,2016,873.5456,CF
-CAF,Central African Republic,2017,913.5294,CF
-CAF,Central African Republic,2018,926.298,CF
-CAF,Central African Republic,2019,955.1917,CF
+CAF,the Central African Republic,1960,1481.194,CF
+CAF,the Central African Republic,1961,1575.753,CF
+CAF,the Central African Republic,1962,1559.759,CF
+CAF,the Central African Republic,1963,1438.396,CF
+CAF,the Central African Republic,1964,1481.681,CF
+CAF,the Central African Republic,1965,1453.262,CF
+CAF,the Central African Republic,1966,1404.094,CF
+CAF,the Central African Republic,1967,1272.77,CF
+CAF,the Central African Republic,1968,1529.456,CF
+CAF,the Central African Republic,1969,1501.055,CF
+CAF,the Central African Republic,1970,1534.021,CF
+CAF,the Central African Republic,1971,1460.578,CF
+CAF,the Central African Republic,1972,1403.048,CF
+CAF,the Central African Republic,1973,1481.285,CF
+CAF,the Central African Republic,1974,1341.844,CF
+CAF,the Central African Republic,1975,1276.046,CF
+CAF,the Central African Republic,1976,1272.131,CF
+CAF,the Central African Republic,1977,1315.075,CF
+CAF,the Central African Republic,1978,1318.451,CF
+CAF,the Central African Republic,1979,1261.286,CF
+CAF,the Central African Republic,1980,1134.065,CF
+CAF,the Central African Republic,1981,1302.625,CF
+CAF,the Central African Republic,1982,1255.069,CF
+CAF,the Central African Republic,1983,1164.604,CF
+CAF,the Central African Republic,1984,1224.174,CF
+CAF,the Central African Republic,1985,1325.215,CF
+CAF,the Central African Republic,1986,1267.111,CF
+CAF,the Central African Republic,1987,1153.26,CF
+CAF,the Central African Republic,1988,1191.375,CF
+CAF,the Central African Republic,1989,1230.455,CF
+CAF,the Central African Republic,1990,1194.41,CF
+CAF,the Central African Republic,1991,1147.42,CF
+CAF,the Central African Republic,1992,1070.777,CF
+CAF,the Central African Republic,1993,1017.94,CF
+CAF,the Central African Republic,1994,1166.996,CF
+CAF,the Central African Republic,1995,1152.925,CF
+CAF,the Central African Republic,1996,988.1868,CF
+CAF,the Central African Republic,1997,1031.609,CF
+CAF,the Central African Republic,1998,1058.626,CF
+CAF,the Central African Republic,1999,1034.167,CF
+CAF,the Central African Republic,2000,1040.435,CF
+CAF,the Central African Republic,2001,1033.5,CF
+CAF,the Central African Republic,2002,1007.591,CF
+CAF,the Central African Republic,2003,933.959,CF
+CAF,the Central African Republic,2004,940.7437,CF
+CAF,the Central African Republic,2005,932.9184,CF
+CAF,the Central African Republic,2006,969.0728,CF
+CAF,the Central African Republic,2007,1000.758,CF
+CAF,the Central African Republic,2008,1008.144,CF
+CAF,the Central African Republic,2009,1063.221,CF
+CAF,the Central African Republic,2010,1098.297,CF
+CAF,the Central African Republic,2011,1116.234,CF
+CAF,the Central African Republic,2012,1227.75,CF
+CAF,the Central African Republic,2013,803.4609,CF
+CAF,the Central African Republic,2014,770.4182,CF
+CAF,the Central African Republic,2015,826.8715,CF
+CAF,the Central African Republic,2016,873.5456,CF
+CAF,the Central African Republic,2017,913.5294,CF
+CAF,the Central African Republic,2018,926.298,CF
+CAF,the Central African Republic,2019,955.1917,CF
 TCD,Chad,1960,1462.408,TD
 TCD,Chad,1961,1508.304,TD
 TCD,Chad,1962,1695.62,TD
@@ -2534,106 +2534,106 @@ CYP,Cyprus,2016,35624.32,CY
 CYP,Cyprus,2017,37664.2,CY
 CYP,Cyprus,2018,38637.04,CY
 CYP,Cyprus,2019,38763.2,CY
-CZE,Czech Republic,1990,24351.79,CZ
-CZE,Czech Republic,1991,20409.39,CZ
-CZE,Czech Republic,1992,19678.09,CZ
-CZE,Czech Republic,1993,20130.99,CZ
-CZE,Czech Republic,1994,20956.79,CZ
-CZE,Czech Republic,1995,21660.22,CZ
-CZE,Czech Republic,1996,22751.48,CZ
-CZE,Czech Republic,1997,22177.16,CZ
-CZE,Czech Republic,1998,22040.5,CZ
-CZE,Czech Republic,1999,21894.61,CZ
-CZE,Czech Republic,2000,22238.33,CZ
-CZE,Czech Republic,2001,23372.2,CZ
-CZE,Czech Republic,2002,23307.5,CZ
-CZE,Czech Republic,2003,24257.38,CZ
-CZE,Czech Republic,2004,25456.13,CZ
-CZE,Czech Republic,2005,26624.45,CZ
-CZE,Czech Republic,2006,28090.09,CZ
-CZE,Czech Republic,2007,30542.93,CZ
-CZE,Czech Republic,2008,31772.52,CZ
-CZE,Czech Republic,2009,31420.3,CZ
-CZE,Czech Republic,2010,31342.73,CZ
-CZE,Czech Republic,2011,31966.91,CZ
-CZE,Czech Republic,2012,31936.07,CZ
-CZE,Czech Republic,2013,32081.68,CZ
-CZE,Czech Republic,2014,33451.63,CZ
-CZE,Czech Republic,2015,35545.2,CZ
-CZE,Czech Republic,2016,36832.96,CZ
-CZE,Czech Republic,2017,38758.55,CZ
-CZE,Czech Republic,2018,39823.45,CZ
-CZE,Czech Republic,2019,40731.74,CZ
-COD,D.R. Congo,1950,2082.224,CD
-COD,D.R. Congo,1951,2350.618,CD
-COD,D.R. Congo,1952,2428.606,CD
-COD,D.R. Congo,1953,2710.317,CD
-COD,D.R. Congo,1954,2746.617,CD
-COD,D.R. Congo,1955,2885.214,CD
-COD,D.R. Congo,1956,2912.549,CD
-COD,D.R. Congo,1957,2786.216,CD
-COD,D.R. Congo,1958,2755.396,CD
-COD,D.R. Congo,1959,2729.46,CD
-COD,D.R. Congo,1960,2793.313,CD
-COD,D.R. Congo,1961,2392.989,CD
-COD,D.R. Congo,1962,2875.214,CD
-COD,D.R. Congo,1963,2809.337,CD
-COD,D.R. Congo,1964,2579.747,CD
-COD,D.R. Congo,1965,2718.119,CD
-COD,D.R. Congo,1966,3029.698,CD
-COD,D.R. Congo,1967,2727.344,CD
-COD,D.R. Congo,1968,2832.923,CD
-COD,D.R. Congo,1969,3065.908,CD
-COD,D.R. Congo,1970,2948.052,CD
-COD,D.R. Congo,1971,2768.788,CD
-COD,D.R. Congo,1972,2547.839,CD
-COD,D.R. Congo,1973,2820.292,CD
-COD,D.R. Congo,1974,2945.007,CD
-COD,D.R. Congo,1975,2211.056,CD
-COD,D.R. Congo,1976,1944.205,CD
-COD,D.R. Congo,1977,1998.418,CD
-COD,D.R. Congo,1978,1890.014,CD
-COD,D.R. Congo,1979,2182.452,CD
-COD,D.R. Congo,1980,2219.033,CD
-COD,D.R. Congo,1981,2074.949,CD
-COD,D.R. Congo,1982,2056.762,CD
-COD,D.R. Congo,1983,2061.403,CD
-COD,D.R. Congo,1984,2494.624,CD
-COD,D.R. Congo,1985,2215.623,CD
-COD,D.R. Congo,1986,1999.72,CD
-COD,D.R. Congo,1987,1951.868,CD
-COD,D.R. Congo,1988,2054.768,CD
-COD,D.R. Congo,1989,1999.178,CD
-COD,D.R. Congo,1990,1510.751,CD
-COD,D.R. Congo,1991,1199.904,CD
-COD,D.R. Congo,1992,1501.735,CD
-COD,D.R. Congo,1993,1118.686,CD
-COD,D.R. Congo,1994,812.3339,CD
-COD,D.R. Congo,1995,822.9348,CD
-COD,D.R. Congo,1996,711.1664,CD
-COD,D.R. Congo,1997,710.4789,CD
-COD,D.R. Congo,1998,612.517,CD
-COD,D.R. Congo,1999,625.1722,CD
-COD,D.R. Congo,2000,553.3391,CD
-COD,D.R. Congo,2001,532.9182,CD
-COD,D.R. Congo,2002,539.5873,CD
-COD,D.R. Congo,2003,563.6494,CD
-COD,D.R. Congo,2004,599.4296,CD
-COD,D.R. Congo,2005,623.8976,CD
-COD,D.R. Congo,2006,640.0009,CD
-COD,D.R. Congo,2007,679.3365,CD
-COD,D.R. Congo,2008,655.4635,CD
-COD,D.R. Congo,2009,649.7432,CD
-COD,D.R. Congo,2010,719.588,CD
-COD,D.R. Congo,2011,746.7435,CD
-COD,D.R. Congo,2012,770.8596,CD
-COD,D.R. Congo,2013,818.871,CD
-COD,D.R. Congo,2014,884.8809,CD
-COD,D.R. Congo,2015,949.4852,CD
-COD,D.R. Congo,2016,1063.962,CD
-COD,D.R. Congo,2017,1022.007,CD
-COD,D.R. Congo,2018,1024.746,CD
-COD,D.R. Congo,2019,1026.168,CD
+CZE,the Czech Republic,1990,24351.79,CZ
+CZE,the Czech Republic,1991,20409.39,CZ
+CZE,the Czech Republic,1992,19678.09,CZ
+CZE,the Czech Republic,1993,20130.99,CZ
+CZE,the Czech Republic,1994,20956.79,CZ
+CZE,the Czech Republic,1995,21660.22,CZ
+CZE,the Czech Republic,1996,22751.48,CZ
+CZE,the Czech Republic,1997,22177.16,CZ
+CZE,the Czech Republic,1998,22040.5,CZ
+CZE,the Czech Republic,1999,21894.61,CZ
+CZE,the Czech Republic,2000,22238.33,CZ
+CZE,the Czech Republic,2001,23372.2,CZ
+CZE,the Czech Republic,2002,23307.5,CZ
+CZE,the Czech Republic,2003,24257.38,CZ
+CZE,the Czech Republic,2004,25456.13,CZ
+CZE,the Czech Republic,2005,26624.45,CZ
+CZE,the Czech Republic,2006,28090.09,CZ
+CZE,the Czech Republic,2007,30542.93,CZ
+CZE,the Czech Republic,2008,31772.52,CZ
+CZE,the Czech Republic,2009,31420.3,CZ
+CZE,the Czech Republic,2010,31342.73,CZ
+CZE,the Czech Republic,2011,31966.91,CZ
+CZE,the Czech Republic,2012,31936.07,CZ
+CZE,the Czech Republic,2013,32081.68,CZ
+CZE,the Czech Republic,2014,33451.63,CZ
+CZE,the Czech Republic,2015,35545.2,CZ
+CZE,the Czech Republic,2016,36832.96,CZ
+CZE,the Czech Republic,2017,38758.55,CZ
+CZE,the Czech Republic,2018,39823.45,CZ
+CZE,the Czech Republic,2019,40731.74,CZ
+COD,the D.R. Congo,1950,2082.224,CD
+COD,the D.R. Congo,1951,2350.618,CD
+COD,the D.R. Congo,1952,2428.606,CD
+COD,the D.R. Congo,1953,2710.317,CD
+COD,the D.R. Congo,1954,2746.617,CD
+COD,the D.R. Congo,1955,2885.214,CD
+COD,the D.R. Congo,1956,2912.549,CD
+COD,the D.R. Congo,1957,2786.216,CD
+COD,the D.R. Congo,1958,2755.396,CD
+COD,the D.R. Congo,1959,2729.46,CD
+COD,the D.R. Congo,1960,2793.313,CD
+COD,the D.R. Congo,1961,2392.989,CD
+COD,the D.R. Congo,1962,2875.214,CD
+COD,the D.R. Congo,1963,2809.337,CD
+COD,the D.R. Congo,1964,2579.747,CD
+COD,the D.R. Congo,1965,2718.119,CD
+COD,the D.R. Congo,1966,3029.698,CD
+COD,the D.R. Congo,1967,2727.344,CD
+COD,the D.R. Congo,1968,2832.923,CD
+COD,the D.R. Congo,1969,3065.908,CD
+COD,the D.R. Congo,1970,2948.052,CD
+COD,the D.R. Congo,1971,2768.788,CD
+COD,the D.R. Congo,1972,2547.839,CD
+COD,the D.R. Congo,1973,2820.292,CD
+COD,the D.R. Congo,1974,2945.007,CD
+COD,the D.R. Congo,1975,2211.056,CD
+COD,the D.R. Congo,1976,1944.205,CD
+COD,the D.R. Congo,1977,1998.418,CD
+COD,the D.R. Congo,1978,1890.014,CD
+COD,the D.R. Congo,1979,2182.452,CD
+COD,the D.R. Congo,1980,2219.033,CD
+COD,the D.R. Congo,1981,2074.949,CD
+COD,the D.R. Congo,1982,2056.762,CD
+COD,the D.R. Congo,1983,2061.403,CD
+COD,the D.R. Congo,1984,2494.624,CD
+COD,the D.R. Congo,1985,2215.623,CD
+COD,the D.R. Congo,1986,1999.72,CD
+COD,the D.R. Congo,1987,1951.868,CD
+COD,the D.R. Congo,1988,2054.768,CD
+COD,the D.R. Congo,1989,1999.178,CD
+COD,the D.R. Congo,1990,1510.751,CD
+COD,the D.R. Congo,1991,1199.904,CD
+COD,the D.R. Congo,1992,1501.735,CD
+COD,the D.R. Congo,1993,1118.686,CD
+COD,the D.R. Congo,1994,812.3339,CD
+COD,the D.R. Congo,1995,822.9348,CD
+COD,the D.R. Congo,1996,711.1664,CD
+COD,the D.R. Congo,1997,710.4789,CD
+COD,the D.R. Congo,1998,612.517,CD
+COD,the D.R. Congo,1999,625.1722,CD
+COD,the D.R. Congo,2000,553.3391,CD
+COD,the D.R. Congo,2001,532.9182,CD
+COD,the D.R. Congo,2002,539.5873,CD
+COD,the D.R. Congo,2003,563.6494,CD
+COD,the D.R. Congo,2004,599.4296,CD
+COD,the D.R. Congo,2005,623.8976,CD
+COD,the D.R. Congo,2006,640.0009,CD
+COD,the D.R. Congo,2007,679.3365,CD
+COD,the D.R. Congo,2008,655.4635,CD
+COD,the D.R. Congo,2009,649.7432,CD
+COD,the D.R. Congo,2010,719.588,CD
+COD,the D.R. Congo,2011,746.7435,CD
+COD,the D.R. Congo,2012,770.8596,CD
+COD,the D.R. Congo,2013,818.871,CD
+COD,the D.R. Congo,2014,884.8809,CD
+COD,the D.R. Congo,2015,949.4852,CD
+COD,the D.R. Congo,2016,1063.962,CD
+COD,the D.R. Congo,2017,1022.007,CD
+COD,the D.R. Congo,2018,1024.746,CD
+COD,the D.R. Congo,2019,1026.168,CD
 DNK,Denmark,1950,10516.37,DK
 DNK,Denmark,1951,10030.61,DK
 DNK,Denmark,1952,10336.71,DK
@@ -2804,75 +2804,75 @@ DMA,Dominica,2016,12251.19,DM
 DMA,Dominica,2017,11168.32,DM
 DMA,Dominica,2018,11244.4,DM
 DMA,Dominica,2019,11699.02,DM
-DOM,Dominican Republic,1951,2418.797,DO
-DOM,Dominican Republic,1952,2223.057,DO
-DOM,Dominican Republic,1953,2102.69,DO
-DOM,Dominican Republic,1954,2254.156,DO
-DOM,Dominican Republic,1955,2168.876,DO
-DOM,Dominican Republic,1956,2300.617,DO
-DOM,Dominican Republic,1957,2545.637,DO
-DOM,Dominican Republic,1958,2391.203,DO
-DOM,Dominican Republic,1959,2343.834,DO
-DOM,Dominican Republic,1960,2576.565,DO
-DOM,Dominican Republic,1961,2438.968,DO
-DOM,Dominican Republic,1962,2935.655,DO
-DOM,Dominican Republic,1963,3043.271,DO
-DOM,Dominican Republic,1964,3097.156,DO
-DOM,Dominican Republic,1965,2637.459,DO
-DOM,Dominican Republic,1966,2769.643,DO
-DOM,Dominican Republic,1967,2745.681,DO
-DOM,Dominican Republic,1968,2665.101,DO
-DOM,Dominican Republic,1969,2859.826,DO
-DOM,Dominican Republic,1970,3257.959,DO
-DOM,Dominican Republic,1971,3460.259,DO
-DOM,Dominican Republic,1972,3715.056,DO
-DOM,Dominican Republic,1973,4008.385,DO
-DOM,Dominican Republic,1974,4311.803,DO
-DOM,Dominican Republic,1975,4635.026,DO
-DOM,Dominican Republic,1976,4422.309,DO
-DOM,Dominican Republic,1977,4526.843,DO
-DOM,Dominican Republic,1978,4364.472,DO
-DOM,Dominican Republic,1979,4458.921,DO
-DOM,Dominican Republic,1980,4928.679,DO
-DOM,Dominican Republic,1981,5144.912,DO
-DOM,Dominican Republic,1982,5063.998,DO
-DOM,Dominican Republic,1983,5224.412,DO
-DOM,Dominican Republic,1984,4995.248,DO
-DOM,Dominican Republic,1985,4904.531,DO
-DOM,Dominican Republic,1986,5080.735,DO
-DOM,Dominican Republic,1987,5223.576,DO
-DOM,Dominican Republic,1988,5528.236,DO
-DOM,Dominican Republic,1989,5419.247,DO
-DOM,Dominican Republic,1990,4954.217,DO
-DOM,Dominican Republic,1991,4985.329,DO
-DOM,Dominican Republic,1992,5464.848,DO
-DOM,Dominican Republic,1993,5884.945,DO
-DOM,Dominican Republic,1994,6104.181,DO
-DOM,Dominican Republic,1995,6282.564,DO
-DOM,Dominican Republic,1996,6611.569,DO
-DOM,Dominican Republic,1997,7212.903,DO
-DOM,Dominican Republic,1998,7937.794,DO
-DOM,Dominican Republic,1999,8253.797,DO
-DOM,Dominican Republic,2000,8512.886,DO
-DOM,Dominican Republic,2001,8737.717,DO
-DOM,Dominican Republic,2002,9084.947,DO
-DOM,Dominican Republic,2003,8525.293,DO
-DOM,Dominican Republic,2004,8727.052,DO
-DOM,Dominican Republic,2005,9354.9,DO
-DOM,Dominican Republic,2006,10344.37,DO
-DOM,Dominican Republic,2007,11182.94,DO
-DOM,Dominican Republic,2008,11215.32,DO
-DOM,Dominican Republic,2009,11702.38,DO
-DOM,Dominican Republic,2010,12474.41,DO
-DOM,Dominican Republic,2011,12582.54,DO
-DOM,Dominican Republic,2012,12803.23,DO
-DOM,Dominican Republic,2013,13024.75,DO
-DOM,Dominican Republic,2014,13731.87,DO
-DOM,Dominican Republic,2015,14968.82,DO
-DOM,Dominican Republic,2016,15994.62,DO
-DOM,Dominican Republic,2017,16256.05,DO
-DOM,Dominican Republic,2018,16903.07,DO
-DOM,Dominican Republic,2019,17766.4,DO
+DOM,the Dominican Republic,1951,2418.797,DO
+DOM,the Dominican Republic,1952,2223.057,DO
+DOM,the Dominican Republic,1953,2102.69,DO
+DOM,the Dominican Republic,1954,2254.156,DO
+DOM,the Dominican Republic,1955,2168.876,DO
+DOM,the Dominican Republic,1956,2300.617,DO
+DOM,the Dominican Republic,1957,2545.637,DO
+DOM,the Dominican Republic,1958,2391.203,DO
+DOM,the Dominican Republic,1959,2343.834,DO
+DOM,the Dominican Republic,1960,2576.565,DO
+DOM,the Dominican Republic,1961,2438.968,DO
+DOM,the Dominican Republic,1962,2935.655,DO
+DOM,the Dominican Republic,1963,3043.271,DO
+DOM,the Dominican Republic,1964,3097.156,DO
+DOM,the Dominican Republic,1965,2637.459,DO
+DOM,the Dominican Republic,1966,2769.643,DO
+DOM,the Dominican Republic,1967,2745.681,DO
+DOM,the Dominican Republic,1968,2665.101,DO
+DOM,the Dominican Republic,1969,2859.826,DO
+DOM,the Dominican Republic,1970,3257.959,DO
+DOM,the Dominican Republic,1971,3460.259,DO
+DOM,the Dominican Republic,1972,3715.056,DO
+DOM,the Dominican Republic,1973,4008.385,DO
+DOM,the Dominican Republic,1974,4311.803,DO
+DOM,the Dominican Republic,1975,4635.026,DO
+DOM,the Dominican Republic,1976,4422.309,DO
+DOM,the Dominican Republic,1977,4526.843,DO
+DOM,the Dominican Republic,1978,4364.472,DO
+DOM,the Dominican Republic,1979,4458.921,DO
+DOM,the Dominican Republic,1980,4928.679,DO
+DOM,the Dominican Republic,1981,5144.912,DO
+DOM,the Dominican Republic,1982,5063.998,DO
+DOM,the Dominican Republic,1983,5224.412,DO
+DOM,the Dominican Republic,1984,4995.248,DO
+DOM,the Dominican Republic,1985,4904.531,DO
+DOM,the Dominican Republic,1986,5080.735,DO
+DOM,the Dominican Republic,1987,5223.576,DO
+DOM,the Dominican Republic,1988,5528.236,DO
+DOM,the Dominican Republic,1989,5419.247,DO
+DOM,the Dominican Republic,1990,4954.217,DO
+DOM,the Dominican Republic,1991,4985.329,DO
+DOM,the Dominican Republic,1992,5464.848,DO
+DOM,the Dominican Republic,1993,5884.945,DO
+DOM,the Dominican Republic,1994,6104.181,DO
+DOM,the Dominican Republic,1995,6282.564,DO
+DOM,the Dominican Republic,1996,6611.569,DO
+DOM,the Dominican Republic,1997,7212.903,DO
+DOM,the Dominican Republic,1998,7937.794,DO
+DOM,the Dominican Republic,1999,8253.797,DO
+DOM,the Dominican Republic,2000,8512.886,DO
+DOM,the Dominican Republic,2001,8737.717,DO
+DOM,the Dominican Republic,2002,9084.947,DO
+DOM,the Dominican Republic,2003,8525.293,DO
+DOM,the Dominican Republic,2004,8727.052,DO
+DOM,the Dominican Republic,2005,9354.9,DO
+DOM,the Dominican Republic,2006,10344.37,DO
+DOM,the Dominican Republic,2007,11182.94,DO
+DOM,the Dominican Republic,2008,11215.32,DO
+DOM,the Dominican Republic,2009,11702.38,DO
+DOM,the Dominican Republic,2010,12474.41,DO
+DOM,the Dominican Republic,2011,12582.54,DO
+DOM,the Dominican Republic,2012,12803.23,DO
+DOM,the Dominican Republic,2013,13024.75,DO
+DOM,the Dominican Republic,2014,13731.87,DO
+DOM,the Dominican Republic,2015,14968.82,DO
+DOM,the Dominican Republic,2016,15994.62,DO
+DOM,the Dominican Republic,2017,16256.05,DO
+DOM,the Dominican Republic,2018,16903.07,DO
+DOM,the Dominican Republic,2019,17766.4,DO
 ECU,Ecuador,1950,3291.551,EC
 ECU,Ecuador,1951,3316.267,EC
 ECU,Ecuador,1952,3535.359,EC
@@ -3553,66 +3553,66 @@ GAB,Gabon,2016,14657.76,GA
 GAB,Gabon,2017,15072.23,GA
 GAB,Gabon,2018,15355.71,GA
 GAB,Gabon,2019,15359.09,GA
-GMB,Gambia,1960,2829.917,GM
-GMB,Gambia,1961,2545.689,GM
-GMB,Gambia,1962,2487.864,GM
-GMB,Gambia,1963,2546.191,GM
-GMB,Gambia,1964,2747.897,GM
-GMB,Gambia,1965,2972.203,GM
-GMB,Gambia,1966,2953.646,GM
-GMB,Gambia,1967,2896.168,GM
-GMB,Gambia,1968,2868.966,GM
-GMB,Gambia,1969,2789.213,GM
-GMB,Gambia,1970,3073.144,GM
-GMB,Gambia,1971,2974.979,GM
-GMB,Gambia,1972,2942.273,GM
-GMB,Gambia,1973,3111.781,GM
-GMB,Gambia,1974,3210.676,GM
-GMB,Gambia,1975,3295.299,GM
-GMB,Gambia,1976,3124.739,GM
-GMB,Gambia,1977,3062.144,GM
-GMB,Gambia,1978,3125.736,GM
-GMB,Gambia,1979,2925.471,GM
-GMB,Gambia,1980,2821.907,GM
-GMB,Gambia,1981,3241.994,GM
-GMB,Gambia,1982,3368.578,GM
-GMB,Gambia,1983,3135.474,GM
-GMB,Gambia,1984,3117.003,GM
-GMB,Gambia,1985,3099.458,GM
-GMB,Gambia,1986,3021.745,GM
-GMB,Gambia,1987,2926.712,GM
-GMB,Gambia,1988,2892.498,GM
-GMB,Gambia,1989,2865.681,GM
-GMB,Gambia,1990,2849.089,GM
-GMB,Gambia,1991,2806.016,GM
-GMB,Gambia,1992,2776.984,GM
-GMB,Gambia,1993,2791.259,GM
-GMB,Gambia,1994,2735.336,GM
-GMB,Gambia,1995,2662.652,GM
-GMB,Gambia,1996,2678.341,GM
-GMB,Gambia,1997,2636.229,GM
-GMB,Gambia,1998,2635.484,GM
-GMB,Gambia,1999,2732.895,GM
-GMB,Gambia,2000,2823.14,GM
-GMB,Gambia,2001,2808.467,GM
-GMB,Gambia,2002,2538.027,GM
-GMB,Gambia,2003,2616.058,GM
-GMB,Gambia,2004,3002.65,GM
-GMB,Gambia,2005,3012.819,GM
-GMB,Gambia,2006,2774.844,GM
-GMB,Gambia,2007,2768.277,GM
-GMB,Gambia,2008,2661.8,GM
-GMB,Gambia,2009,2723.525,GM
-GMB,Gambia,2010,2766.355,GM
-GMB,Gambia,2011,2362.069,GM
-GMB,Gambia,2012,2354.118,GM
-GMB,Gambia,2013,2235.344,GM
-GMB,Gambia,2014,2020.439,GM
-GMB,Gambia,2015,2050.234,GM
-GMB,Gambia,2016,1983.027,GM
-GMB,Gambia,2017,1948.55,GM
-GMB,Gambia,2018,2133.657,GM
-GMB,Gambia,2019,2178.527,GM
+GMB,the Gambia,1960,2829.917,GM
+GMB,the Gambia,1961,2545.689,GM
+GMB,the Gambia,1962,2487.864,GM
+GMB,the Gambia,1963,2546.191,GM
+GMB,the Gambia,1964,2747.897,GM
+GMB,the Gambia,1965,2972.203,GM
+GMB,the Gambia,1966,2953.646,GM
+GMB,the Gambia,1967,2896.168,GM
+GMB,the Gambia,1968,2868.966,GM
+GMB,the Gambia,1969,2789.213,GM
+GMB,the Gambia,1970,3073.144,GM
+GMB,the Gambia,1971,2974.979,GM
+GMB,the Gambia,1972,2942.273,GM
+GMB,the Gambia,1973,3111.781,GM
+GMB,the Gambia,1974,3210.676,GM
+GMB,the Gambia,1975,3295.299,GM
+GMB,the Gambia,1976,3124.739,GM
+GMB,the Gambia,1977,3062.144,GM
+GMB,the Gambia,1978,3125.736,GM
+GMB,the Gambia,1979,2925.471,GM
+GMB,the Gambia,1980,2821.907,GM
+GMB,the Gambia,1981,3241.994,GM
+GMB,the Gambia,1982,3368.578,GM
+GMB,the Gambia,1983,3135.474,GM
+GMB,the Gambia,1984,3117.003,GM
+GMB,the Gambia,1985,3099.458,GM
+GMB,the Gambia,1986,3021.745,GM
+GMB,the Gambia,1987,2926.712,GM
+GMB,the Gambia,1988,2892.498,GM
+GMB,the Gambia,1989,2865.681,GM
+GMB,the Gambia,1990,2849.089,GM
+GMB,the Gambia,1991,2806.016,GM
+GMB,the Gambia,1992,2776.984,GM
+GMB,the Gambia,1993,2791.259,GM
+GMB,the Gambia,1994,2735.336,GM
+GMB,the Gambia,1995,2662.652,GM
+GMB,the Gambia,1996,2678.341,GM
+GMB,the Gambia,1997,2636.229,GM
+GMB,the Gambia,1998,2635.484,GM
+GMB,the Gambia,1999,2732.895,GM
+GMB,the Gambia,2000,2823.14,GM
+GMB,the Gambia,2001,2808.467,GM
+GMB,the Gambia,2002,2538.027,GM
+GMB,the Gambia,2003,2616.058,GM
+GMB,the Gambia,2004,3002.65,GM
+GMB,the Gambia,2005,3012.819,GM
+GMB,the Gambia,2006,2774.844,GM
+GMB,the Gambia,2007,2768.277,GM
+GMB,the Gambia,2008,2661.8,GM
+GMB,the Gambia,2009,2723.525,GM
+GMB,the Gambia,2010,2766.355,GM
+GMB,the Gambia,2011,2362.069,GM
+GMB,the Gambia,2012,2354.118,GM
+GMB,the Gambia,2013,2235.344,GM
+GMB,the Gambia,2014,2020.439,GM
+GMB,the Gambia,2015,2050.234,GM
+GMB,the Gambia,2016,1983.027,GM
+GMB,the Gambia,2017,1948.55,GM
+GMB,the Gambia,2018,2133.657,GM
+GMB,the Gambia,2019,2178.527,GM
 GEO,Georgia,1990,12011.22,GE
 GEO,Georgia,1991,10286.32,GE
 GEO,Georgia,1992,4521.72,GE
@@ -5286,56 +5286,56 @@ KGZ,Kyrgyzstan,2016,4311.79,KG
 KGZ,Kyrgyzstan,2017,4909.389,KG
 KGZ,Kyrgyzstan,2018,4940.452,KG
 KGZ,Kyrgyzstan,2019,5015.446,KG
-LAO,Lao People's DR,1970,728.9019,LA
-LAO,Lao People's DR,1971,744.7994,LA
-LAO,Lao People's DR,1972,749.3289,LA
-LAO,Lao People's DR,1973,793.5369,LA
-LAO,Lao People's DR,1974,801.8616,LA
-LAO,Lao People's DR,1975,838.0003,LA
-LAO,Lao People's DR,1976,849.6949,LA
-LAO,Lao People's DR,1977,823.6422,LA
-LAO,Lao People's DR,1978,826.0595,LA
-LAO,Lao People's DR,1979,793.8264,LA
-LAO,Lao People's DR,1980,860.7164,LA
-LAO,Lao People's DR,1981,974.5768,LA
-LAO,Lao People's DR,1982,1025.116,LA
-LAO,Lao People's DR,1983,1061.604,LA
-LAO,Lao People's DR,1984,1040.515,LA
-LAO,Lao People's DR,1985,1116.755,LA
-LAO,Lao People's DR,1986,1139.485,LA
-LAO,Lao People's DR,1987,1114.219,LA
-LAO,Lao People's DR,1988,1116.452,LA
-LAO,Lao People's DR,1989,1219.022,LA
-LAO,Lao People's DR,1990,1265.123,LA
-LAO,Lao People's DR,1991,1282.993,LA
-LAO,Lao People's DR,1992,1316.922,LA
-LAO,Lao People's DR,1993,1360.529,LA
-LAO,Lao People's DR,1994,1429.238,LA
-LAO,Lao People's DR,1995,1498.402,LA
-LAO,Lao People's DR,1996,1581.082,LA
-LAO,Lao People's DR,1997,1642.547,LA
-LAO,Lao People's DR,1998,1670.796,LA
-LAO,Lao People's DR,1999,1824.845,LA
-LAO,Lao People's DR,2000,1784.366,LA
-LAO,Lao People's DR,2001,2126.662,LA
-LAO,Lao People's DR,2002,2326.781,LA
-LAO,Lao People's DR,2003,2355.116,LA
-LAO,Lao People's DR,2004,2454.812,LA
-LAO,Lao People's DR,2005,2497.855,LA
-LAO,Lao People's DR,2006,3121.619,LA
-LAO,Lao People's DR,2007,3390.087,LA
-LAO,Lao People's DR,2008,3479.165,LA
-LAO,Lao People's DR,2009,3876.756,LA
-LAO,Lao People's DR,2010,4062.448,LA
-LAO,Lao People's DR,2011,4603.668,LA
-LAO,Lao People's DR,2012,5185.29,LA
-LAO,Lao People's DR,2013,5655.163,LA
-LAO,Lao People's DR,2014,6002.896,LA
-LAO,Lao People's DR,2015,6262.257,LA
-LAO,Lao People's DR,2016,6758.169,LA
-LAO,Lao People's DR,2017,7078.855,LA
-LAO,Lao People's DR,2018,7023.065,LA
-LAO,Lao People's DR,2019,7359.113,LA
+LAO,Laos,1970,728.9019,LA
+LAO,Laos,1971,744.7994,LA
+LAO,Laos,1972,749.3289,LA
+LAO,Laos,1973,793.5369,LA
+LAO,Laos,1974,801.8616,LA
+LAO,Laos,1975,838.0003,LA
+LAO,Laos,1976,849.6949,LA
+LAO,Laos,1977,823.6422,LA
+LAO,Laos,1978,826.0595,LA
+LAO,Laos,1979,793.8264,LA
+LAO,Laos,1980,860.7164,LA
+LAO,Laos,1981,974.5768,LA
+LAO,Laos,1982,1025.116,LA
+LAO,Laos,1983,1061.604,LA
+LAO,Laos,1984,1040.515,LA
+LAO,Laos,1985,1116.755,LA
+LAO,Laos,1986,1139.485,LA
+LAO,Laos,1987,1114.219,LA
+LAO,Laos,1988,1116.452,LA
+LAO,Laos,1989,1219.022,LA
+LAO,Laos,1990,1265.123,LA
+LAO,Laos,1991,1282.993,LA
+LAO,Laos,1992,1316.922,LA
+LAO,Laos,1993,1360.529,LA
+LAO,Laos,1994,1429.238,LA
+LAO,Laos,1995,1498.402,LA
+LAO,Laos,1996,1581.082,LA
+LAO,Laos,1997,1642.547,LA
+LAO,Laos,1998,1670.796,LA
+LAO,Laos,1999,1824.845,LA
+LAO,Laos,2000,1784.366,LA
+LAO,Laos,2001,2126.662,LA
+LAO,Laos,2002,2326.781,LA
+LAO,Laos,2003,2355.116,LA
+LAO,Laos,2004,2454.812,LA
+LAO,Laos,2005,2497.855,LA
+LAO,Laos,2006,3121.619,LA
+LAO,Laos,2007,3390.087,LA
+LAO,Laos,2008,3479.165,LA
+LAO,Laos,2009,3876.756,LA
+LAO,Laos,2010,4062.448,LA
+LAO,Laos,2011,4603.668,LA
+LAO,Laos,2012,5185.29,LA
+LAO,Laos,2013,5655.163,LA
+LAO,Laos,2014,6002.896,LA
+LAO,Laos,2015,6262.257,LA
+LAO,Laos,2016,6758.169,LA
+LAO,Laos,2017,7078.855,LA
+LAO,Laos,2018,7023.065,LA
+LAO,Laos,2019,7359.113,LA
 LVA,Latvia,1990,16872.98,LV
 LVA,Latvia,1991,15440.9,LV
 LVA,Latvia,1992,11124.15,LV
@@ -6717,76 +6717,76 @@ NPL,Nepal,2016,2457.328,NP
 NPL,Nepal,2017,2841.283,NP
 NPL,Nepal,2018,2957.725,NP
 NPL,Nepal,2019,3103.989,NP
-NLD,Netherlands,1950,8356.111,NL
-NLD,Netherlands,1951,8485.068,NL
-NLD,Netherlands,1952,9226.708,NL
-NLD,Netherlands,1953,9862.03,NL
-NLD,Netherlands,1954,10069.57,NL
-NLD,Netherlands,1955,10990.71,NL
-NLD,Netherlands,1956,11296.21,NL
-NLD,Netherlands,1957,11391.46,NL
-NLD,Netherlands,1958,11436.8,NL
-NLD,Netherlands,1959,11903.52,NL
-NLD,Netherlands,1960,12502.42,NL
-NLD,Netherlands,1961,12763.76,NL
-NLD,Netherlands,1962,13296.52,NL
-NLD,Netherlands,1963,13711.78,NL
-NLD,Netherlands,1964,14562.24,NL
-NLD,Netherlands,1965,15469.44,NL
-NLD,Netherlands,1966,15849.53,NL
-NLD,Netherlands,1967,16671.14,NL
-NLD,Netherlands,1968,17897.3,NL
-NLD,Netherlands,1969,18585.49,NL
-NLD,Netherlands,1970,19443.79,NL
-NLD,Netherlands,1971,20248.38,NL
-NLD,Netherlands,1972,20945.84,NL
-NLD,Netherlands,1973,22310.12,NL
-NLD,Netherlands,1974,23025.71,NL
-NLD,Netherlands,1975,23181.95,NL
-NLD,Netherlands,1976,24183.9,NL
-NLD,Netherlands,1977,24574,NL
-NLD,Netherlands,1978,25135.94,NL
-NLD,Netherlands,1979,25243.64,NL
-NLD,Netherlands,1980,25865.76,NL
-NLD,Netherlands,1981,25099.45,NL
-NLD,Netherlands,1982,24329.95,NL
-NLD,Netherlands,1983,24193.99,NL
-NLD,Netherlands,1984,24667.74,NL
-NLD,Netherlands,1985,24622.71,NL
-NLD,Netherlands,1986,25272.09,NL
-NLD,Netherlands,1987,25211.9,NL
-NLD,Netherlands,1988,26136.75,NL
-NLD,Netherlands,1989,27365.35,NL
-NLD,Netherlands,1990,28537.22,NL
-NLD,Netherlands,1991,29277.9,NL
-NLD,Netherlands,1992,29676.26,NL
-NLD,Netherlands,1993,29905.89,NL
-NLD,Netherlands,1994,30888.06,NL
-NLD,Netherlands,1995,32000.1,NL
-NLD,Netherlands,1996,33275.35,NL
-NLD,Netherlands,1997,35895.08,NL
-NLD,Netherlands,1998,38672.11,NL
-NLD,Netherlands,1999,41066.65,NL
-NLD,Netherlands,2000,43442.26,NL
-NLD,Netherlands,2001,43768,NL
-NLD,Netherlands,2002,43727.1,NL
-NLD,Netherlands,2003,42147.53,NL
-NLD,Netherlands,2004,42849.43,NL
-NLD,Netherlands,2005,44662.16,NL
-NLD,Netherlands,2006,47128.34,NL
-NLD,Netherlands,2007,50027.49,NL
-NLD,Netherlands,2008,51811.34,NL
-NLD,Netherlands,2009,49114.86,NL
-NLD,Netherlands,2010,49513.39,NL
-NLD,Netherlands,2011,50539.37,NL
-NLD,Netherlands,2012,50731.33,NL
-NLD,Netherlands,2013,50459.68,NL
-NLD,Netherlands,2014,48966.72,NL
-NLD,Netherlands,2015,51518.36,NL
-NLD,Netherlands,2016,51614,NL
-NLD,Netherlands,2017,53975.51,NL
-NLD,Netherlands,2018,55094.98,NL
-NLD,Netherlands,2019,56051.2,NL
+NLD,the Netherlands,1950,8356.111,NL
+NLD,the Netherlands,1951,8485.068,NL
+NLD,the Netherlands,1952,9226.708,NL
+NLD,the Netherlands,1953,9862.03,NL
+NLD,the Netherlands,1954,10069.57,NL
+NLD,the Netherlands,1955,10990.71,NL
+NLD,the Netherlands,1956,11296.21,NL
+NLD,the Netherlands,1957,11391.46,NL
+NLD,the Netherlands,1958,11436.8,NL
+NLD,the Netherlands,1959,11903.52,NL
+NLD,the Netherlands,1960,12502.42,NL
+NLD,the Netherlands,1961,12763.76,NL
+NLD,the Netherlands,1962,13296.52,NL
+NLD,the Netherlands,1963,13711.78,NL
+NLD,the Netherlands,1964,14562.24,NL
+NLD,the Netherlands,1965,15469.44,NL
+NLD,the Netherlands,1966,15849.53,NL
+NLD,the Netherlands,1967,16671.14,NL
+NLD,the Netherlands,1968,17897.3,NL
+NLD,the Netherlands,1969,18585.49,NL
+NLD,the Netherlands,1970,19443.79,NL
+NLD,the Netherlands,1971,20248.38,NL
+NLD,the Netherlands,1972,20945.84,NL
+NLD,the Netherlands,1973,22310.12,NL
+NLD,the Netherlands,1974,23025.71,NL
+NLD,the Netherlands,1975,23181.95,NL
+NLD,the Netherlands,1976,24183.9,NL
+NLD,the Netherlands,1977,24574,NL
+NLD,the Netherlands,1978,25135.94,NL
+NLD,the Netherlands,1979,25243.64,NL
+NLD,the Netherlands,1980,25865.76,NL
+NLD,the Netherlands,1981,25099.45,NL
+NLD,the Netherlands,1982,24329.95,NL
+NLD,the Netherlands,1983,24193.99,NL
+NLD,the Netherlands,1984,24667.74,NL
+NLD,the Netherlands,1985,24622.71,NL
+NLD,the Netherlands,1986,25272.09,NL
+NLD,the Netherlands,1987,25211.9,NL
+NLD,the Netherlands,1988,26136.75,NL
+NLD,the Netherlands,1989,27365.35,NL
+NLD,the Netherlands,1990,28537.22,NL
+NLD,the Netherlands,1991,29277.9,NL
+NLD,the Netherlands,1992,29676.26,NL
+NLD,the Netherlands,1993,29905.89,NL
+NLD,the Netherlands,1994,30888.06,NL
+NLD,the Netherlands,1995,32000.1,NL
+NLD,the Netherlands,1996,33275.35,NL
+NLD,the Netherlands,1997,35895.08,NL
+NLD,the Netherlands,1998,38672.11,NL
+NLD,the Netherlands,1999,41066.65,NL
+NLD,the Netherlands,2000,43442.26,NL
+NLD,the Netherlands,2001,43768,NL
+NLD,the Netherlands,2002,43727.1,NL
+NLD,the Netherlands,2003,42147.53,NL
+NLD,the Netherlands,2004,42849.43,NL
+NLD,the Netherlands,2005,44662.16,NL
+NLD,the Netherlands,2006,47128.34,NL
+NLD,the Netherlands,2007,50027.49,NL
+NLD,the Netherlands,2008,51811.34,NL
+NLD,the Netherlands,2009,49114.86,NL
+NLD,the Netherlands,2010,49513.39,NL
+NLD,the Netherlands,2011,50539.37,NL
+NLD,the Netherlands,2012,50731.33,NL
+NLD,the Netherlands,2013,50459.68,NL
+NLD,the Netherlands,2014,48966.72,NL
+NLD,the Netherlands,2015,51518.36,NL
+NLD,the Netherlands,2016,51614,NL
+NLD,the Netherlands,2017,53975.51,NL
+NLD,the Netherlands,2018,55094.98,NL
+NLD,the Netherlands,2019,56051.2,NL
 NZL,New Zealand,1950,13148.49,NZ
 NZL,New Zealand,1951,12037.86,NZ
 NZL,New Zealand,1952,11435.76,NZ
@@ -7536,76 +7536,76 @@ PER,Peru,2016,11915.96,PE
 PER,Peru,2017,12152.84,PE
 PER,Peru,2018,12381.88,PE
 PER,Peru,2019,12412.82,PE
-PHL,Philippines,1950,1517.827,PH
-PHL,Philippines,1951,1512.993,PH
-PHL,Philippines,1952,1546.651,PH
-PHL,Philippines,1953,1716.607,PH
-PHL,Philippines,1954,1783.662,PH
-PHL,Philippines,1955,1864.821,PH
-PHL,Philippines,1956,1881.559,PH
-PHL,Philippines,1957,1935.867,PH
-PHL,Philippines,1958,1938.391,PH
-PHL,Philippines,1959,2054.621,PH
-PHL,Philippines,1960,2031.754,PH
-PHL,Philippines,1961,2036.913,PH
-PHL,Philippines,1962,2107.58,PH
-PHL,Philippines,1963,2174.988,PH
-PHL,Philippines,1964,2136.634,PH
-PHL,Philippines,1965,2176.067,PH
-PHL,Philippines,1966,2217.837,PH
-PHL,Philippines,1967,2217.217,PH
-PHL,Philippines,1968,2302.554,PH
-PHL,Philippines,1969,2373.156,PH
-PHL,Philippines,1970,2466.642,PH
-PHL,Philippines,1971,2531.363,PH
-PHL,Philippines,1972,2575.244,PH
-PHL,Philippines,1973,2802.032,PH
-PHL,Philippines,1974,2802.379,PH
-PHL,Philippines,1975,2877.11,PH
-PHL,Philippines,1976,2990.197,PH
-PHL,Philippines,1977,3060.254,PH
-PHL,Philippines,1978,3154.323,PH
-PHL,Philippines,1979,3178.671,PH
-PHL,Philippines,1980,3361.86,PH
-PHL,Philippines,1981,3412.09,PH
-PHL,Philippines,1982,3435.749,PH
-PHL,Philippines,1983,3374.042,PH
-PHL,Philippines,1984,3132.802,PH
-PHL,Philippines,1985,2916.336,PH
-PHL,Philippines,1986,3012.537,PH
-PHL,Philippines,1987,3200.914,PH
-PHL,Philippines,1988,3445.714,PH
-PHL,Philippines,1989,3609.165,PH
-PHL,Philippines,1990,3766.584,PH
-PHL,Philippines,1991,3827.25,PH
-PHL,Philippines,1992,3910.778,PH
-PHL,Philippines,1993,4013.904,PH
-PHL,Philippines,1994,4356.902,PH
-PHL,Philippines,1995,4722.17,PH
-PHL,Philippines,1996,5046.919,PH
-PHL,Philippines,1997,4930.292,PH
-PHL,Philippines,1998,4719.812,PH
-PHL,Philippines,1999,4647.271,PH
-PHL,Philippines,2000,4629.601,PH
-PHL,Philippines,2001,4449.6,PH
-PHL,Philippines,2002,4378.551,PH
-PHL,Philippines,2003,4383.644,PH
-PHL,Philippines,2004,4416.469,PH
-PHL,Philippines,2005,4365.831,PH
-PHL,Philippines,2006,4602.735,PH
-PHL,Philippines,2007,4895.852,PH
-PHL,Philippines,2008,5125.314,PH
-PHL,Philippines,2009,5323.146,PH
-PHL,Philippines,2010,5789.248,PH
-PHL,Philippines,2011,6066.969,PH
-PHL,Philippines,2012,6484.492,PH
-PHL,Philippines,2013,6646.544,PH
-PHL,Philippines,2014,6852.506,PH
-PHL,Philippines,2015,7082.621,PH
-PHL,Philippines,2016,7432.957,PH
-PHL,Philippines,2017,7663.489,PH
-PHL,Philippines,2018,7937.04,PH
-PHL,Philippines,2019,8204.646,PH
+PHL,the Philippines,1950,1517.827,PH
+PHL,the Philippines,1951,1512.993,PH
+PHL,the Philippines,1952,1546.651,PH
+PHL,the Philippines,1953,1716.607,PH
+PHL,the Philippines,1954,1783.662,PH
+PHL,the Philippines,1955,1864.821,PH
+PHL,the Philippines,1956,1881.559,PH
+PHL,the Philippines,1957,1935.867,PH
+PHL,the Philippines,1958,1938.391,PH
+PHL,the Philippines,1959,2054.621,PH
+PHL,the Philippines,1960,2031.754,PH
+PHL,the Philippines,1961,2036.913,PH
+PHL,the Philippines,1962,2107.58,PH
+PHL,the Philippines,1963,2174.988,PH
+PHL,the Philippines,1964,2136.634,PH
+PHL,the Philippines,1965,2176.067,PH
+PHL,the Philippines,1966,2217.837,PH
+PHL,the Philippines,1967,2217.217,PH
+PHL,the Philippines,1968,2302.554,PH
+PHL,the Philippines,1969,2373.156,PH
+PHL,the Philippines,1970,2466.642,PH
+PHL,the Philippines,1971,2531.363,PH
+PHL,the Philippines,1972,2575.244,PH
+PHL,the Philippines,1973,2802.032,PH
+PHL,the Philippines,1974,2802.379,PH
+PHL,the Philippines,1975,2877.11,PH
+PHL,the Philippines,1976,2990.197,PH
+PHL,the Philippines,1977,3060.254,PH
+PHL,the Philippines,1978,3154.323,PH
+PHL,the Philippines,1979,3178.671,PH
+PHL,the Philippines,1980,3361.86,PH
+PHL,the Philippines,1981,3412.09,PH
+PHL,the Philippines,1982,3435.749,PH
+PHL,the Philippines,1983,3374.042,PH
+PHL,the Philippines,1984,3132.802,PH
+PHL,the Philippines,1985,2916.336,PH
+PHL,the Philippines,1986,3012.537,PH
+PHL,the Philippines,1987,3200.914,PH
+PHL,the Philippines,1988,3445.714,PH
+PHL,the Philippines,1989,3609.165,PH
+PHL,the Philippines,1990,3766.584,PH
+PHL,the Philippines,1991,3827.25,PH
+PHL,the Philippines,1992,3910.778,PH
+PHL,the Philippines,1993,4013.904,PH
+PHL,the Philippines,1994,4356.902,PH
+PHL,the Philippines,1995,4722.17,PH
+PHL,the Philippines,1996,5046.919,PH
+PHL,the Philippines,1997,4930.292,PH
+PHL,the Philippines,1998,4719.812,PH
+PHL,the Philippines,1999,4647.271,PH
+PHL,the Philippines,2000,4629.601,PH
+PHL,the Philippines,2001,4449.6,PH
+PHL,the Philippines,2002,4378.551,PH
+PHL,the Philippines,2003,4383.644,PH
+PHL,the Philippines,2004,4416.469,PH
+PHL,the Philippines,2005,4365.831,PH
+PHL,the Philippines,2006,4602.735,PH
+PHL,the Philippines,2007,4895.852,PH
+PHL,the Philippines,2008,5125.314,PH
+PHL,the Philippines,2009,5323.146,PH
+PHL,the Philippines,2010,5789.248,PH
+PHL,the Philippines,2011,6066.969,PH
+PHL,the Philippines,2012,6484.492,PH
+PHL,the Philippines,2013,6646.544,PH
+PHL,the Philippines,2014,6852.506,PH
+PHL,the Philippines,2015,7082.621,PH
+PHL,the Philippines,2016,7432.957,PH
+PHL,the Philippines,2017,7663.489,PH
+PHL,the Philippines,2018,7937.04,PH
+PHL,the Philippines,2019,8204.646,PH
 POL,Poland,1970,5776.338,PL
 POL,Poland,1971,6155.62,PL
 POL,Poland,1972,6397,PL
@@ -7776,133 +7776,66 @@ QAT,Qatar,2016,96355.06,QA
 QAT,Qatar,2017,105430.9,QA
 QAT,Qatar,2018,110521.8,QA
 QAT,Qatar,2019,103445.1,QA
-KOR,Republic of Korea,1953,1123.516,KR
-KOR,Republic of Korea,1954,1139.205,KR
-KOR,Republic of Korea,1955,1207.689,KR
-KOR,Republic of Korea,1956,1193.718,KR
-KOR,Republic of Korea,1957,1290.1,KR
-KOR,Republic of Korea,1958,1292.544,KR
-KOR,Republic of Korea,1959,1265.461,KR
-KOR,Republic of Korea,1960,1224.791,KR
-KOR,Republic of Korea,1961,1244.782,KR
-KOR,Republic of Korea,1962,1221.296,KR
-KOR,Republic of Korea,1963,1344.165,KR
-KOR,Republic of Korea,1964,1417.747,KR
-KOR,Republic of Korea,1965,1450.551,KR
-KOR,Republic of Korea,1966,1597.782,KR
-KOR,Republic of Korea,1967,1654.125,KR
-KOR,Republic of Korea,1968,1805.931,KR
-KOR,Republic of Korea,1969,2027.734,KR
-KOR,Republic of Korea,1970,2170.31,KR
-KOR,Republic of Korea,1971,2490.29,KR
-KOR,Republic of Korea,1972,2787.59,KR
-KOR,Republic of Korea,1973,3336.185,KR
-KOR,Republic of Korea,1974,3712.506,KR
-KOR,Republic of Korea,1975,4196.172,KR
-KOR,Republic of Korea,1976,4682.486,KR
-KOR,Republic of Korea,1977,5090.603,KR
-KOR,Republic of Korea,1978,5505.577,KR
-KOR,Republic of Korea,1979,5684.734,KR
-KOR,Republic of Korea,1980,5097.109,KR
-KOR,Republic of Korea,1981,5301.839,KR
-KOR,Republic of Korea,1982,5675.148,KR
-KOR,Republic of Korea,1983,6358.875,KR
-KOR,Republic of Korea,1984,6932.796,KR
-KOR,Republic of Korea,1985,7328.637,KR
-KOR,Republic of Korea,1986,8364.808,KR
-KOR,Republic of Korea,1987,9575.659,KR
-KOR,Republic of Korea,1988,10871.39,KR
-KOR,Republic of Korea,1989,11884.34,KR
-KOR,Republic of Korea,1990,13167.79,KR
-KOR,Republic of Korea,1991,14850.79,KR
-KOR,Republic of Korea,1992,15976.66,KR
-KOR,Republic of Korea,1993,17419.78,KR
-KOR,Republic of Korea,1994,19569.62,KR
-KOR,Republic of Korea,1995,21808.13,KR
-KOR,Republic of Korea,1996,24014.04,KR
-KOR,Republic of Korea,1997,23527.63,KR
-KOR,Republic of Korea,1998,21397.09,KR
-KOR,Republic of Korea,1999,23102.23,KR
-KOR,Republic of Korea,2000,24277.97,KR
-KOR,Republic of Korea,2001,25080.5,KR
-KOR,Republic of Korea,2002,27006.85,KR
-KOR,Republic of Korea,2003,27973.93,KR
-KOR,Republic of Korea,2004,29544.69,KR
-KOR,Republic of Korea,2005,30784.4,KR
-KOR,Republic of Korea,2006,31864.24,KR
-KOR,Republic of Korea,2007,33737.06,KR
-KOR,Republic of Korea,2008,33805.94,KR
-KOR,Republic of Korea,2009,33707.65,KR
-KOR,Republic of Korea,2010,35447.38,KR
-KOR,Republic of Korea,2011,35157.02,KR
-KOR,Republic of Korea,2012,35416.77,KR
-KOR,Republic of Korea,2013,34596.42,KR
-KOR,Republic of Korea,2014,35524.63,KR
-KOR,Republic of Korea,2015,37936.63,KR
-KOR,Republic of Korea,2016,39222.52,KR
-KOR,Republic of Korea,2017,40529.96,KR
-KOR,Republic of Korea,2018,41078.39,KR
-KOR,Republic of Korea,2019,40818.61,KR
-COG,Republic of the Congo,1960,1059.281,CG
-COG,Republic of the Congo,1961,1091.247,CG
-COG,Republic of the Congo,1962,1241.303,CG
-COG,Republic of the Congo,1963,1303.563,CG
-COG,Republic of the Congo,1964,1359.821,CG
-COG,Republic of the Congo,1965,1347.757,CG
-COG,Republic of the Congo,1966,1299.586,CG
-COG,Republic of the Congo,1967,1294.751,CG
-COG,Republic of the Congo,1968,1360.339,CG
-COG,Republic of the Congo,1969,1429.413,CG
-COG,Republic of the Congo,1970,1508.486,CG
-COG,Republic of the Congo,1971,1557.631,CG
-COG,Republic of the Congo,1972,1578.904,CG
-COG,Republic of the Congo,1973,1577.074,CG
-COG,Republic of the Congo,1974,1923.349,CG
-COG,Republic of the Congo,1975,1816.448,CG
-COG,Republic of the Congo,1976,1855.953,CG
-COG,Republic of the Congo,1977,1799.725,CG
-COG,Republic of the Congo,1978,1792.438,CG
-COG,Republic of the Congo,1979,2033.749,CG
-COG,Republic of the Congo,1980,2365.787,CG
-COG,Republic of the Congo,1981,2645.146,CG
-COG,Republic of the Congo,1982,2834.123,CG
-COG,Republic of the Congo,1983,3386.886,CG
-COG,Republic of the Congo,1984,3950.052,CG
-COG,Republic of the Congo,1985,3807.383,CG
-COG,Republic of the Congo,1986,2514.158,CG
-COG,Republic of the Congo,1987,2487.354,CG
-COG,Republic of the Congo,1988,2169.573,CG
-COG,Republic of the Congo,1989,2269.521,CG
-COG,Republic of the Congo,1990,2487.088,CG
-COG,Republic of the Congo,1991,2753.673,CG
-COG,Republic of the Congo,1992,1954.551,CG
-COG,Republic of the Congo,1993,2003.096,CG
-COG,Republic of the Congo,1994,1787.371,CG
-COG,Republic of the Congo,1995,1651.825,CG
-COG,Republic of the Congo,1996,1896.766,CG
-COG,Republic of the Congo,1997,1738.834,CG
-COG,Republic of the Congo,1998,1375.212,CG
-COG,Republic of the Congo,1999,1723.89,CG
-COG,Republic of the Congo,2000,2643.416,CG
-COG,Republic of the Congo,2001,2394.116,CG
-COG,Republic of the Congo,2002,2476.13,CG
-COG,Republic of the Congo,2003,2446.467,CG
-COG,Republic of the Congo,2004,2907.913,CG
-COG,Republic of the Congo,2005,3637.878,CG
-COG,Republic of the Congo,2006,3858.883,CG
-COG,Republic of the Congo,2007,3264.422,CG
-COG,Republic of the Congo,2008,4150.601,CG
-COG,Republic of the Congo,2009,3508.993,CG
-COG,Republic of the Congo,2010,5043.941,CG
-COG,Republic of the Congo,2011,5982.664,CG
-COG,Republic of the Congo,2012,6472.111,CG
-COG,Republic of the Congo,2013,6051.883,CG
-COG,Republic of the Congo,2014,5791.601,CG
-COG,Republic of the Congo,2015,4399.634,CG
-COG,Republic of the Congo,2016,3719.986,CG
-COG,Republic of the Congo,2017,4263.324,CG
-COG,Republic of the Congo,2018,4868.148,CG
-COG,Republic of the Congo,2019,4489.285,CG
+COG,the Republic of the Congo,1960,1059.281,CG
+COG,the Republic of the Congo,1961,1091.247,CG
+COG,the Republic of the Congo,1962,1241.303,CG
+COG,the Republic of the Congo,1963,1303.563,CG
+COG,the Republic of the Congo,1964,1359.821,CG
+COG,the Republic of the Congo,1965,1347.757,CG
+COG,the Republic of the Congo,1966,1299.586,CG
+COG,the Republic of the Congo,1967,1294.751,CG
+COG,the Republic of the Congo,1968,1360.339,CG
+COG,the Republic of the Congo,1969,1429.413,CG
+COG,the Republic of the Congo,1970,1508.486,CG
+COG,the Republic of the Congo,1971,1557.631,CG
+COG,the Republic of the Congo,1972,1578.904,CG
+COG,the Republic of the Congo,1973,1577.074,CG
+COG,the Republic of the Congo,1974,1923.349,CG
+COG,the Republic of the Congo,1975,1816.448,CG
+COG,the Republic of the Congo,1976,1855.953,CG
+COG,the Republic of the Congo,1977,1799.725,CG
+COG,the Republic of the Congo,1978,1792.438,CG
+COG,the Republic of the Congo,1979,2033.749,CG
+COG,the Republic of the Congo,1980,2365.787,CG
+COG,the Republic of the Congo,1981,2645.146,CG
+COG,the Republic of the Congo,1982,2834.123,CG
+COG,the Republic of the Congo,1983,3386.886,CG
+COG,the Republic of the Congo,1984,3950.052,CG
+COG,the Republic of the Congo,1985,3807.383,CG
+COG,the Republic of the Congo,1986,2514.158,CG
+COG,the Republic of the Congo,1987,2487.354,CG
+COG,the Republic of the Congo,1988,2169.573,CG
+COG,the Republic of the Congo,1989,2269.521,CG
+COG,the Republic of the Congo,1990,2487.088,CG
+COG,the Republic of the Congo,1991,2753.673,CG
+COG,the Republic of the Congo,1992,1954.551,CG
+COG,the Republic of the Congo,1993,2003.096,CG
+COG,the Republic of the Congo,1994,1787.371,CG
+COG,the Republic of the Congo,1995,1651.825,CG
+COG,the Republic of the Congo,1996,1896.766,CG
+COG,the Republic of the Congo,1997,1738.834,CG
+COG,the Republic of the Congo,1998,1375.212,CG
+COG,the Republic of the Congo,1999,1723.89,CG
+COG,the Republic of the Congo,2000,2643.416,CG
+COG,the Republic of the Congo,2001,2394.116,CG
+COG,the Republic of the Congo,2002,2476.13,CG
+COG,the Republic of the Congo,2003,2446.467,CG
+COG,the Republic of the Congo,2004,2907.913,CG
+COG,the Republic of the Congo,2005,3637.878,CG
+COG,the Republic of the Congo,2006,3858.883,CG
+COG,the Republic of the Congo,2007,3264.422,CG
+COG,the Republic of the Congo,2008,4150.601,CG
+COG,the Republic of the Congo,2009,3508.993,CG
+COG,the Republic of the Congo,2010,5043.941,CG
+COG,the Republic of the Congo,2011,5982.664,CG
+COG,the Republic of the Congo,2012,6472.111,CG
+COG,the Republic of the Congo,2013,6051.883,CG
+COG,the Republic of the Congo,2014,5791.601,CG
+COG,the Republic of the Congo,2015,4399.634,CG
+COG,the Republic of the Congo,2016,3719.986,CG
+COG,the Republic of the Congo,2017,4263.324,CG
+COG,the Republic of the Congo,2018,4868.148,CG
+COG,the Republic of the Congo,2019,4489.285,CG
 ROU,Romania,1960,1533.654,RO
 ROU,Romania,1961,1672.747,RO
 ROU,Romania,1962,1821.606,RO
@@ -8667,6 +8600,73 @@ ZAF,South Africa,2016,12862.06,ZA
 ZAF,South Africa,2017,12946.43,ZA
 ZAF,South Africa,2018,12862.19,ZA
 ZAF,South Africa,2019,12789.65,ZA
+KOR,South Korea,1953,1123.516,KR
+KOR,South Korea,1954,1139.205,KR
+KOR,South Korea,1955,1207.689,KR
+KOR,South Korea,1956,1193.718,KR
+KOR,South Korea,1957,1290.1,KR
+KOR,South Korea,1958,1292.544,KR
+KOR,South Korea,1959,1265.461,KR
+KOR,South Korea,1960,1224.791,KR
+KOR,South Korea,1961,1244.782,KR
+KOR,South Korea,1962,1221.296,KR
+KOR,South Korea,1963,1344.165,KR
+KOR,South Korea,1964,1417.747,KR
+KOR,South Korea,1965,1450.551,KR
+KOR,South Korea,1966,1597.782,KR
+KOR,South Korea,1967,1654.125,KR
+KOR,South Korea,1968,1805.931,KR
+KOR,South Korea,1969,2027.734,KR
+KOR,South Korea,1970,2170.31,KR
+KOR,South Korea,1971,2490.29,KR
+KOR,South Korea,1972,2787.59,KR
+KOR,South Korea,1973,3336.185,KR
+KOR,South Korea,1974,3712.506,KR
+KOR,South Korea,1975,4196.172,KR
+KOR,South Korea,1976,4682.486,KR
+KOR,South Korea,1977,5090.603,KR
+KOR,South Korea,1978,5505.577,KR
+KOR,South Korea,1979,5684.734,KR
+KOR,South Korea,1980,5097.109,KR
+KOR,South Korea,1981,5301.839,KR
+KOR,South Korea,1982,5675.148,KR
+KOR,South Korea,1983,6358.875,KR
+KOR,South Korea,1984,6932.796,KR
+KOR,South Korea,1985,7328.637,KR
+KOR,South Korea,1986,8364.808,KR
+KOR,South Korea,1987,9575.659,KR
+KOR,South Korea,1988,10871.39,KR
+KOR,South Korea,1989,11884.34,KR
+KOR,South Korea,1990,13167.79,KR
+KOR,South Korea,1991,14850.79,KR
+KOR,South Korea,1992,15976.66,KR
+KOR,South Korea,1993,17419.78,KR
+KOR,South Korea,1994,19569.62,KR
+KOR,South Korea,1995,21808.13,KR
+KOR,South Korea,1996,24014.04,KR
+KOR,South Korea,1997,23527.63,KR
+KOR,South Korea,1998,21397.09,KR
+KOR,South Korea,1999,23102.23,KR
+KOR,South Korea,2000,24277.97,KR
+KOR,South Korea,2001,25080.5,KR
+KOR,South Korea,2002,27006.85,KR
+KOR,South Korea,2003,27973.93,KR
+KOR,South Korea,2004,29544.69,KR
+KOR,South Korea,2005,30784.4,KR
+KOR,South Korea,2006,31864.24,KR
+KOR,South Korea,2007,33737.06,KR
+KOR,South Korea,2008,33805.94,KR
+KOR,South Korea,2009,33707.65,KR
+KOR,South Korea,2010,35447.38,KR
+KOR,South Korea,2011,35157.02,KR
+KOR,South Korea,2012,35416.77,KR
+KOR,South Korea,2013,34596.42,KR
+KOR,South Korea,2014,35524.63,KR
+KOR,South Korea,2015,37936.63,KR
+KOR,South Korea,2016,39222.52,KR
+KOR,South Korea,2017,40529.96,KR
+KOR,South Korea,2018,41078.39,KR
+KOR,South Korea,2019,40818.61,KR
 ESP,Spain,1950,3837.43,ES
 ESP,Spain,1951,4442.641,ES
 ESP,Spain,1952,4596.66,ES
@@ -10186,56 +10186,56 @@ VEN,Venezuela,2016,2003.022,VE
 VEN,Venezuela,2017,381.1562,VE
 VEN,Venezuela,2018,378.0859,VE
 VEN,Venezuela,2019,251.3191,VE
-VNM,Viet Nam,1970,849.2976,VN
-VNM,Viet Nam,1971,860.553,VN
-VNM,Viet Nam,1972,857.2962,VN
-VNM,Viet Nam,1973,826.5414,VN
-VNM,Viet Nam,1974,828.0527,VN
-VNM,Viet Nam,1975,834.4119,VN
-VNM,Viet Nam,1976,906.499,VN
-VNM,Viet Nam,1977,1007.335,VN
-VNM,Viet Nam,1978,1003.728,VN
-VNM,Viet Nam,1979,1048.273,VN
-VNM,Viet Nam,1980,988.5811,VN
-VNM,Viet Nam,1981,1022.323,VN
-VNM,Viet Nam,1982,1080.27,VN
-VNM,Viet Nam,1983,1129.816,VN
-VNM,Viet Nam,1984,1197.698,VN
-VNM,Viet Nam,1985,1235.852,VN
-VNM,Viet Nam,1986,1246.426,VN
-VNM,Viet Nam,1987,1253.76,VN
-VNM,Viet Nam,1988,1286.449,VN
-VNM,Viet Nam,1989,1309.911,VN
-VNM,Viet Nam,1990,1365.924,VN
-VNM,Viet Nam,1991,1465.603,VN
-VNM,Viet Nam,1992,1550.871,VN
-VNM,Viet Nam,1993,1600.258,VN
-VNM,Viet Nam,1994,1657.634,VN
-VNM,Viet Nam,1995,1761.163,VN
-VNM,Viet Nam,1996,1865.365,VN
-VNM,Viet Nam,1997,1988.726,VN
-VNM,Viet Nam,1998,2075.186,VN
-VNM,Viet Nam,1999,2158.467,VN
-VNM,Viet Nam,2000,2242.737,VN
-VNM,Viet Nam,2001,2360.118,VN
-VNM,Viet Nam,2002,2491.566,VN
-VNM,Viet Nam,2003,2618.499,VN
-VNM,Viet Nam,2004,2848.98,VN
-VNM,Viet Nam,2005,3128.478,VN
-VNM,Viet Nam,2006,3354.415,VN
-VNM,Viet Nam,2007,3545.672,VN
-VNM,Viet Nam,2008,3786.887,VN
-VNM,Viet Nam,2009,3960.99,VN
-VNM,Viet Nam,2010,4447.861,VN
-VNM,Viet Nam,2011,4777.294,VN
-VNM,Viet Nam,2012,5253.378,VN
-VNM,Viet Nam,2013,5410.639,VN
-VNM,Viet Nam,2014,5708.329,VN
-VNM,Viet Nam,2015,6062.138,VN
-VNM,Viet Nam,2016,6426.365,VN
-VNM,Viet Nam,2017,6907.044,VN
-VNM,Viet Nam,2018,7384.439,VN
-VNM,Viet Nam,2019,7782.608,VN
+VNM,Vietnam,1970,849.2976,VN
+VNM,Vietnam,1971,860.553,VN
+VNM,Vietnam,1972,857.2962,VN
+VNM,Vietnam,1973,826.5414,VN
+VNM,Vietnam,1974,828.0527,VN
+VNM,Vietnam,1975,834.4119,VN
+VNM,Vietnam,1976,906.499,VN
+VNM,Vietnam,1977,1007.335,VN
+VNM,Vietnam,1978,1003.728,VN
+VNM,Vietnam,1979,1048.273,VN
+VNM,Vietnam,1980,988.5811,VN
+VNM,Vietnam,1981,1022.323,VN
+VNM,Vietnam,1982,1080.27,VN
+VNM,Vietnam,1983,1129.816,VN
+VNM,Vietnam,1984,1197.698,VN
+VNM,Vietnam,1985,1235.852,VN
+VNM,Vietnam,1986,1246.426,VN
+VNM,Vietnam,1987,1253.76,VN
+VNM,Vietnam,1988,1286.449,VN
+VNM,Vietnam,1989,1309.911,VN
+VNM,Vietnam,1990,1365.924,VN
+VNM,Vietnam,1991,1465.603,VN
+VNM,Vietnam,1992,1550.871,VN
+VNM,Vietnam,1993,1600.258,VN
+VNM,Vietnam,1994,1657.634,VN
+VNM,Vietnam,1995,1761.163,VN
+VNM,Vietnam,1996,1865.365,VN
+VNM,Vietnam,1997,1988.726,VN
+VNM,Vietnam,1998,2075.186,VN
+VNM,Vietnam,1999,2158.467,VN
+VNM,Vietnam,2000,2242.737,VN
+VNM,Vietnam,2001,2360.118,VN
+VNM,Vietnam,2002,2491.566,VN
+VNM,Vietnam,2003,2618.499,VN
+VNM,Vietnam,2004,2848.98,VN
+VNM,Vietnam,2005,3128.478,VN
+VNM,Vietnam,2006,3354.415,VN
+VNM,Vietnam,2007,3545.672,VN
+VNM,Vietnam,2008,3786.887,VN
+VNM,Vietnam,2009,3960.99,VN
+VNM,Vietnam,2010,4447.861,VN
+VNM,Vietnam,2011,4777.294,VN
+VNM,Vietnam,2012,5253.378,VN
+VNM,Vietnam,2013,5410.639,VN
+VNM,Vietnam,2014,5708.329,VN
+VNM,Vietnam,2015,6062.138,VN
+VNM,Vietnam,2016,6426.365,VN
+VNM,Vietnam,2017,6907.044,VN
+VNM,Vietnam,2018,7384.439,VN
+VNM,Vietnam,2019,7782.608,VN
 YEM,Yemen,1989,671.5169,YE
 YEM,Yemen,1990,779.7206,YE
 YEM,Yemen,1991,725.0543,YE
