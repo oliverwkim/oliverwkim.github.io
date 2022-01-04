@@ -43,7 +43,7 @@ function getFlagEmoji(countryCode) {
   return String.fromCodePoint(...codePoints);
 }
 
-var margin = {top: 20, right: 250, bottom: 30, left: 120},
+var margin = {top: 20, right: 250, bottom: 60, left: 120},
     width = 1150 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -140,6 +140,14 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("dy", ".75em")
         .style("font-size", "20px")
         .text("Real GDP per capita (2017 US$)");
+
+    svg.append("text")
+        .attr("class", "y label")
+        .attr("text-anchor", "end")
+        .attr("y", height + 50)
+        .attr("x", width)
+        .style("font-size", "16px")
+        .text("Data current as of 2019. Source: PWT v10.");
 
     // Initialize line
     var line = svg
