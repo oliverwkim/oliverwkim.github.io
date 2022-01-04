@@ -19,17 +19,16 @@ function numberWithCommas(num) {
 }
 
 
-function updateProjection(lastGDP, lastGDPCatchup, growthRate){
-  var growthRateText = Math.round(+growthRate * 100 * 10 ) / 10
+function updateProjection(lastGDP, lastGDPCatchup, yearsCatchup){
 
-  if (growthRate < 0 && +lastGDP < +lastGDPCatchup) {
-      d3.select("#projection").html("Never at current rates. ")
+  if (yearsCatchup < 0 && +lastGDP < +lastGDPCatchup) {
+      d3.select("#projection").html("Never. ")
   } 
   else if (+lastGDP >= +lastGDPCatchup) {
       d3.select("#projection").html("Already richer. ")
   }
   else {
-    d3.select("#projection").html("<strong>" + Math.round(calculateYears(lastGDP, lastGDPCatchup, growthRate)) + "</strong> years")
+    d3.select("#projection").html("<strong>" + Math.round(yearsCatchup) + "</strong> years")
   }
 }
 
@@ -93,20 +92,18 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
     growthRates = [growth10yr, growthAll, 0.07];
 
-    updateProjection(GDPlast, lastGDPCatchup, growth10yr)
+    yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growth10yr)
+
+    updateProjection(GDPlast, lastGDPCatchup, yearsCatchup)
     makeButtons(selectedCountry, catchupCountry, 'recent 10-year growth rates');
     updateButtons();
 
     // A color scale: one color for each group
-    var myColor = d3.scaleOrdinal()
-      .domain(countries)
-      .range(d3.schemeSet2);
-
     svg.style("font", "30px 'Lato', sans-serif");
 
     // Add X axis
     var x = d3.scaleLinear()
-      .domain([1950,2020])
+      .domain([1950, 2020])
       .range([ 0, width ]);
 
     svg.append("g")
@@ -142,9 +139,10 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           .x(function(d) { return x(+d.year) })
           .y(function(d) { return y(+d.rgdpe_pc) })
         )
-        .attr("stroke", function(d){ return myColor(selectedCountry) })
+        .attr("stroke", "#DC2828")
         .style("stroke-width", 4)
         .style("fill", "none");
+
 
     y1 = 100;
     x1 = yearlast - 10 * Math.log( GDPlast / 100 ) / Math.log(GDPlast / GDP10yr)
@@ -220,6 +218,13 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       var growthAll   = calculateRate(GDPfirst, GDPlast, yearlast - yearfirst)
 
       growthRates = [growth10yr, growthAll, 0.07];
+      growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
+
+      yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growthRateNum)
+      console.log(GDPlast)
+      console.log(lastGDPCatchup)
+      console.log(growthRate)
+      console.log(yearsCatchup)
 
       // Give these new data to update line
       line
@@ -231,7 +236,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
             .x(function(d) { return x(d.year) })
             .y(function(d) { return y(d.rgdpe_pc) })
           )
-          .attr("stroke", function(d){ return myColor(selectedCountry) })
+          .attr("stroke", "#DC2828")
 
       switch(growthRate){
         case "recent 10-year growth rates":
@@ -262,7 +267,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("y1", y(y1) )
         .attr("x2", x(yearlast))
         .attr("y2", y(GDPlast) ); 
-        growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
 
         // target line 
       targetline
@@ -298,10 +302,16 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           .style("fill", "gray")
           .attr("dy", "0em")
           .html(Math.round(growthRateNum * 100) + "%/yr" )
+              // Add X axis
 
+      x.domain([yearfirst, 2020]);
+
+      svg.select("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d"))).attr("class", "axis");
 
       // update everything
-      updateProjection(GDPlast, lastGDPCatchup, growthRateNum);
+      updateProjection(GDPlast, lastGDPCatchup, yearsCatchup);
       //makeButtons(selectedCountry, catchupCountry, growthRate);
       updateButtons();
     }
