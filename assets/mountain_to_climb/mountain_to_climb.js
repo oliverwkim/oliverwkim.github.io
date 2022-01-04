@@ -268,7 +268,9 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           trendlineStartYear = startYear;
         break;
 
-        case getFlagEmoji('CN') + " Chinese miracle growth rates":
+        case getFlagEmoji('DE') + ' German miracle rates (1950-73)':
+        case getFlagEmoji('CN') + ' Chinese miracle rates (1978-2012)':
+        case getFlagEmoji('JP') + ' Japanese miracle rates (1950-73)':
           startYear = yearMinus10;
           y1 = GDPlast;
 
