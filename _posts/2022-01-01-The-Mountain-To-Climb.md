@@ -25,7 +25,7 @@ The figures lay bare the harsh logic of compounding economic growth, and the sta
 
 * At its average historical growth rate, it will take over **400 years** for <button value="Guinea-Bissau" id="example">🇬🇼 Guinea-Bissau</button> to reach the 2019 GDP per capita of its former colonizer Portugal.
 
-* At its average historical growth rate, it will take **2,572 years** for GDP per capita in <button value="Senegal" id="example">🇸🇳 Senegal</button> to reach France's 2019 level. 
+* At its average historical growth rate, it will take **2,572 years** for GDP per capita in <button value="Senegal" id="example">🇸🇳 Senegal</button> to reach its colonizer France's 2019 level. 
 
 * Even at a spectacular Chinese rate of growth (5%/year), the <button value="the D.R. Congo" id="example">🇨🇩 Democratic Republic of the Congo</button> will take **85 years** to reach current income levels in the United States.
 
