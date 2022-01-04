@@ -55,10 +55,10 @@ var svg = d3.select("#forecasts")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-
-
-
-
+var TaiwaneseMiracle = 0.051376746 // 1951-2019
+var GermanMiracle = 0.057242325 // 1950-1973
+var ChineseMiracle = 0.067037168 // 1978-2012
+var JapaneseMiracle = 0.079924659 // 1950-1973
 
 
 d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
@@ -97,9 +97,15 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
     growthOptions = ['recent 10-year growth rates', 
                      'average historical growth rates',
-                      getFlagEmoji('CN') + ' Chinese miracle growth rates'];
+                      getFlagEmoji('DE') ' German miracle rates (1950-73)',
+                      getFlagEmoji('CN') + ' Chinese miracle rates (1978-2012)',
+                      getFlagEmoji('JP') + ' Japanese miracle rates (1950-73)'];
 
-    growthRates = [growth10yr, growthAll, 0.05];
+    growthRates = [growth10yr, 
+                    growthAll, 
+                    GermanMiracle, 
+                    ChineseMiracle, 
+                    JapaneseMiracle];
 
     yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growth10yr)
 
@@ -241,7 +247,13 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
       var growthAll   = calculateRate(GDPfirst, GDPlast, yearlast - yearfirst)
 
-      growthRates = [growth10yr, growthAll, 0.05];
+
+      growthRates = [growth10yr, 
+                      growthAll, 
+                      GermanMiracle, 
+                      ChineseMiracle, 
+                      JapaneseMiracle];
+                    
       growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
 
       yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growthRateNum)
