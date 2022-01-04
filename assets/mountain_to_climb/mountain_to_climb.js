@@ -14,6 +14,11 @@ function round2Digit (num){
   return Math.round(num * 100 ) / 100
 }
 
+function numberWithCommas(num) {
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
+
 function updateProjection(lastGDP, lastGDPCatchup, growthRate){
   var growthRateText = Math.round(+growthRate * 100 * 10 ) / 10
 
@@ -68,7 +73,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     });
 
     // grab most recent GDP value
-    var GDP30yr  = +selectedCountryGDP[selectedCountryGDP.length - 31].rgdpe_pc
     var GDP10yr  = +selectedCountryGDP[selectedCountryGDP.length - 11].rgdpe_pc
 
     var GDPfirst   = +selectedCountryGDP[0].rgdpe_pc
@@ -118,6 +122,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .call(d3.axisLeft(y).tickFormat(function (d) {
         return y.tickFormat(4, d3.format(",d"))(d) })).attr("class", "axis");
 
+    // axis label
     svg.append("text")
         .attr("class", "y label")
         .attr("text-anchor", "end")
@@ -169,14 +174,14 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("font-size", "16px")
         .style("fill", "gray")
         .attr("dy", "0em")
-        .text(catchupCountry + ": $" + round2Digit(lastGDPCatchup))
+        .text(catchupCountry + ": $" + numberWithCommas(Math.round(lastGDPCatchup)))
 
     var GDPlabel = svg.append("text")
         .attr("x", x(yearlast) + 10)
         .attr("y", y(GDPlast) + 5)       
         .style("font-size", "16px")
         .attr("dy", "0em")
-        .html("$" + round2Digit(GDPlast))
+        .html("$" + numberWithCommas(Math.round(GDPlast)))
 
     var growthLabel = svg.append("text")
         .attr("x", x(yearlast) + 10)
@@ -212,7 +217,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       var lastGDPCatchup = +catchupCountryGDP[catchupCountryGDP.length - 1].rgdpe_pc
 
       var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
-      var growth30yr   = calculateRate(GDP30yr, GDPlast, 30)
       var growthAll   = calculateRate(GDPfirst, GDPlast, yearlast - yearfirst)
 
       growthRates = [growth10yr, growthAll, 0.07];
@@ -278,14 +282,14 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("font-size", "16px")
         .style("fill", "gray")
         .attr("dy", "0em")
-        .text(catchupCountry + ": $" + round2Digit(lastGDPCatchup))
+        .text(catchupCountry + ": $" + numberWithCommas(Math.round(lastGDPCatchup)))
 
       GDPlabel
           .attr("x", x(yearlast) + 10)
           .attr("y", y(GDPlast) + 5)       
           .style("font-size", "16px")
           .attr("dy", "0em")
-          .html("$" + round2Digit(GDPlast))
+          .html("$" + numberWithCommas(Math.round(GDPlast)))
 
       growthLabel
           .attr("x", x(yearlast) + 10)
