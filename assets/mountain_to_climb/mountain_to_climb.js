@@ -272,6 +272,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       else {
           trendlineStartYear = catchupPoint
           y1 = lastGDPCatchup
+          catchupPoint = 0
       }
 
       x.domain([startYear, catchupPoint]);
