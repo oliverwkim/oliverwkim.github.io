@@ -44,9 +44,9 @@ select {
 	background-color: transparent;
 	border: 0;
 	border-bottom:  1px dotted black;
-	font:  1rem et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font:  1.4rem et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	text-align: center;
-  cursor: pointer;
+  	cursor: pointer;
 
 }
 
