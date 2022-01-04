@@ -67,7 +67,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     flags = d3.map(data, function(d){return getFlagEmoji(d.iso2c);}).keys()
 
     var selectedCountry = "Kenya"
-    var catchupCountry = "United States"
+    var catchupCountry = "the United States"
 
     selectedCountryGDP = data.filter(function(row){ 
         return row.country == selectedCountry;
