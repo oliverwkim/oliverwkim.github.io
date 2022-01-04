@@ -56,5 +56,6 @@ select {
 
 #example:hover {
 	border-bottom:  1px dotted red;
+	color:  red;
 	font-weight: bold;
 }
