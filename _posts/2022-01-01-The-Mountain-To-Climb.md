@@ -27,7 +27,7 @@ The figures lay bare the harsh logic of compounding economic growth, and the sta
 
 * Even at a spectacular Chinese rate of growth (5%/year), the <button value="the D.R. Congo" id="example">🇨🇩 Democratic Republic of the Congo</button> will take 85 years to reach current income levels in the United States.
 
-* If it continues growing at its present rate, <button value="China" id="example">🇨🇳 China</button> will achieve current US income levels sooner than <button value="Japan" id="example">🇯🇵 Japan</button> (35 years vs 80).
+* At its present rate, <button value="China" id="example">🇨🇳 China</button> will achieve current US income levels in 35 years--sooner than <button value="Japan" id="example">🇯🇵 Japan</button>, which will take 80.
 
 This data is current as of 2019. It does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid). 
 
