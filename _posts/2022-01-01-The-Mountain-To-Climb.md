@@ -25,9 +25,9 @@ Some stark examples:
 
 * Even at a spectacular Chinese rate of growth, the Democratic Republic of the Congo will take 
 
-* It will take over a thousand years for Guinea-Bissau to reach the 2019 GDP per capita of its former colonizer Portugal at its current rate of progress.
+* At its average historical growth rate, it will take over 300 years for Guinea-Bissau to reach the 2019 GDP per capita of its former colonizer Portugal.
 
-* Even with 
+* 
 
 This data is current as of 2019; it does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid).
 

@@ -155,12 +155,37 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .attr("x2", x(yearlast))
       .attr("y2", y(GDPlast) ); 
 
+    var targetline = svg.append('line')
+        .style("stroke", "gray")
+        .style("stroke-width", 2)
+        .style("stroke-dasharray", ("3, 3"))
+        .attr("x1", x(1950) )
+        .attr("y1", y(lastGDPCatchup) )
+        .attr("x2", x(yearlast))
+        .attr("y2", y(lastGDPCatchup) ); 
+
+    var targetlabel = svg.append("text")
+        .attr("x", x(1950) + 10)
+        .attr("y", y(lastGDPCatchup) -10)       
+        .style("font-size", "16px")
+        .style("fill", "gray")
+        .attr("dy", "0em")
+        .text(catchupCountry + ": $" + round2Digit(lastGDPCatchup))
+
     var GDPlabel = svg.append("text")
         .attr("x", x(yearlast) + 10)
         .attr("y", y(GDPlast) + 5)       
         .style("font-size", "16px")
         .attr("dy", "0em")
         .html("$" + round2Digit(GDPlast))
+
+    var growthLabel = svg.append("text")
+        .attr("x", x(yearlast) + 10)
+        .attr("y", y(GDPlast) + 25)       
+        .style("font-size", "16px")
+        .attr("dy", "0em")
+        .style("fill", "gray")
+        .html(Math.round(growth10yr * 100) + "%/yr" )
 
 
 
@@ -224,7 +249,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
       }
 
-
       // trend line
       trendline
         .transition()
@@ -237,12 +261,41 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("y2", y(GDPlast) ); 
         growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
 
+        // target line 
+      targetline
+        .transition()
+        .style("stroke", "gray")
+        .style("stroke-width", 2)
+        .style("stroke-dasharray", ("3, 3"))
+        .attr("x1", x(1950) )
+        .attr("y1", y(lastGDPCatchup) )
+        .attr("x2", x(yearlast))
+        .attr("y2", y(lastGDPCatchup) ); 
+
+      targetlabel
+        .transition()
+        .attr("x", x(1950) + 10)
+        .attr("y", y(lastGDPCatchup) -10)       
+        .style("font-size", "16px")
+        .style("fill", "gray")
+        .attr("dy", "0em")
+        .text(catchupCountry + ": $" + round2Digit(lastGDPCatchup))
+
       GDPlabel
           .attr("x", x(yearlast) + 10)
           .attr("y", y(GDPlast) + 5)       
           .style("font-size", "16px")
           .attr("dy", "0em")
           .html("$" + round2Digit(GDPlast))
+
+      growthLabel
+          .attr("x", x(yearlast) + 10)
+          .attr("y", y(GDPlast) + 25)       
+          .style("font-size", "16px")
+          .style("fill", "gray")
+          .attr("dy", "0em")
+          .html(Math.round(growthRateNum * 100) + "%/yr" )
+
 
       // update everything
       updateProjection(GDPlast, lastGDPCatchup, growthRateNum);
