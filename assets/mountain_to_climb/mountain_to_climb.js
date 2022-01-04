@@ -42,7 +42,7 @@ function getFlagEmoji(countryCode) {
 
 var margin = {top: 20, right: 250, bottom: 30, left: 120},
     width = 1150 - margin.left - margin.right,
-    height = 650 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom;
 
 var svg = d3.select("#forecasts")
   .append("svg")
@@ -236,12 +236,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growthRateNum)
       updateProjection(GDPlast, lastGDPCatchup, yearsCatchup);
 
-      if(yearsCatchup > 0){
-          catchupPoint = yearsCatchup + yearlast
-      }
-      else {
-          catchupPoint = 2030
-      }
 
       // Give these new data to update line
       switch(growthRate){
@@ -269,6 +263,14 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
       }
 
+      if(yearsCatchup > 0){
+          catchupPoint = yearsCatchup + yearlast
+      }
+      else {
+          trendlineStartYear = catchupPoint
+          y1 = lastGDPCatchup
+      }
+
       x.domain([startYear, catchupPoint]);
 
       line
@@ -281,7 +283,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
             .y(function(d) { return y(d.rgdpe_pc) })
           )
           .attr("stroke", "#DC2828")
-
 
       // trend line
       trendline
