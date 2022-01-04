@@ -111,7 +111,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).tickFormat(d3.format("d")).ticks(5)).attr("class", "axis");
+      .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d"))).attr("class", "axis");
 
     // Add Y axis
     var y = d3.scaleLog()
@@ -130,7 +130,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("y", -margin.left + 10)
         .attr("x", -margin.top + 30)
         .attr("dy", ".75em")
-        .style("font-size", "16px")
+        .style("font-size", "20px")
         .text("Real GDP per capita (2017 US$)");
 
     // Initialize line
