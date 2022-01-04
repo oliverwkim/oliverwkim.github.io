@@ -139,7 +139,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("x", -margin.top + 30)
         .attr("dy", ".75em")
         .style("font-size", "20px")
-        .text("Real GDP per capita (2017 US$)");
+        .text("Real GDP per capita, PPP-adj. (2017 US$)");
 
     svg.append("text")
         .attr("class", "y label")
@@ -432,6 +432,11 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
               case "Japan":
                 var catchupCountry = "the United States"
                 var growthRate = 'recent 10-year growth rates'
+              break;
+
+              case "Senegal":
+                var catchupCountry = "France"
+                var growthRate = "average historical growth rates"
               break;
             }
 
