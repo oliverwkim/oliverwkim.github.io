@@ -23,13 +23,13 @@ As we enter a new year, it's worth thinking about the problem of economic growth
 
 The figures lay bare the harsh logic of compounding economic growth, and the staggering levels of inequality between countries. Some stark examples:
 
-* At its average historical growth rate, it will take over *400 years* for <button value="Guinea-Bissau" id="example">🇬🇼 Guinea-Bissau</button> to reach the 2019 GDP per capita of its former colonizer Portugal.
+* At its average historical growth rate, it will take over **400 years** for <button value="Guinea-Bissau" id="example">🇬🇼 Guinea-Bissau</button> to reach the 2019 GDP per capita of its former colonizer Portugal.
 
-* At its average historical growth rate, it will take *2,572 years* for GDP per capita in <button value="Senegal" id="example">🇸🇳 Senegal</button> to reach France's 2019 level. 
+* At its average historical growth rate, it will take **2,572 years** for GDP per capita in <button value="Senegal" id="example">🇸🇳 Senegal</button> to reach France's 2019 level. 
 
-* Even at a spectacular Chinese rate of growth (5%/year), the <button value="the D.R. Congo" id="example">🇨🇩 Democratic Republic of the Congo</button> will take *85 years* to reach current income levels in the United States.
+* Even at a spectacular Chinese rate of growth (5%/year), the <button value="the D.R. Congo" id="example">🇨🇩 Democratic Republic of the Congo</button> will take **85 years** to reach current income levels in the United States.
 
-* At its present rate, <button value="China" id="example">🇨🇳 China</button> will achieve current US income levels in *35 years*--sooner than <button value="Japan" id="example">🇯🇵 Japan</button>, which will take *80 years*.
+* At its present rate, <button value="China" id="example">🇨🇳 China</button> will achieve current US income levels in **35 years**--sooner than <button value="Japan" id="example">🇯🇵 Japan</button>, which will take **80 years**.
 
 This data is current as of 2019. It does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid). 
 
