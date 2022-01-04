@@ -27,7 +27,7 @@ The figures lay bare the harsh logic of compounding economic growth, and the sta
 
 * At its average historical growth rate, it will take **2,572 years** for GDP per capita in <button value="Senegal" id="example">🇸🇳 Senegal</button> to reach its colonizer France's 2019 level. 
 
-* Even at a spectacular Chinese rate of growth (5%/year), the <button value="the D.R. Congo" id="example">🇨🇩 Democratic Republic of the Congo</button> will take **85 years** to reach current income levels in the United States.
+* Even at a spectacular Chinese rate of growth (7%/year), the <button value="the D.R. Congo" id="example">🇨🇩 Democratic Republic of the Congo</button> will take **85 years** to reach current income levels in the United States.
 
 * At its present rate, <button value="China" id="example">🇨🇳 China</button> will achieve current US income levels in **35 years**--sooner than <button value="Japan" id="example">🇯🇵 Japan</button>, which will take **80 years**.
 
