@@ -10,6 +10,10 @@ function calculateYears (start, end, rate){
   return Math.log(end / start) / Math.log(1 + rate)
 }
 
+function round2Digit (num){
+  return Math.round(num * 100 ) / 100
+}
+
 function updateProjection(lastGDP, lastGDPCatchup, growthRate){
   var growthRateText = Math.round(+growthRate * 100 * 10 ) / 10
 
@@ -32,9 +36,9 @@ function getFlagEmoji(countryCode) {
   return String.fromCodePoint(...codePoints);
 }
 
-var margin = {top: 10, right: 100, bottom: 30, left: 120},
-    width = 1000 - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
+var margin = {top: 50, right: 250, bottom: 30, left: 120},
+    width = 1150 - margin.left - margin.right,
+    height = 650 - margin.top - margin.bottom;
 
 var svg = d3.select("#forecasts")
   .append("svg")
@@ -151,7 +155,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       .attr("x2", x(yearlast))
       .attr("y2", y(GDPlast) ); 
 
-
+    var GDPlabel = svg.append("text")
+        .attr("x", x(yearlast) + 10)
+        .attr("y", y(GDPlast) + 5)       
+        .style("font-size", "16px")
+        .attr("dy", "0em")
+        .html("$" + round2Digit(GDPlast))
 
 
 
@@ -201,7 +210,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           y1 = 100;
           x1 = yearlast - 10 * Math.log( GDPlast / 100 ) / Math.log(GDPlast / GDP10yr);
 
-          if (x1 <= 1950){
+          if (x1 <= 1950 || x1 > 2020 ){
             x1 = 1950;
             y1 = GDPlast / Math.pow(GDPlast / GDP10yr, (yearlast - 1950) / 10);
           }
@@ -227,6 +236,13 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("x2", x(yearlast))
         .attr("y2", y(GDPlast) ); 
         growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
+
+      GDPlabel
+          .attr("x", x(yearlast) + 10)
+          .attr("y", y(GDPlast) + 5)       
+          .style("font-size", "16px")
+          .attr("dy", "0em")
+          .html("$" + round2Digit(GDPlast))
 
       // update everything
       updateProjection(GDPlast, lastGDPCatchup, growthRateNum);
