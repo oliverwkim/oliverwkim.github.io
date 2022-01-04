@@ -356,7 +356,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
             var selectedOption  = d3.select(this).property("value")
 
             switch(selectedOption){
-              case "D.R. Congo":
+              case "the D.R. Congo":
                 var catchupCountry = "United States"
                 var growthRate =  getFlagEmoji('CN') + ' Chinese miracle growth rates'
               break;
