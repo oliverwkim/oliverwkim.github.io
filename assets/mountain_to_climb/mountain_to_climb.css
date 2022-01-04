@@ -55,6 +55,6 @@ select {
 }
 
 #example:hover {
-	border-bottom:  1px dotted red;
-	color:  red;
+	border-bottom:  1px dotted rgb(220, 40, 40);
+	color:  rgb(220, 40, 40);
 }

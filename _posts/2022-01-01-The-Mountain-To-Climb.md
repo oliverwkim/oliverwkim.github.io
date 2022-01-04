@@ -35,9 +35,10 @@ Economic growth is not everything. The economic needs of human beings need to be
 
 In some sense, then, this exercise is agnostic. It shows us, based on historical experience, how long it would take to bring the incomes of current developing countries to the level of those enjoyed in the rich world. It does not say which policies to enact, or even if these projected paths of growth are desirable. It is then up to us--or, more correctly, the people living in these developing countries--to decide what paths align most with their values.
 
-Unacceptable.
 
-_Source: Penn World Tables v10. Version 0.5._
+Real GDP per capita is expenditure-side real GDP at chained PPPs (2017 US$), divided by population, using underlying data from the Penn World Tables, version 10.0: _Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next Generation of the Penn World Table" American Economic Review, 105(10), 3150-3182, available for download at [www.ggdc.net/pwt](www.ggdc.net/pwt)_
+
+_Version 0.7. [Comments and suggestions](https://twitter.com/oliverwkim) welcome._
 
 <script src="http://d3js.org/d3.v4.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
