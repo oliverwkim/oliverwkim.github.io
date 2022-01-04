@@ -99,7 +99,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
                      'average historical growth rates',
                       getFlagEmoji('CN') + ' Chinese miracle growth rates'];
 
-    growthRates = [growth10yr, growthAll, 0.07];
+    growthRates = [growth10yr, growthAll, 0.05];
 
     yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growth10yr)
 
@@ -233,7 +233,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       var growth10yr   = calculateRate(GDP10yr, GDPlast, 10)
       var growthAll   = calculateRate(GDPfirst, GDPlast, yearlast - yearfirst)
 
-      growthRates = [growth10yr, growthAll, 0.07];
+      growthRates = [growth10yr, growthAll, 0.05];
       growthRateNum = growthRates[growthOptions.indexOf(growthRate)]
 
       yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growthRateNum)
