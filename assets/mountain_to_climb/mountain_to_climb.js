@@ -403,7 +403,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
             switch(selectedOption){
               case "the D.R. Congo":
-                var catchupCountry = "United States"
+                var catchupCountry = "the United States"
                 var growthRate =  getFlagEmoji('CN') + ' Chinese miracle growth rates'
               break;
 
@@ -413,12 +413,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
               break;
 
               case "China":
-                var catchupCountry = "United States"
+                var catchupCountry = "the United States"
                 var growthRate = 'recent 10-year growth rates'
               break;
 
               case "Japan":
-                var catchupCountry = "United States"
+                var catchupCountry = "the United States"
                 var growthRate = 'recent 10-year growth rates'
               break;
             }
