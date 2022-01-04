@@ -267,6 +267,17 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           startYear = yearMinus10;
           y1 = GDP10yr;
           trendlineStartYear = startYear;
+
+          startGDP = GDP10yr;
+        break;
+
+        case "average historical growth rates":
+          x1 = yearfirst;
+          y1 = GDPfirst;
+
+          startYear = yearfirst;
+          trendlineStartYear = startYear;
+          startGDP = GDPfirst;
         break;
 
         case getFlagEmoji('DE') + ' German miracle rates (1950-73)':
@@ -279,13 +290,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
         break;
 
-        case "average historical growth rates":
-          x1 = yearfirst;
-          y1 = GDPfirst;
-
-          startYear = yearfirst;
-          trendlineStartYear = startYear;
-        break;
 
       }
 
@@ -293,9 +297,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           catchupPoint = yearsCatchup + yearlast
       }
       else {
-          trendlineStartYear = catchupPoint
-          y1 = lastGDPCatchup
-          catchupPoint = 0
+          catchupPoint = 2030
       }
 
       x.domain([startYear, catchupPoint]);
@@ -312,15 +314,35 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           .attr("stroke", "#DC2828")
 
       // trend line
-      trendline
+      if(yearsCatchup > 0){
+        trendline
         .transition()
         .style("stroke", "lightgray")
         .style("stroke-width", 2)
         .style("stroke-dasharray", ("3, 3"))
+        .style("opacity", 1)
         .attr("x1", x(trendlineStartYear) )
         .attr("y1", y(y1) )
         .attr("x2", x(catchupPoint))
         .attr("y2", y(lastGDPCatchup) ); 
+      }
+      else if (growthRate != "recent 10-year growth rates" && growthRate != "average historical growth rates"){
+        trendline.style('opacity', 0);
+      }
+      else {
+        trendline
+        .transition()
+        .style("stroke", "lightgray")
+        .style("stroke-width", 2)
+        .style("stroke-dasharray", ("3, 3"))
+        .style("opacity", 1)
+        .attr("x1", x(trendlineStartYear) )
+        .attr("y1", y(startGDP) )
+        .attr("x2", x(yearlast))
+        .attr("y2", y(GDPlast) ); 
+      }
+
+
 
         // target line 
       targetline
