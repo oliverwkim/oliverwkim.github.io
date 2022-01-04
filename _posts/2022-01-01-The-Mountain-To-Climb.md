@@ -19,15 +19,15 @@ excerpt: At current growth rates, how long will it take for developing countries
 <div style="clear: both; margin-bottom: 2em;"></div>
 <div id="forecasts"></div>
 
-As we enter a new year, it's worth thinking about the problem of economic growth, particularly for the hundreds of millions who still live in [extreme poverty](https://ourworldindata.org/extreme-poverty). This tool , and 
+As we enter a new year, it's worth thinking about the problem of economic growth, particularly for the hundreds of millions who still live in [extreme poverty](https://ourworldindata.org/extreme-poverty). With this tool, you can easily calculate.
 
-Some stark examples:
+The . Some stark examples:
 
-* Even at a spectacular Chinese rate of growth, the Democratic Republic of the Congo will take 
+* Even at a spectacular Chinese rate of growth, the Democratic Republic of the Congo will take 61 years to reach current income levels in the United States.
 
 * At its average historical growth rate, it will take over 300 years for Guinea-Bissau to reach the 2019 GDP per capita of its former colonizer Portugal.
 
-* 
+* If it continues growing at its present rate, China will achieve current US income levels sooner than Japan (35 years vs 80).
 
 This data is current as of 2019; it does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid).
 

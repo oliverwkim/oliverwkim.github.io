@@ -36,7 +36,7 @@ function getFlagEmoji(countryCode) {
   return String.fromCodePoint(...codePoints);
 }
 
-var margin = {top: 50, right: 250, bottom: 30, left: 120},
+var margin = {top: 20, right: 250, bottom: 30, left: 120},
     width = 1150 - margin.left - margin.right,
     height = 650 - margin.top - margin.bottom;
 
