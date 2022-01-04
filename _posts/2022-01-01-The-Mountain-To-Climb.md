@@ -9,9 +9,9 @@ excerpt: At current growth rates, how long will it take for developing countries
 
 <div id="toolbar">
 <div id="interface">
-	At <select id = "growthRates" ></select>, 
-	how long will it take for <select id="selectCountry"></select> 
-	to reach current GDP per capita in
+	At <select id = "growthRates" ></select>, when <br />
+	will <select id="selectCountry"></select> 
+	reach 2019 GDP per capita in
 	<select id="catchupCountry"></select>?
 </div>
 <div id="projection"></div>
