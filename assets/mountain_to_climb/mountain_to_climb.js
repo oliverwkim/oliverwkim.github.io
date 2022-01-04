@@ -122,12 +122,11 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("class", "y label")
         .attr("text-anchor", "end")
         .attr("transform", "rotate(-90)")
-        .attr("y", -margin.left + 20)
-        .attr("x", -margin.top + 20)
+        .attr("y", -margin.left + 10)
+        .attr("x", -margin.top + 30)
         .attr("dy", ".75em")
         .style("font-size", "16px")
         .text("Real GDP per capita (2017 US$)");
-
 
     // Initialize line
     var line = svg
@@ -335,7 +334,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
 
     function updateButtons (){
-
         // When the button is changed, run the updateChart function
         d3.selectAll("#selectCountry, #catchupCountry, #growthRates").on("change", function(d) {
 
@@ -347,6 +345,40 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
             // run the updateChart function with this selected option
             update(selectedOption, catchupCountry, growthRate)
         });
+
+        d3.selectAll("#example").on("click", function(d) {
+
+            // recover the options that have been chosen
+            var selectedOption  = d3.select(this).property("value")
+
+            switch(selectedOption){
+              case "D.R. Congo":
+                var catchupCountry = "United States"
+                var growthRate =  getFlagEmoji('CN') + ' Chinese miracle growth rates'
+              break;
+
+              case "Guinea-Bissau":
+                var catchupCountry = "Portugal"
+                var growthRate = "average historical growth rates"
+              break;
+
+              case "China":
+                var catchupCountry = "United States"
+                var growthRate = 'recent 10-year growth rates'
+              break;
+
+              case "Japan":
+                var catchupCountry = "United States"
+                var growthRate = 'recent 10-year growth rates'
+              break;
+            }
+
+            update(selectedOption, catchupCountry, growthRate)
+            makeButtons(selectedOption, catchupCountry, growthRate);
+
+        });
+
+
 
     }
 

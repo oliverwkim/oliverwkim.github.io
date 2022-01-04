@@ -23,11 +23,11 @@ As we enter a new year, it's worth thinking about the problem of economic growth
 
 The . Some stark examples:
 
-* Even at a spectacular Chinese rate of growth, the Democratic Republic of the Congo will take 61 years to reach current income levels in the United States.
+* Even at a spectacular Chinese rate of growth, the <button value="D.R. Congo" id="example">Democratic Republic of the Congo</button> will take 61 years to reach current income levels in the United States.
 
-* At its average historical growth rate, it will take over 300 years for Guinea-Bissau to reach the 2019 GDP per capita of its former colonizer Portugal.
+* At its average historical growth rate, it will take over 300 years for <button value="Guinea-Bissau" id="example">Guinea-Bissau</button> to reach the 2019 GDP per capita of its former colonizer Portugal.
 
-* If it continues growing at its present rate, China will achieve current US income levels sooner than Japan (35 years vs 80).
+* If it continues growing at its present rate, <button value="China" id="example">China</button> will achieve current US income levels sooner than <button value="Japan" id="example">Japan</button> (35 years vs 80).
 
 This data is current as of 2019; it does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid).
 

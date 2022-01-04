@@ -23,7 +23,6 @@ select {
 	font-size:  1.4rem;
 	float: left;
 	width:  60%;
-
 }
 
 #projection {
@@ -39,4 +38,19 @@ select {
 .axis {
 	font: 'Lato', sans-serif;
 	font-size: 20px;
+}
+
+#example {
+	background-color: transparent;
+	border: 0;
+	border-bottom:  1px dotted black;
+	font:  1rem et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	text-align: center;
+  cursor: pointer;
+
+}
+
+#example:hover {
+	border-bottom:  1px dotted red;
+	font-weight: bold;
 }
