@@ -24,8 +24,11 @@ function updateProjection(lastGDP, lastGDPCatchup, yearsCatchup){
   if (yearsCatchup < 0 && +lastGDP < +lastGDPCatchup) {
       d3.select("#projection").html("Never. ")
   } 
-  else if (+lastGDP >= +lastGDPCatchup) {
+  else if (+lastGDP > +lastGDPCatchup) {
       d3.select("#projection").html("Already richer. ")
+  }
+  else if (lastGDP === lastGDPCatchup) {
+      d3.select("#projection").html("Already there. ")
   }
   else {
     d3.select("#projection").html("<strong>In " + Math.round(yearsCatchup) + "</strong> years.")
