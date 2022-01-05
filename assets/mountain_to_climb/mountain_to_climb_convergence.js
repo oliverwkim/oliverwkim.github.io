@@ -344,6 +344,9 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       catchupGDPstartyear = catchupCountryGDP.filter( function(d){  return d.year == startYear  } )
       catchupGDPstartyear = catchupGDPstartyear[0].rgdpe_pc
 
+      catchupGDPendyear = catchupCountryGDP.filter( function(d){  return d.year == catchupPoint  } )
+      catchupGDPendyear = catchupGDPstartyear[0].rgdpe_pc
+
       x.domain([startYear, catchupPoint]);
 
 
@@ -378,7 +381,18 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           )
           .attr("stroke", "gray")
 
-      console.log(yearsCatchup)
+       catchuptrendline
+        .transition()
+        .style("stroke", "lightgray")
+        .style("stroke-width", 2)
+        .style("opacity", 1)
+        .style("stroke-dasharray", ("3, 3"))
+        .attr("x1", x(yearMinus10) )
+        .attr("y1", y(GDP10yrCatchup) )
+        .attr("x2", x(catchupPoint))
+        .attr("y2", y(catchupGDPendyear) ); 
+
+
       // trend line
       if(yearsCatchup > 0){
         trendline
@@ -392,24 +406,13 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("x2", x(catchupPoint))
         .attr("y2", y(GDPcatchupyear) ); 
 
-       catchuptrendline
-        .transition()
-        .style("stroke", "lightgray")
-        .style("stroke-width", 2)
-        .style("opacity", 1)
-        .style("stroke-dasharray", ("3, 3"))
-        .attr("x1", x(yearMinus10) )
-        .attr("y1", y(GDP10yrCatchup) )
-        .attr("x2", x(catchupPoint))
-        .attr("y2", y(GDPcatchupyear) ); 
-
         catchupLabel
-            .attr("x", x(catchupPoint) -   15)
-            .attr("y", y(GDPcatchupyear) - 10)       
-            .style("font-size", "16px")
-            .attr("dy", "0em")
-            .style("fill", "gray")
-            .html(Math.round(catchupPoint))
+        .attr("x", x(catchupPoint) -   15)
+        .attr("y", y(GDPcatchupyear) - 10)       
+        .style("font-size", "16px")
+        .attr("dy", "0em")
+        .style("fill", "gray")
+        .html(Math.round(catchupPoint))
 
 
           console.log('will catchup')
@@ -417,9 +420,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       else if (growthRate != "recent 10-year growth rates" && growthRate != "average historical growth rates"){
         trendline.style('opacity', 0);
         catchupLabel.html('');
-
-        catchuptrendline.style('opacity', 0);
-
 
       }
       else {
@@ -433,8 +433,6 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("y1", y(startGDP) )
         .attr("x2", x(yearlast))
         .attr("y2", y(GDPlast) ); 
-
-        catchuptrendline.style('opacity', 0);
 
         catchupLabel.html('');
       }
