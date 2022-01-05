@@ -49,9 +49,9 @@ function getFlagEmoji(countryCode) {
   return String.fromCodePoint(...codePoints);
 }
 
-var margin = {top: 20, right: 250, bottom: 60, left: 120},
+var margin = {top: 50, right: 250, bottom: 60, left: 120},
     width = 1150 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 550 - margin.top - margin.bottom;
 
 var svg = d3.select("#forecasts")
   .append("svg")
@@ -225,6 +225,14 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("dy", "0em")
         .text(catchupCountry)
 
+    var countryLabel = svg.append("text")
+        .attr("x", x(yearMinus10) + 10)
+        .attr("y", y(GDP10yr) -20)       
+        .style("font-size", "16px")
+        .style("fill", "#DC2828")
+        .attr("dy", "0em")
+        .text(selectedCountry)
+
     var GDPlabel = svg.append("text")
         .attr("x", x(yearlast) + 10)
         .attr("y", y(GDPlast) + 5)       
@@ -333,7 +341,20 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           catchupPoint = 2030
       }
 
+      catchupGDPstartyear = catchupCountryGDP.filter( function(d){  return d.year == startYear  } )
+      catchupGDPstartyear = catchupGDPstartyear[0].rgdpe_pc
+
       x.domain([startYear, catchupPoint]);
+
+
+      if(GDPcatchupyear > 250000){
+        y.domain( [100, GDPcatchupyear])
+
+      }
+      else {
+        y.domain( [100, 250000])
+
+      }
 
       line
           .datum(selectedCountryGDP.filter(function(d){  return d.year > startYear  }) )
@@ -357,11 +378,12 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           )
           .attr("stroke", "gray")
 
+      console.log(yearsCatchup)
       // trend line
       if(yearsCatchup > 0){
         trendline
         .transition()
-        .style("stroke", "lightgray")
+        .style("stroke", "#DC2828")
         .style("stroke-width", 2)
         .style("stroke-dasharray", ("3, 3"))
         .style("opacity", 1)
@@ -370,17 +392,16 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("x2", x(catchupPoint))
         .attr("y2", y(GDPcatchupyear) ); 
 
-
        catchuptrendline
         .transition()
         .style("stroke", "lightgray")
         .style("stroke-width", 2)
+        .style("opacity", 1)
         .style("stroke-dasharray", ("3, 3"))
         .attr("x1", x(yearMinus10) )
         .attr("y1", y(GDP10yrCatchup) )
         .attr("x2", x(catchupPoint))
         .attr("y2", y(GDPcatchupyear) ); 
-
 
         catchupLabel
             .attr("x", x(catchupPoint) -   15)
@@ -396,6 +417,10 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
       else if (growthRate != "recent 10-year growth rates" && growthRate != "average historical growth rates"){
         trendline.style('opacity', 0);
         catchupLabel.html('');
+
+        catchuptrendline.style('opacity', 0);
+
+
       }
       else {
         trendline
@@ -408,6 +433,8 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .attr("y1", y(startGDP) )
         .attr("x2", x(yearlast))
         .attr("y2", y(GDPlast) ); 
+
+        catchuptrendline.style('opacity', 0);
 
         catchupLabel.html('');
       }
@@ -427,11 +454,32 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
           .attr("dy", "0em")
           .html(Math.round(growthRateNum * 100) + "%/yr" )
 
+      countryLabel
+        .attr("x", x(startYear) + 10)
+        .attr("y", y(y1) -20)       
+        .style("font-size", "16px")
+        .style("fill", "#DC2828")
+        .attr("dy", "0em")
+        .text(selectedCountry)
+
+      targetlabel
+        .attr("x", x(startYear) + 10)
+        .attr("y", y(catchupGDPstartyear) -10)       
+        .style("font-size", "16px")
+        .style("fill", "gray")
+        .attr("dy", "0em")
+        .text(catchupCountry)
+
 
       svg.select("g")
         .transition()
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d"))).attr("class", "axis");
+
+      svg.select(".y.axis")
+        .call(d3.axisLeft(y).tickValues([100, 1000, 10000, 100000]).tickFormat(function (d) {
+          return y.tickFormat(4, d3.format(",d"))(d) }))
+
 
       // update everything
       //makeButtons(selectedCountry, catchupCountry, growthRate);
