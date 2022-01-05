@@ -15,3 +15,8 @@ permalink: /mountain_to_climb_convergence/
 </div>
 <div style="clear: both; margin-bottom: 2em;"></div>
 <div id="forecasts"></div>
+
+<script src="http://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="/assets/mountain_to_climb/mountain_to_climb_convergence.js"></script>
+
