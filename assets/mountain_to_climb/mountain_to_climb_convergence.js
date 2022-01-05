@@ -242,7 +242,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
     var catchupLabel = svg.append("text")
         .attr("x", x(catchupPoint) -   15)
-        .attr("y", y(lastGDPCatchup) - 10)       
+        .attr("y", y(GDPcatchupyear) - 10)       
         .style("font-size", "16px")
         .attr("dy", "0em")
         .style("fill", "gray")
@@ -291,7 +291,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
       var GDPcatchupyear = GDPlast * Math.pow(1 + growthRateNum, yearsCatchup)
 
-    updateProjection(GDPlast, lastGDPCatchup, growth10yr, growth10yrCatchup)
+      updateProjection(GDPlast, lastGDPCatchup, growthRateNum, growth10yrCatchup)
 
 
       // Give these new data to update line
@@ -384,7 +384,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
         catchupLabel
             .attr("x", x(catchupPoint) -   15)
-            .attr("y", y(lastGDPCatchup) - 10)       
+            .attr("y", y(GDPcatchupyear) - 10)       
             .style("font-size", "16px")
             .attr("dy", "0em")
             .style("fill", "gray")
