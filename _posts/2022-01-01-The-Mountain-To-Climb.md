@@ -23,7 +23,7 @@ As we enter a new year, it's worth thinking about the problem of economic growth
 
 The figures lay bare the harsh logic of compounding economic growth, and the staggering levels of inequality between countries. Some stark examples:
 
-* At its average historical growth rate, it will take over **400 years** for <button value="Guinea-Bissau" id="example">🇬🇼 Guinea-Bissau</button> to reach the 2019 GDP per capita of its former colonizer Portugal.
+* At its average historical growth rate, it will take over **300 years** for <button value="Guinea-Bissau" id="example">🇬🇼 Guinea-Bissau</button> to reach the 2019 GDP per capita of its former colonizer Portugal.
 
 * At its average historical growth rate, it will take **2,572 years** for GDP per capita in <button value="Senegal" id="example">🇸🇳 Senegal</button> to reach its colonizer France's 2019 level. 
 
