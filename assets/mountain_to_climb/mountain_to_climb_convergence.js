@@ -466,7 +466,7 @@ d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
         .style("font-size", "16px")
         .style("fill", "gray")
         .attr("dy", "0em")
-        .text(catchupCountry)
+        .text(catchupCountry + ": " + growth10yrCatchup + "%/yr")
 
 
       svg.select("g")
