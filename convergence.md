@@ -5,7 +5,7 @@ custom_css: mountain_to_climb
 permalink: /mountain_to_climb_convergence/
 ---
 
-<div id="toolbar">
+<div id="toolbar" style="margin-top: 20px;">
 <div id="interface">
 	At <select id = "growthRates" ></select>, when <br />
  	will <select id="selectCountry"></select> 
