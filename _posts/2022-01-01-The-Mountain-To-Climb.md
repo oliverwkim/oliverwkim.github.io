@@ -31,7 +31,9 @@ The figures lay bare the harsh logic of compounding economic growth, and the sta
 
 * At its present rate, <button value="China" id="example">🇨🇳 China</button> will achieve current US income levels in **35 years**--sooner than <button value="Japan" id="example">🇯🇵 Japan</button>, which will take **80 years**.
 
-This data is current as of 2019. It does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid). 
+Note that these are **not** predictions--they are simply projections of future economic growth based on the historical trend of your choice.
+
+This data is current as of 2019. It does not include the devastation of the Covid-19 pandemic, which has likely erased most of the economic gains of the past decade, and pushed [hundreds of millions of people into extreme poverty](https://www.theguardian.com/global-development/2021/feb/03/decades-of-progress-on-extreme-poverty-now-in-reverse-due-to-covid).
 
 Economic growth is not everything. The economic needs of human beings need to be balanced against the preservation of the environment and the quality of non-human lives. The distribution of economic output also matters: if a small elite hoards all the economic gains, then for the average person headline GDP growth is largely irrelevant. But we know that, on average, the [availability and quality of things](https://ourworldindata.org/what-is-economic-growth) that make safer and healthier lives possible--health care, education, housing, entertainment, freedom from violence--grow with incomes per capita. The largest reduction in poverty we know of, the Chinese economic miracle, came as the result of rapid economic growth. 
 
