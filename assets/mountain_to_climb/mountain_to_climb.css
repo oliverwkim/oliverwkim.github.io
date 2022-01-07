@@ -14,7 +14,6 @@ select {
 
 	select > option {
 		font:  1.4rem/2rem et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-		background:  blue;
 	}
 
 #toolbar {
