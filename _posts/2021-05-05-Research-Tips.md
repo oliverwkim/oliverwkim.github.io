@@ -32,6 +32,4 @@ Here are some tips (mostly "life hacks") with fairly broad applicability to rese
 
 ## General
 
-* While research can be rewarding, it's . 
-
 
