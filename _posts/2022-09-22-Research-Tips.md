@@ -12,7 +12,7 @@ Here are some tips (mostly "life hacks") with fairly broad applicability to rese
 
 * Install MathPix Tools to copy equations from PDFs into LaTeX. It can even handle handwritten text through optical character recognition (OCR). In terms of time, this must have the highest returns of any tip I can give.
 
-* **Berkeley-specific:**: You can reserve a study carrel at Doe Library, where you can leave books and research materials. This is especially useful for the first year history paper, so you don't have to lug a stack of books everywhere you go. Plus, they'll put a sticker with your name on it, so it guarantees a quiet space where you can work.
+* **Berkeley-specific**: You can reserve a study carrel at Doe Library, where you can leave books and research materials. This is especially useful for the first year history paper, so you don't have to lug a stack of books everywhere you go. Plus, they'll put a sticker with your name on it, so it guarantees a quiet space where you can work.
 
 * **Berkeley dev students**: If you're going to the field for the summer, before you leave, make sure you get all Berkeley residency paperwork squared away. I have more info about this on my Busia tips page.
 
@@ -26,9 +26,17 @@ Here are some tips (mostly "life hacks") with fairly broad applicability to rese
 
 * **Berkeley-specific:** The "end product" of 3rd year is your orals presentation, where you present in-progress work (that, _ex ante_, may hopefully be your JMP) to a group of four faculty members. A common expectation among orals chairs is that you turn in a 25 page paper with your presentation--something I was unaware of until a month before it was due. So, you know, plan for that.
 
+* Third year is a good time to take a class outside of Econ. The end of formal coursework means you suddenly have a lot of unstructured time, and it's good to have an incentive to bring yourself to campus (especially if you don't have teaching responsibilities). One of the blessings of being a grad student is getting to take classes that you missed out on undergrad---tuition-free. Do something fun! Take drawing. Pottery. Photography. Tennis. Egyptology. Philosophy. Theology. Film. More importantly, after the wringer of the previous two years it's helpful to remind yourself that you are not just a machine for churning out problem sets, but a living, breathing human being---vast, multitudinal, full of contradictions. I did not do this (my third year was at the height of COVID) but wish I had---writing this in my fifth year, I'm currently taking a short fiction workshop and having a blast. 
+
 ## Fourth Year
 
 * I've learned the value of signing up for presentations---not for feedback (though that is helpful), but as a commitment device to actually, you know, do my job. As it turns out, the fear of public embarassment is a major driver of intellectual inquiry. This semester, I signed up for three presentation slots, which ultimately felt like too many. One would have been too few. Two I think is a good number to aim for: one scheduled in the middle of the semester, and one at the end. I made the mistake of pushing all of my presentations to the end of the semester, which reduced their value as commitment devices. Still, without exaggeration, around 70% of my research output this semester was created in the two weeks leading up to my presentations. 
+
+## Fifth Year
+
+## Sixth Year... and Beyond
+
+I'll let you know when I get there.
 
 ## General
 
