@@ -18,14 +18,14 @@ Here are some tips (mostly "life hacks") with fairly broad applicability to rese
 
 * Prioritize your mental health. Be kind to your classmates.
 
-* Conditional on the previous point: if you find you have some spare time, try spending maybe an hour a month thinking actively about research. I personally did not manage this until my Second Year (I was worn out and tired as hell), so it's okay if you don't have the bandwidth. But since practically everybone grouses about the Hamiltonians/upper-hemicontinuous correspondences that are keeping them from "what they really want to be doing", you can even think of research as a (small, mild-mannered) act of rebellion. If, by snatching twenty minutes here, fifteen minutes there, you can shoot a couple emails to get the ball rolling on some data requests, that's a huge victory---even if they never reply. Empirical research, in particular, involves so many bureaucratic delays waiting for data access, so if you can frontload that waiting while you're busy taking third derivatives that's a huge efficiency gain. More generally, the returns from even small amounts of time thinking about what research questions you're interested in can compound into something quite large. But also don't sweat it if you don't have time. I didn't.
+* Conditional on the previous point: if you find you have some spare time, try spending maybe an hour a month thinking actively about research. I personally did not manage this until my Second Year (I was worn out and tired as hell), so it's okay if you don't have the bandwidth. But since practically everybone grouses about the Hamiltonians/upper-hemicontinuous correspondences that are keeping them from "what they really want to be doing", you can even think of research as a (small, mild-mannered) act of rebellion. If, by snatching twenty minutes here, fifteen minutes there, you can shoot a couple emails to get the ball rolling on some data requests, that's a huge victory---even if they never reply. Empirical research encounters so many bureaucratic delays waiting for data access that if frontloading some of that waiting while you're busy taking third derivatives is a huge efficiency gain. More broadly, the returns from even small amounts of time thinking about what research questions you're interested in can compound into something quite large. But also don't sweat it if you don't have time. I certainly didn't.
 
 
 ## Second Year
 
 * **Berkeley-specific**: In my view, one of Berkeley's "secret weapons" is the undergraduate mentorship program, where you can hire undergrad RAs in exchange for course credit and (crucially) mentorship. I've had great experiences with the RAs I've worked with, who have helped me digitize/clean historical data and do some preliminary data analysis. Having weekly meetings with your RAs is also a great way to force yourself into a regular schedule, and make steady progress on data-intensive projects. **2022 update: alas, since Martha Olney retired, nobody has taken up the mantle to organize this, and the mentorship program is sadly dead. Huge thank you to Marty for such a successful run.**
 
-* **Berkeley-specific**: If you're interested in economic history, and you feel like the existing course options don't cover areas you're interested in, it's possible to set up a reading course in your second year with a professor. I did one on East Asian economic development with Brad DeLong and Barry Eichengreen, and it was a fascinating experience that set up a lot of my later research. In retrospect, it's kind of amazing blessing to have more faculty than students in a room, studying whatever it is the student finds interesting.
+* **Berkeley-specific**: If you're interested in economic history, and you feel like the existing course options don't cover areas you're interested in, it's possible to set up a reading course in your second year with a professor. I did one on East Asian economic development with Brad DeLong and Barry Eichengreen, and it was a fascinating experience that set up a lot of my later research. In retrospect, it's an amazing blessing to have more faculty than students in a room, studying whatever it is the student finds interesting.
 
 ## Third Year
 
@@ -44,7 +44,7 @@ Here are some tips (mostly "life hacks") with fairly broad applicability to rese
 
 ## Fifth Year
 
-* If you get a dog, make sure to keep the beautiful Congolese tapestry that you brought all the way back from fieldwork in Kenya out of reach, just in case she gets the idea in the middle of the night to eat a corner and throw up all over the house.
+If you get a dog, make sure to keep the beautiful Congolese tapestry that you brought all the way back from fieldwork in Kenya out of reach, just in case she gets the idea in the middle of the night to eat a corner and throw up all over the house.
 
 ## Sixth Year... and Beyond
 
