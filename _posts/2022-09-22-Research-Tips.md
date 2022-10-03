@@ -22,6 +22,8 @@ Here are some tips (mostly "life hacks") with fairly broad applicability to rese
 
 * Try to take every opportunity to do research for coursework seriously. At Berkeley, this is typically your first-year history paper; in second year, various referee reports and (if you're lucky) a short prospectus. It's tempting to view these grudgingly, as the last bits of homework in your life, the final descendants of the ketchup-stained worksheets you used to scribble on the kitchen table. But research opportunities are so rare during the first two years that it's worth at least thinking about using these strategically. For the history paper, even if you're a hard-core labor economist convinced you'll never publish on history in your life, use it as an excuse to read about the deeper context behind the questions you *are* interested in. In the best case, you'll have a paper you can staple to your dissertation; in the worst case, you'll at least have learned something useful. For referee reports, maybe pick a paper that'll stretch your technical skills, and force you to learn techniques that you'd be loath to in the absence of an assignment. (There's often also room to negotiate with professors to pick a paper closer to your interests.) 
 
+* Remember that the best predictor of your First Year grades is whether or not you've seen the material before. Try not to extrapolate anything more from them than that.
+
 
 
 ## Second Year
