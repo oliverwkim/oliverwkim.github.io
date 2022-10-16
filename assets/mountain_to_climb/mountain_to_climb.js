@@ -62,7 +62,7 @@ var ChineseMiracle = 0.067037168 // 1978-2012
 var JapaneseMiracle = 0.079924659 // 1950-1973
 
 
-d3.csv("http://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
+d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv", 
 
   function(data) {
 
