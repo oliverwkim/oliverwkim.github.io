@@ -49,7 +49,6 @@ _Version 0.7. [Comments and suggestions](https://twitter.com/oliverwkim) welcome
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 <script src="https://d3js.org/d3.v4.js"></script>
-<!--<script src="https://d3js.org/d3.v7.min.js"></script>-->
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="/assets/mountain_to_climb/mountain_to_climb.js"></script>
 
