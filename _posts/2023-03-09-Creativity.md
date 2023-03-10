@@ -40,23 +40,6 @@ I write this as a spur to myself, but also those assumed by the academic tribe, 
 
 Go out there and prove them wrong.
 
-
-## Business Secrets of the Beatles
-
-We’ve made it around a thousand words in a self-indulgent personal essay on creativity, and while I’ve worked in Albert Hirschman and Tottenham Hotspur, I somehow haven’t yet mentioned the Beatles.
-
-The new Beatles documentary _Get Back_ has spawned a whole sub-industry of think-pieces on the creative process, and by now the basic facts are well-known: how the Beatles set themselves a crazy ambitious deadline---compose an album of fourteen songs to perform live in two weeks---and how that pressure unleashed stunning feats of genius---like Paul McCartney creating “Get Back” from nothing in two minutes on his Hofner Bass. 
-
-It’s not hard to see the connection with the Hiding Hand, and the old observation that creativity does best under artistic constraints. But there are two smaller points I haven’t seen mentioned.
-
-The first is how the Beatles were happy to bend the rules to make success feasible. Far from the proposed fourteen, _Let It Be_ really only has nine new songs ("Dig It" and "Maggie Mae" are just jam session fragments, while John Lennon wrote "One After 909" as a teenager), and the band only felt confident enough to play five originals in their famous rooftop concert. Of course, given the strength of the final product, it feels lame to point this out---which goes to show that when you set lofty goals, people will happily forget the gap even when you fall a little short.
-
-Another is to observe an absence: it struck me how little the Beatles discuss external expectations of their work. Here are the four most famous men on the planet, their every lyric analyzed for Nostradamic significance, and over seven hours there's hardly a word about critics or sales. It’s perhaps not a coincidence that the Get Back project only really blossoms after the band moves from Twickenham Studios---vast, cavernous, filled with strangers---to the more intimate confines of Abbey Road. The band exists first and foremost for its members. George craves the artistic recognition of John and Paul, who share a private language he cannot decipher; Paul tries to hold the attention of John, rapidly checking out, through dazzling displays of musical creativity; and Ringo plays the drums.
-
-Speaking for myself, it’s when I find myself doing things solely to satisfy the demands of the economics profession that research feels most like a job. Of course, concessions must always be made to reality—on the margins, it doesn’t hurt to reframe a finished paper to increase your odds of gainful employment. But if the PhD turns into just a bunch of dreary number crunching to make a bunch of senior people happy—well, you could probably be doing dreary number crunching for senior people in a proper office, who will pay you oodles more money for the privilege. 
-
-Be like Ringo. Show up on time, try to tune out as much of the drama as possible, and bang away happily at the drums. 
-
 ## Keep a Clopen Mind
 
 The great comedian John Cleese, who is sadly turning into one of the billowy old farts he used to mock, recorded [a wonderful talk on creativity back in 1991](https://www.youtube.com/watch?v=Pb5oIIPO62g).
@@ -83,6 +66,23 @@ To combat this, it’s helpful to try and start a project (even a small one) in 
 After learning to recognize the open and closed modes, it’s remarkable how much boredom starts to seem more like an asset than a curse. In long meetings and seminars, I always keep a pen and paper at hand to jot down stray thoughts and doodle in the margins, to see what my subconscious bubbles up. Most of what comes out is dreck; but occasionally I get whole blocks of pseudocode, a proof concept, a fully-formed research question.
 
 Though, on second thought, one should always be mindful of what one puts down. I still remember, in eighth grade, having to turn in a Geometry worksheet on which I’d absentmindedly doodled a phalanx of Spartans with bulging muscled breastplates. It was returned, mercifully, without comment.
+
+
+## Business Secrets of the Beatles
+
+We’ve made it around a thousand words in a self-indulgent personal essay on creativity, and while I’ve worked in Albert Hirschman, Monty Python, and Tottenham Hotspur, I somehow haven’t yet mentioned the Beatles.
+
+The new Beatles documentary _Get Back_ has spawned a whole sub-industry of think-pieces on the creative process, and by now the basic facts are well-known: how the Beatles set themselves a crazy ambitious deadline---compose an album of fourteen songs to perform live in two weeks---and how that pressure unleashed stunning feats of genius---like Paul McCartney creating “Get Back” from nothing in two minutes on his Hofner Bass. 
+
+It’s not hard to see the connection with the Hiding Hand, and the old observation that creativity does best under artistic constraints. But there are two smaller points I haven’t seen mentioned.
+
+The first is how the Beatles were happy to bend the rules to make success feasible. Far from the proposed fourteen, _Let It Be_ really only has nine new songs ("Dig It" and "Maggie Mae" are just jam session fragments, while John Lennon wrote "One After 909" as a teenager), and the band only felt confident enough to play five originals in their famous rooftop concert. Of course, given the strength of the final product, it feels lame to point this out---which goes to show that when you set lofty goals, people will happily forget the gap even when you fall a little short.
+
+Another is to observe an absence: it struck me how little the Beatles discuss external expectations of their work. Here are the four most famous men on the planet, their every lyric analyzed for Nostradamic significance, and over seven hours there's hardly a word about critics or sales. It’s perhaps not a coincidence that the Get Back project only really blossoms after the band moves from Twickenham Studios---vast, cavernous, filled with strangers---to the more intimate confines of Abbey Road. The band exists first and foremost for its members. George craves the artistic recognition of John and Paul, who share a private language he cannot decipher; Paul tries to hold the attention of John, rapidly checking out, through dazzling displays of musical creativity; and Ringo plays the drums.
+
+Speaking for myself, it’s when I find myself doing things solely to satisfy the demands of the economics profession that research feels most like a job. Of course, concessions must always be made to reality—on the margins, it doesn’t hurt to reframe a finished paper to increase your odds of gainful employment. But if the PhD turns into just a bunch of dreary number crunching to make a bunch of senior people happy—well, you could probably be doing dreary number crunching for senior people in a proper office, who will pay you oodles more money for the privilege. 
+
+Be like Ringo. Show up on time, try to tune out as much of the drama as possible, and bang away happily at the drums. 
 
 
 ## Watch Someone Else Do It
