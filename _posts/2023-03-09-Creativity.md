@@ -6,7 +6,8 @@ published: true
 
 As of the fifth year of my economics PhD, I have published zero scientific papers, written a dozen short stories that no one has read, and sold precisely one painting. I am, therefore, one of the last people you should ask about creative success.
 
-But, like many amateurs peering enviously into the inner circle, I have a mild obsession with what I cannot quite do. Economic research is more akin to the creative arts than is commonly admitted. (Certainly by the art people, who would like to keep economists away from their parties.)
+But, like many amateurs peering enviously into the inner circle, I have a mild obsession with what I cannot quite do. Economic research is more akin to the creative arts than is commonly admitted---certainly by the art people, who would like to keep economists away from their parties---and there’s much to learn from the habits of other fields.
+
 
 Here are a few scattered, loosely connected thoughts on what seems to work well, at least for other people. Call it a collage.
 
