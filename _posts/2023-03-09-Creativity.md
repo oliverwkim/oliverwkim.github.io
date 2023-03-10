@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creativity and Economic Researchs
+title: Some Thoughts on Creativity and Economic Research
 published: true
 ---
 
