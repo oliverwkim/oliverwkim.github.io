@@ -67,9 +67,37 @@ The first is how the Beatles were happy to bend the rules to make success feasib
 
 Another is to observe an absence: it struck me how little the Beatles discuss external expectations of their work. Here are the four most famous men on the planet, their every lyric analyzed for Nostradamic significance, and over seven hours there's hardly a word about critics or sales. It’s perhaps not a coincidence that the Get Back project only really blossoms after the band moves from Twickenham Studios---vast, cavernous, filled with strangers---to the more intimate confines of Abbey Road. The band exists first and foremost for its members. George craves the artistic recognition of John and Paul, who share a private language he cannot decipher; Paul tries to hold the attention of John, rapidly checking out, through dazzling displays of musical creativity; and Ringo plays the drums.
 
-Speaking for myself, it’s when I find myself doing things solely to satisfy the demands of the economics profession that research feels most like a job. Of course, concessions must always be made to reality—on the margins, it doesn’t hurt to reframe a finished paper to increase your odds of gainful employment. But if the PhD turns into just a bunch of dreary number crunching to make a bunch of senior people happy—well, you could probably be doing dreary number crunching for other senior people, who will pay you oodles more money for the privilege. 
+Speaking for myself, it’s when I find myself doing things solely to satisfy the demands of the economics profession that research feels most like a job. Of course, concessions must always be made to reality—on the margins, it doesn’t hurt to reframe a finished paper to increase your odds of gainful employment. But if the PhD turns into just a bunch of dreary number crunching to make a bunch of senior people happy—well, you could probably be doing dreary number crunching for senior people in a proper office, who will pay you oodles more money for the privilege. 
 
 Be like Ringo. Show up on time, try to tune out as much of the drama as possible, and bang away happily at the drums. 
+
+## Keep a Clopen Mind
+
+The great comedian John Cleese, who is sadly turning into one of the billowy old farts he used to mock, recorded [a wonderful talk on creativity back in 1991](https://www.youtube.com/watch?v=Pb5oIIPO62g).
+His main idea is that the creative mind seems to have two modes, open and closed:
+
+> By the "closed mode" I mean the mode that we are in most of the time when at work. We have inside us a feeling that there's lots to be done and we have to get on with it if we're going to get through it all. It's an active (probably slightly anxious) mode, although the anxiety can be exciting and pleasurable. It's a mode which we're probably a little impatient, if only with ourselves. It has a little tension in it, not much humor. It's a mode in which we're very purposeful, and it's a mode in which we can get very stressed and even a bit manic, but not creative.
+
+> By contrast, the open mode, is relaxed, expansive, less purposeful mode... in which we’re probably more contemplative, more inclined to humor (which always accompanies a wider perspective) and, consequently, more playful. It's a mood in which curiosity for its own sake can operate because we're not under pressure to get a specific thing done quickly. We can play, and that is what allows our natural creativity to surface.
+
+It’s an important skill to observe how your brain switches between these modes. Desperation, whose natural habitat is midnight before a deadline, is the ultimate closed mode—great for finishing up projects, but terrible for coming up with ideas. The languid summer months are the home of the open mode—when the sky stretches with potential novels, paintings, and research papers—and of course very little actually gets done.
+
+I would add a twist, however, to Cleese’s formulation: the closed mode for one task may be the open mode for another. 
+
+There’s often no better spur for creativity than being forced to do something else. With the conscious mind stuck in the closed mode, the unconscious mind is quietly bubbling in the background with ideas—the "wouldn’t that be interesting?"s that, with luck, solidify into research questions. Seminars are good for this, as are long meetings. Classes, too. 
+
+But the very best research ideas, I find, come when I am working on other research projects. One reason is that, quite naturally, the mind finds it easier to invent new forms when it already has raw material of the same type in hand. Though I occasionally get painting ideas while researching, or writing ideas while painting, most often like comes with like.
+
+But the most important reason, one that I have learned through hard experience, is that the kind of intellectual play that generates interesting research is only possible when one feels secure. And for "knowledge work" (such an odd phrase), perhaps the deepest insecurity comes when one feels like one has nothing to work on at all.
+
+It is an odd, deeply vulnerable, almost naked feeling—call it researcher’s block. This, I think, is why so many PhD students find it difficult to get started once the formal coursework ends. One is in a PhD program to produce research, but for the moment one doesn’t have any; one suspects---hell, I suspect---that I am a fraud, an admissions mistake---that, like a spent lemon, there is no juice left to be squeezed out. Ahead, the blank page looms.
+
+To combat this, it’s helpful to try and start a project (even a small one) in the second year of the PhD, while one is still busy with coursework. Getting that first project going starts a virtuous cycle. It gives you something concrete to work on throughout the Third Year, even if you have little ambition of it becoming your job market paper, and gives your brain the sense of security to start playing with ideas. Later, with this first project under your belt, one can jump more readily between the open and closed modes—a virtue of having multiple projects at different stages of the research process. 
+
+After learning to recognize the open and closed modes, it’s remarkable how much boredom starts to seem more like an asset than a curse. In long meetings and seminars, I always keep a pen and paper at hand to jot down stray thoughts and doodle in the margins, to see what my subconscious bubbles up. Most of what comes out is dreck; but occasionally I get whole blocks of pseudocode, a proof concept, a fully-formed research question.
+
+Though, on second thought, one should always be mindful of what one puts down. I still remember, in eighth grade, having to turn in a Geometry worksheet on which I’d absentmindedly doodled a phalanx of Spartans with bulging muscled breastplates. It was returned, mercifully, without comment.
+
 
 ## Watch Someone Else Do It
 
