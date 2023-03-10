@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creativity and Economics
+title: Creativity and Economic Researchs
 published: true
 ---
 
@@ -8,26 +8,10 @@ As of the fifth year of my economics PhD, I have published zero scientific paper
 
 But, like many amateurs peering enviously into the inner circle, I have a mild obsession with what I cannot quite do. Economic research is more akin to the creative arts than is commonly admitted---certainly by the art people, who would like to keep economists away from their parties---and there’s much to learn from the habits of other fields.
 
-
 Here are a few scattered, loosely connected thoughts on what seems to work well, at least for other people. Call it a collage.
-
-## Accept that your creativity lives insides a meat bag.
-
-Whatever your belief system, at some level you must admit that that mysterious source from which creativity springs—call it your soul, your muse, your katra—is housed inside a meat bag, which insists on rest, nourishment, and amusement.
-
-For a time it was fashionable to pretend that these biological needs didn’t exist, or could be overcome with sheer willpower: Bill Clinton said he slept only five hours a night, Kim Jong Un claimed he never pooped. Now perhaps the pendulum has swung too far in the other direction, with mid-level VCs poring over their Apple Watch data to compete over who can sleep the soundest. But I think a moderate embrace of this biological fact is, beyond being inherently healthy, good for creativity.
-
-The meat bag demands maintenance. It wants seven to nine hours of quality sleep. Occasionally in a deadline-induced panic the meat bag can pull an all-nighter; but that cannot be the foundation of consistently good work. Its eye balls want more than the fluorescent prison of the Excel grid—they want to see mountains, and fields of green, or at least the open sky. Its internal pump wants exercise, which can itself stimulate the mind. Sitting down to compose the Emperor Concerto or _Jagged Little Pill_---this is a recent development. For most of our history we walked and, by walking, pondered.
-
-Psychostimulants like caffeine might help, but their effects vary so much by person that it’s difficult to generalize. Personally, my tummy grumbles after a second cup of coffee, and afterwards I spend the next night tossing and turning as I recount every time I replied to “enjoy your movie” from an usher with a “you too”. The one sure thing I know is that "write drunk, edit sober" is definitely a myth---and, for the record, never worked for Hemingway either. 
-
-Figuring out the meat bag’s preferred mixture of sleep, frisbee, and Diet Coke is a matter of personal experiment. But, on average, respecting your meat bag is the precondition for creativity.
-
 
 
 ## Tricking the Hiding Hand
-
-So much for preconditions. How does one choose creative projects? 
 
 Let me begin, somewhat elliptically, with a parable from the great development economist Albert Hirschman. In the mid-1960s, Hirschman visited a paper mill on the Karnaphuli River in East Pakistan (now Bangladesh). The mill had been built around lush bamboo forests, which were intended to serve as its raw material—until one day not long after opening, when the bamboo flowered all at once, and, "poetically but quite uneconomically", died.
 
@@ -53,6 +37,7 @@ A final note, on failure. The dark mirror of the Hiding Hand sounds a lot like d
 Since creativity seems to come in part from risk-taking, a sense of inadequacy can be self-reinforcing. But it also means that, with a little push, latent capabilities can be discovered, and this vicious cycle can be broken.
 
 I write this as a spur to myself, but also those assumed by the academic tribe, by unspoken rule, to be incapable of feats of creative daring: if you’re a woman, or Black, or neurodivergent, or working class, or yes, another sallow-faced Asian clone, who is assumed by nature to be passionless, unimaginative, replaceable---
+
 Go out there and prove them wrong.
 
 
@@ -102,9 +87,13 @@ Though, on second thought, one should always be mindful of what one puts down. I
 
 ## Watch Someone Else Do It
 
-One of my mild obsessions is how creativity, which we are raised to think of as feathery and ethereal, interacts with the grubby, mundane questions of daily routine. A logical consequence of the Creativity Lives in Meat Bags principle is that the meat bag moves through space, doing groceries, picking up dog poop, and of course parking its butt at a desk eight hours a day.
+One of my mild obsessions is how creativity, which we are raised to think of as feathery and ethereal, interacts with the grubby, mundane questions of daily routine. Whatever your belief system, at some level you must admit that that mysterious source from which creativity springs---call it your soul, your muse, your katra---is housed inside a meat bag, which insists on rest, nourishment, and amusement.
 
-How exactly is butt-chair contact converted into finished output? How does that mysterious transfiguration happen?
+For a time it was fashionable to pretend that these biological needs didn’t exist, or could be overcome with sheer willpower: Bill Clinton said he slept five hours only a night, Kim Jong Un claimed he never pooped. Now perhaps the pendulum has swung too far in the other direction, with mid-level VCs poring over their Apple Watch data to compete over who can sleep the soundest. But I think a moderate embrace of the fact that we are all meat bags, beyond being inherently healthy, good for creativity.
+
+The meat bag demands maintenance. It wants seven to nine hours of quality sleep. Occasionally in a deadline-induced panic the meat bag can pull an all-nighter; but that cannot be the foundation of consistently good work. Its eye balls want more than the fluorescent prison of the Excel grid—they want to see mountains, and fields of green, or at least the open sky. The meat bag moves through space, doing groceries, picking up dog poop, and of course parking its butt at a desk eight hours a day. 
+
+But how exactly is butt-chair contact converted into finished output? How does that mysterious transfiguration happen?
 
 At one level I think that’s part of what a successful research assistantship is supposed to teach you. Like an apprentice of old, you sit with a skilled artisan each day and peer over their shoulder as they work. You learn to see the twists and turns of their research process through their eyes—its disappointments, its victories, its disappointments, its disappointments, its disappointments.
 
