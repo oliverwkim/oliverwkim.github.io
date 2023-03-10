@@ -14,7 +14,7 @@ Here are a few scattered, loosely connected thoughts on what seems to work well,
 
 Whatever your belief system, at some level you must admit that that mysterious source from which creativity springs—call it your soul, your muse, your katra—is housed inside a meat bag, which insists on rest, nourishment, and amusement.
 
-For a time it was fashionable to pretend that these biological needs didn’t exist, or could be overcome with sheer willpower: Bill Clinton said he slept five hours only a night, Kim Jong Un claimed he never pooped. Now perhaps the pendulum has swung too far in the other direction, with mid-level VCs poring over their Apple Watch data to compete over who can sleep the soundest. But I think a moderate embrace of this biological fact is, beyond being inherently healthy, good for creativity.
+For a time it was fashionable to pretend that these biological needs didn’t exist, or could be overcome with sheer willpower: Bill Clinton said he slept only five hours a night, Kim Jong Un claimed he never pooped. Now perhaps the pendulum has swung too far in the other direction, with mid-level VCs poring over their Apple Watch data to compete over who can sleep the soundest. But I think a moderate embrace of this biological fact is, beyond being inherently healthy, good for creativity.
 
 The meat bag demands maintenance. It wants seven to nine hours of quality sleep. Occasionally in a deadline-induced panic the meat bag can pull an all-nighter; but that cannot be the foundation of consistently good work. Its eye balls want more than the fluorescent prison of the Excel grid—they want to see mountains, and fields of green, or at least the open sky. Its internal pump wants exercise, which can itself stimulate the mind. Sitting down to compose the Emperor Concerto or _Jagged Little Pill_---this is a recent development. For most of our history we walked and, by walking, pondered.
 
@@ -37,22 +37,21 @@ Hirschman later expanded this nugget of developmental wisdom into a general prin
 
 > ... since we necessarily underestimate our creativity, it is desirable that we underestimate to a roughly similar extent the difficulties of the tasks we face so as to be tricked by these two offsetting underestimates into undertaking tasks that we can, but otherwise would not dare, tackle. The principle is important enough to deserve a name… I propose the Hiding Hand. 
 
-In plainer English, the Hiding Hand conceals from us both the obstacles and the flashes of invention needed to solve them, beckoning us to try for goals just beyond our reach. 
-
-Our naïveté about the challenges ahead is the fuel for ambitious goals. Conversely, the mirror of the Hiding Hand sounds a lot like depression, or at least my experience of it. Losing faith in your capabilities means feeling unequal to the challenges that lurk in the day ahead—much better to stay in bed, pull the covers over your face, and pretend you’re in a tent forever.
-
-_(Note: following advice untested. Ask me in a few years how this went.)_
-
-From this we can draw a principle for research: start by picking a big question. One of the big ones, the kind that got you excited to study economics in the first place. Pick something so large that even if chunks of it fall off as you pull it into harbor, it’s still impressive. Then, start today. Don’t try to exhaustively learn every tool before you begin, or you never will. Instead, be confident in your ability to learn and improvise solutions on the fly, remembering that there’s no stronger motivation to actually learn something than needing to use it. The Hiding Hand forces us to expand our capabilities.
+In plainer English, the Hiding Hand conceals from us both the obstacles and the flashes of invention needed to solve them, beckoning us to try for goals just beyond our reach.
 
 After giving a talk, when I’m in that delirious state mixing exhaustion and relief, I often go back through my slides—the same ones I’ve been laboring on for weeks—and find that the work feels like it was done by a stranger. It’s as if I fell asleep and woke up on deadline day, with the research finished and polished up by someone far more capable than lil mediocre ol’ me. 
 
-And that observation, at least the last part, is literally correct—because the work is not in fact done by me, but by a long sequence of mes, accumulating improvisations and micro-inventions to solve each problem as it is met. By picking something big, you can expand your capabilities.
+And that observation, at least the last part, is literally correct—because the work is not in fact done by me, but by a long sequence of mes, accumulating improvisations and micro-inventions to solve each problem as it is met. 
 
-Two caveats are in order. The first is that ambition is no excuse to become a tyrant, either to yourself or others. Being kind is more important, and more lasting. The second is that failure is very much possible. Impossible tasks will always remain impossible, unyielding to ambition. (See _hubris._) But there is a satisfaction of its own to setting ambitious goals, regardless of success—particularly if one remembers that below lies a safety net, that the unemployment rate for Economics PhDs is around 0%. Inexplicably, my mind drifts to the words of Tottenham Hotspur’s Danny Blanchflower: if you set your sights very high, “even failure will have in it an echo of glory”. You, too, could win two league titles in 140 years of storied history. 
+The creativity of the Hiding Hand comes from a specific kind of predictive mistake: underestimating the difficulties that lie ahead. But we can extend this recognition---that creativity emerges under duress—to a broader principle for research. Start by picking a big question. One of the big ones, the kind that got you excited to study economics in the first place. Don’t worry so much about falling; the outside career options for a Economics PhD are very good. Pick something so large that even if chunks of it fall off as you pull it into harbor, it’s still impressive. Then, start today. Don’t try to exhaustively learn every tool before you begin, or you never will. Instead, be confident in your ability to learn and improvise solutions on the fly, remembering that there’s no stronger motivation to actually learn something than needing to use it.
+
+Two caveats are in order. The first is that ambition is no excuse to become a tyrant, either to yourself or others. Being kind is more important, and more lasting. The second is that failure is very much possible. Impossible tasks will always remain impossible, unyielding to ambition. (See _hubris_.) But there is a satisfaction of its own to setting ambitious goals, regardless of success. Inexplicably, my mind drifts to the words of Tottenham Hotspur’s Danny Blanchflower: if you set your sights very high, "even failure will have in it an echo of glory". You, too, could win two league titles in 140 years of storied history. 
+
+A final note, on failure. The dark mirror of the Hiding Hand sounds a lot like depression, or at least my experience of it. Losing faith in your capabilities means feeling unequal to the challenges that lurk in the day ahead. Much better to stay in bed, pull the covers over your face, and pretend you’re in a tent forever. 
+
+Since creativity seems to come in part from risk-taking, a sense of inadequacy can be self-reinforcing. But it also means that, with a little push, latent capabilities can be discovered, and this vicious cycle can be broken.
 
 I write this as a spur to myself, but also those assumed by the academic tribe, by unspoken rule, to be incapable of feats of creative daring: if you’re a woman, or Black, or neurodivergent, or working class, or yes, another sallow-faced Asian clone, who is assumed by nature to be passionless, unimaginative, replaceable---
-
 Go out there and prove them wrong.
 
 
