@@ -34,7 +34,7 @@ The planners were sent scrambling for solutions: they created a new organization
 
 Hirschman later expanded this nugget of developmental wisdom into a general principle of creativity: 
 > Creativity always comes as a surprise to us; therefore we can never count on it and we dare not believe in it until it has happened. In other words, we would not consciously engage upon tasks whose success clearly requires that creativity be forthcoming. Hence, the only way in which we can bring our creative resources fully into play is by misjudging the nature of the task...
-
+>
 > ... since we necessarily underestimate our creativity, it is desirable that we underestimate to a roughly similar extent the difficulties of the tasks we face so as to be tricked by these two offsetting underestimates into undertaking tasks that we can, but otherwise would not dare, tackle. The principle is important enough to deserve a name… I propose the Hiding Hand. 
 
 In plainer English, the Hiding Hand conceals from us both the obstacles and the flashes of invention needed to solve them, beckoning us to try for goals just beyond our reach.
@@ -77,7 +77,7 @@ The great comedian John Cleese, who is sadly turning into one of the billowy old
 His main idea is that the creative mind seems to have two modes, open and closed:
 
 > By the "closed mode" I mean the mode that we are in most of the time when at work. We have inside us a feeling that there's lots to be done and we have to get on with it if we're going to get through it all. It's an active (probably slightly anxious) mode, although the anxiety can be exciting and pleasurable. It's a mode which we're probably a little impatient, if only with ourselves. It has a little tension in it, not much humor. It's a mode in which we're very purposeful, and it's a mode in which we can get very stressed and even a bit manic, but not creative.
-
+>
 > By contrast, the open mode, is relaxed, expansive, less purposeful mode... in which we’re probably more contemplative, more inclined to humor (which always accompanies a wider perspective) and, consequently, more playful. It's a mood in which curiosity for its own sake can operate because we're not under pressure to get a specific thing done quickly. We can play, and that is what allows our natural creativity to surface.
 
 It’s an important skill to observe how your brain switches between these modes. Desperation, whose natural habitat is midnight before a deadline, is the ultimate closed mode—great for finishing up projects, but terrible for coming up with ideas. The languid summer months are the home of the open mode—when the sky stretches with potential novels, paintings, and research papers—and of course very little actually gets done.
