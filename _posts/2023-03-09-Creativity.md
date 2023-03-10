@@ -24,7 +24,7 @@ Figuring out the meat bag’s preferred mixture of sleep, frisbee, and Diet Coke
 
 
 
-## Hiding Hand
+## Tricking the Hiding Hand
 
 So much for preconditions. How does one choose creative projects? 
 
