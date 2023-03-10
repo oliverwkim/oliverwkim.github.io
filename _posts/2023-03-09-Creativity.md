@@ -101,7 +101,7 @@ Through this you learn that the research process, like a typical Mets season, co
 
 Short of apprenticing yourself to the nearest stonemason, I’ve also found it enormously helpful to find art that is itself about the creative process. (The Beatles: Get Back is one example.) This works for me less as a direct source of ideas about how to structure my work, but more to dwell in a mind alien to mine, and to use the strangeness of that terrain to reflect on my own practice.
 
-One such book—that I say, without irony, changed my life—is the compiled letters of Vincent van Gogh.
+One such book---that I say, without irony, changed my life---is the compiled letters of Vincent van Gogh.
 
 In some sense, it’s an odd recommendation. The letters are, of course, mostly about painting—though Vincent first tries working as an art dealer and then a preacher, and finds that neither stick. Many of the letters are filled with banalities, like requests for paints and gripes about the weather. But there’s something cumulatively powerful about these these details. 
 
