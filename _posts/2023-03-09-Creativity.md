@@ -43,7 +43,7 @@ Go out there and prove them wrong.
 
 ## Business Secrets of the Beatles
 
-We’ve made it around a thousand words in a self-indulgent personal essay on creativity, and while I’ve worked in Albert Hirschman, Tottenham Hotspur, and Diet Coke, I somehow haven’t yet mentioned the Beatles.
+We’ve made it around a thousand words in a self-indulgent personal essay on creativity, and while I’ve worked in Albert Hirschman and Tottenham Hotspur, I somehow haven’t yet mentioned the Beatles.
 
 The new Beatles documentary _Get Back_ has spawned a whole sub-industry of think-pieces on the creative process, and by now the basic facts are well-known: how the Beatles set themselves a crazy ambitious deadline---compose an album of fourteen songs to perform live in two weeks---and how that pressure unleashed stunning feats of genius---like Paul McCartney creating “Get Back” from nothing in two minutes on his Hofner Bass. 
 
