@@ -44,7 +44,7 @@ In some sense, then, this exercise is agnostic. It shows us, based on historical
 
 _Real GDP per capita is expenditure-side real GDP at chained PPPs (2017 US$), divided by population, using underlying data from the Penn World Tables, version 10.0: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next Generation of the Penn World Table" American Economic Review, 105(10), 3150-3182, available for download at [www.ggdc.net/pwt](www.ggdc.net/pwt)_.
 
-_Version 0.7. [Comments and suggestions](https://twitter.com/oliverwkim) welcome._
+_Version 0.8. [Comments and suggestions](https://twitter.com/oliverwkim) welcome._
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
