@@ -72,6 +72,22 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
 
     var selectedCountry = "Kenya"
     var catchupCountry = "the United States"
+    var growthRate = "recent 10-year growth rates"
+
+    // if in URL, use these instead
+    const url = new URL(window.location.href);
+    const params = new URLSearchParams(url.search);
+
+    // Check if a parameter exists
+    if (params.has('selectedCountry')) {
+      selectedCountry = params.get('selectedCountry');
+    } 
+    if (params.has('catchupCountry')) {
+      catchupCountry = params.get('catchupCountry');
+    } 
+    if (params.has('growthRate')) {
+      growthRate = params.get('growthRate');
+    } 
 
     selectedCountryGDP = data.filter(function(row){ 
         return row.country == selectedCountry;
@@ -113,7 +129,7 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     catchupPoint = yearsCatchup + yearlast
 
     updateProjection(GDPlast, lastGDPCatchup, yearsCatchup)
-    makeButtons(selectedCountry, catchupCountry, 'recent 10-year growth rates');
+    makeButtons(selectedCountry, catchupCountry, growthRate);
     updateButtons();
 
     // A color scale: one color for each group
