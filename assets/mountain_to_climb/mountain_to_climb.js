@@ -225,6 +225,21 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_10.csv",
     // A function that updates the chart
     function update(selectedCountry, catchupCountry, growthRate) {
 
+      const params = new URLSearchParams(window.location.search);
+
+      // Add or update the desired parameter(s)
+      params.set('selectedCountry', selectedCountry);
+      params.set('catchupCountry', catchupCountry);
+      params.set('growthRate', growthRate);
+
+      // Create a new URL object with the updated search parameters
+      const newUrl = new URL(window.location.href);
+      newUrl.search = params.toString();
+
+      // Update the URL in the browser without refreshing the page
+      history.pushState({}, '', newUrl);
+
+
       selectedCountryGDP = data.filter(function(row){ 
           return row.country == selectedCountry;
       });
