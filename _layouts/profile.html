@@ -10,9 +10,13 @@ layout: default
   }
 
   .profile-image {
-    flex: 0 0 auto; /* This ensures the image doesn't shrink or grow. */
-    width: 500px; /* Increased size of the image. */
-    max-width: 100%; /* Ensures it's responsive. */
+    flex: 0 0 300px; /* Sets the width of the profile-image div to 300px. */
+  }
+
+  .profile-image img {
+    width: 100%; /* Ensures the image takes the full width of its parent .profile-image. */
+    max-width: 100%; /* This ensures it's responsive and won't exceed its parent's width. */
+    height: auto; /* Maintains aspect ratio. */
   }
 
   .profile-content {
