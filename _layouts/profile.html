@@ -1,6 +1,10 @@
 ---
-layout: default
+layout: compress
+title: Home
 ---
+
+
+{% include head.html %}
 
 <style>
   .profile-container {
@@ -25,12 +29,21 @@ layout: default
   }
 </style>
 
-<div class="profile-container">
-  <div class="profile-image">
-    <img src="{{site.baseurl}}/images/oliver_kim_job_market.JPG" alt="Oliver Kim. Photo credit to Nadia Kim." />
+<main>
+
+  <div class="profile-container">
+    <div class="profile-image">
+      <img src="{{site.baseurl}}/images/oliver_kim_job_market.JPG" alt="Oliver Kim. Photo credit to Nadia Kim." />
+    </div>
+
+    <div class="profile-content">
+      {{ content }}
+    </div>
   </div>
 
-  <div class="profile-content">
-    {{ content }}
-  </div>
-</div>
+</main>
+
+    {% include footer.html %}
+
+</body>
+</html>
