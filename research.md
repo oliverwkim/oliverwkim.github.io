@@ -9,7 +9,7 @@ permalink: /research/
 
 
 ## Working Papers
-<span class="sans">Decomposing Political Favoritism in Kenyan Mass Electrification</span>, with Catherine D. Wolfram, Susanna B. Berkouwer, Felipe Vial, Eric Hsu, and Edward Miguel. [Available on request.]
+<span class="sans">Political Connections: Did Decentralization Constrain Favoritism in Kenyan Mass Electrification?</span>, with Catherine D. Wolfram, Susanna B. Berkouwer, Felipe Vial, Eric Hsu, and Edward Miguel. [Available on request.]
 
 ## Work in Progress
 
