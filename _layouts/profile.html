@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<style>
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .profile-image {
+    flex: 0 0 auto; /* This ensures the image doesn't shrink or grow. */
+    max-width: 300px; /* You can adjust this. */
+  }
+
+  .profile-content {
+    flex: 1; /* This allows the content area to take up the remaining space. */
+  }
+</style>
+
+<div class="profile-container">
+  <div class="profile-image">
+    <img src="{{site.baseurl}}/images/oliver_kim_job_market.JPG" alt="Oliver Kim. Photo credit to Nadia Kim." />
+  </div>
+
+  <div class="profile-content">
+    {{ content }}
+  </div>
+</div>

@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: profile
 title: Home
 ---
 
 <!--<img src ="/images/hong_kong.png" alt="Hong Kong" />-->
-
-![Oliver Kim.]({{site.baseurl}}/images/oliver_kim_job_market.JPG "Oliver Kim. Photo credit to Nadia Kim.")
 
 I am a PhD candidate in Economics at UC Berkeley, on the academic job market for 2023-4. My advisors are Edward Miguel, Benjamin Faber, Jón Steinsson, and Barry Eichengreen.
 
