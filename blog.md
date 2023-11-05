@@ -5,4 +5,3 @@ title: Blog
 
 <img src ="/images/hong_kong.png" alt="Hong Kong" />
 
-{% fullwidth "/images/hong_kong.png" "A caption for the image" %}
