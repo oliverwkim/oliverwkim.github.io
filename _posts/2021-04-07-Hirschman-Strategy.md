@@ -11,7 +11,7 @@ This is a blog about development economics, and there’s surely no better way t
 
 <!--more-->
 
-Hirschman was a master of those little ideas that, once you’ve heard them, are impossible to shake loose from your head. Because of his unconventional life story (more on that in a moment), he was an outsider for much of his academic career. Unusual for his era, he did extensive fieldwork, which helped him to develop a wry literary style that emphasized in-person observation, and an allergy to sweeping mathematical models that smoothed away the messiness of human behavior. Because of these proclivities, Hirschman and his ideas were basically exiled from the mainstream of economics in the 1960s and 1970s, swept away by the rising tide of mathematization. 
+Hirschman was a master of those little ideas that, once you’ve heard them, are impossible to shake loose from your head. Because of his unconventional life story (more on that in a moment), he was an outsider for much of his academic career. Unusual for his era, he did extensive fieldwork, which helped him to develop a wry literary style that emphasized in-person observation and an allergy to sweeping mathematical models that smoothed away the messiness of human behavior. Because of these proclivities, Hirschman and his ideas were basically exiled from the mainstream of economics in the 1960s and 1970s, swept away by the rising tide of mathematization. 
 
 And precisely because of these tendencies, I think his ideas are ripe for a comeback.
 
