@@ -6,8 +6,7 @@ published: true
 
 Spending a summer doing fieldwork in Busia, Kenya has become a rite of passage for Berkeley development RAs. When I was planning my trip, I wish there’d been a guide with the collected experience of former RAs all in one place---here’s my attempt at writing it. All information is current as of summer 2019.
 
-![Downtown Busia after a rainy day.](/assets/busia_guide/downtown_busia.jpeg "Downtown Busia after a rainy day")
-*Downtown Busia after a rainy day*
+<figure><img src="/assets/busia_guide/downtown_busia.jpeg" alt="Downtown Busia after a rainy day." /><span class="marginnote">Downtown Busia after a rainy day.</span></figure>
 
 # Before You Travel
 
