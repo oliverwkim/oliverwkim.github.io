@@ -6,7 +6,7 @@ permalink: /research/
 
 ## Job Market Paper
 
-<p><span class="sans">Reassessing China's Rural Reforms: The View from Outer Space</span>, with Joel Ferguson. [<a href="{{ site.url }}/papers/oliver_kim_JMP.pdf">Latest Draft</a>]  <span class="marginnote"><img src="/images/noaa_satellite.jpeg" alt="NOAA rocket launch" /><br />The launch of a NOAA satellite, the kind used in my JMP.</span> </p>
+<p><span class="sans">Reassessing China's Rural Reforms: The View from Outer Space</span>, with Joel Ferguson. [<a href="{{ site.url }}/papers/oliver_kim_JMP.pdf">Latest Draft</a>]  <span class="marginnote"><img src="/images/noaa_satellite.jpeg" alt="NOAA rocket launch" /><br /><em>The launch of a NOAA satellite, the kind used in my JMP.</em></span> </p>
 <!-- [Non-Technical Summary] [Historical Appendix] [Technical Appendix] -->
 
 ## Publications
@@ -15,7 +15,7 @@ permalink: /research/
 ## Working Papers
 <span class="sans">The Distribution of Power: Decentralization and Favoritism in Public Infrastructure</span>, with Catherine D. Wolfram, Susanna B. Berkouwer, Felipe Vial, Eric Hsu, and Edward Miguel. [Available on request.]
 
-<span class="sans">Land Reform and the Taiwanese Miracle</span>, with Jen Kuan Wang. [Draft Available Soon]
+<span class="sans">Land Reform and the Taiwanese Miracle</span>, with Jen Kuan Wang. [<a href="{{ site.url }}/papers/KimWang_Taiwan.pdf">Latest Draft</a>]
 
 
 <!--## Other Work in Progress
