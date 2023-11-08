@@ -6,7 +6,7 @@ permalink: /research/
 
 ## Job Market Paper
 
-<p><span class="sans">Reassessing China's Rural Reforms: The View from Outer Space</span>, with Joel Ferguson. [<a href="{{ site.url }}/papers/oliver_kim_JMP.pdf">Latest Draft</a>]  <span class="marginnote"><img src="/images/noaa_satellite.jpeg" alt="NOAA rocket launch" /></span> </p>
+<p><span class="sans">Reassessing China's Rural Reforms: The View from Outer Space</span>, with Joel Ferguson. [<a href="{{ site.url }}/papers/oliver_kim_JMP.pdf">Latest Draft</a>]  <span class="marginnote"><img src="/images/noaa_satellite.jpeg" alt="NOAA rocket launch" />The launch of a NOAA satellite, the kind used in my JMP.</span> </p>
 <!-- [Non-Technical Summary] [Historical Appendix] [Technical Appendix] -->
 
 ## Publications
