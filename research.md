@@ -20,6 +20,16 @@ permalink: /research/
 
 <span class="sans">Land Reform and the Taiwanese Miracle</span>, with Jen Kuan Wang. [<a href="{{ site.url }}/papers/KimWang_Taiwan.pdf">Latest Draft</a>]
 
+<em><span class="sans">Abstract:</span></em> Taiwan’s 1950s land reform, which redistributed land to tenant farmers, has long been thought of as central to its growth miracle, but this claim has never been tested with modern
+empirical tools. By assembling a novel dataset from historical archives and exploiting a natural
+experiment in the second phase of the reform program, we study land reform’s effect on
+Taiwan’s economic development. We have three main findings. First, land reform reduced
+tenancy and increased the share of smallholder farmers. Second, land reform significantly
+increased the yields of rice, Taiwan’s main staple crop. Finally, agricultural productivity
+growth pulled labor from the manufacturing sector, consistent with a standard neoclassical
+growth model. Considering the large boon to agricultural productivity, these results strongly
+suggest that land reform had a large and positive impact on Taiwan’s economic development.
+
 
 ## Publications
 <span class="sans">Money or Power? Choosing Covid-19 Aid in Kenya</span>, with Susanna B. Berkouwer, Pierre Biscaye, Eric Hsu, Kenneth Lee, Edward Miguel, and Catherine D. Wolfram. _Energy Economics_. 2023. 127(B)107036. [<a href = "https://www.sciencedirect.com/science/article/abs/pii/S0140988323005340">Journal version</a>] [<a href="{{ site.url }}/papers/BBHKLMW.pdf">Working paper</a>] [<a href="https://www.theigc.org/blog/money-or-power-choosing-covid-19-aid-in-kenya/">IGC Blog Post</a>] [<a href="https://pedl.cepr.org/publications/money-or-power-financial-infrastructure-and-optimal-policy-0">PEDL Blog Post</a>]
