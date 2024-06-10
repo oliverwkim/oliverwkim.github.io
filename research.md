@@ -14,7 +14,7 @@ permalink: /research/
 
 
 ## Working Papers
-<span class="sans">The Distribution of Power: Decentralization and Favoritism in Public Infrastructure</span>, with Catherine D. Wolfram, Susanna B. Berkouwer, Felipe Vial, Eric Hsu, and Edward Miguel. [Available on request.]
+<span class="sans">The Distribution of Power: Decentralization and Favoritism in Public Infrastructure</span>, with Catherine D. Wolfram, Susanna B. Berkouwer, Felipe Vial, Eric Hsu, and Edward Miguel. Submitted. [<a href="{{ site.url }}/papers/LMCP/LMCP_Political_Economy_Main_Submission_2024_06_04.pdf">Latest Draft (June 2024)</a>] [<a href="{{ site.url }}/papers/LMCP/LMCP_Political_Economy_Main_Submission_2024_06_04.pdf">Online Appendix</a>]
 
 <span class="sans">Privilège Exorbitant? The Developmental Effects of the CFA Franc</span>, with Abdoulaye Cissé and Joel Ferguson. 
 
