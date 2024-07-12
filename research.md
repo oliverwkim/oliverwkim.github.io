@@ -18,17 +18,10 @@ permalink: /research/
 
 <span class="sans">Privilège Exorbitant? The Developmental Effects of the CFA Franc</span>, with Abdoulaye Cissé and Joel Ferguson. 
 
-<span class="sans">Land Reform and the Taiwanese Miracle</span>, with Jen Kuan Wang. [<a href="{{ site.url }}/papers/KimWang_Taiwan.pdf">Latest Draft</a>]
+<span class="sans">Land Reform in Taiwan, 1950-1961: Effects on Agriculture and Structural Change </span>, with Jen Kuan Wang. [<a href="{{ site.url }}/papers/KimWang_Taiwan.pdf">Latest Draft (July 2024)</a>]
 
-<em><span class="sans">Abstract:</span></em> Taiwan’s 1950s land reform, which redistributed land to tenant farmers, has long been thought of as central to its growth miracle, but this claim has never been tested with modern
-empirical tools. By assembling a novel dataset from historical archives and exploiting a natural
-experiment in the second phase of the reform program, we study land reform’s effect on
-Taiwan’s economic development. We have three main findings. First, land reform reduced
-tenancy and increased the share of smallholder farmers. Second, land reform significantly
-increased the yields of rice, Taiwan’s main staple crop. Finally, agricultural productivity
-growth pulled labor from the manufacturing sector, consistent with a standard neoclassical
-growth model. Considering the large boon to agricultural productivity, these results strongly
-suggest that land reform had a large and positive impact on Taiwan’s economic development.
+<em><span class="sans">Abstract:</span></em> 		Using two instrumental variables strategies, we study Taiwan's landmark 1950s land reform, long seen as central to its growth miracle. Phase II of reform redistributed formerly Japanese public lands, reducing tenancy, boosting rice yields, and pulling labor from manufacturing back to agriculture. By contrast, phase III, which reduced tenancy by breaking up larger estates, did not increase agricultural productivity and pushed labor out of agriculture. Phase II likely increased yields by lifting crop choice constraints, while phase III may have created farms too small to be economically viable. These differential results complicate traditional favorable narratives of Taiwan's reform.
+
 
 
 ## Publications
