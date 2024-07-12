@@ -18,11 +18,15 @@ permalink: /research/
 
 <em><span class="sans">Abstract:</span></em> 		Political favoritism can harm economic growth by distorting public investment. But how can researchers identify political bias without observing government objectives? Using granular infrastructure and electoral data, we leverage an institutional feature of Kenya’s nationwide electrification program: a pre-existing transparent allocation formula. Despite constitutional reforms decentralizing fiscal expenditures, pro-government areas received 46% more electrified villages and 35% more household connections than allocated by the formula. Favoritism was exerted by national offices—not Members of Parliament or local construction managers. The benefits of central coordination, technical capacity, and economies of scale may expose infrastructure to continued political capture despite decentralization.
 
-<span class="sans">Privilège Exorbitant? The Developmental Effects of the CFA Franc</span>, with Abdoulaye Cissé and Joel Ferguson. 
-
 <span class="sans">Land Reform in Taiwan, 1950-1961: Effects on Agriculture and Structural Change</span>, with Jen Kuan Wang. [<a href="{{ site.url }}/papers/KimWang_Taiwan.pdf">Latest Draft (July 2024)</a>]
 
 <em><span class="sans">Abstract:</span></em> 		Using two instrumental variables strategies, we study Taiwan's landmark 1950s land reform, long seen as central to its growth miracle. Phase II of reform redistributed formerly Japanese public lands, reducing tenancy, boosting rice yields, and pulling labor from manufacturing back to agriculture. By contrast, phase III, which reduced tenancy by breaking up larger estates, did not increase agricultural productivity and pushed labor out of agriculture. Phase II likely increased yields by lifting crop choice constraints, while phase III may have created farms too small to be economically viable. These differential results complicate traditional favorable narratives of Taiwan's reform.
+
+
+## Work in Progress
+
+<span class="sans">Privilège Exorbitant? The Developmental Effects of the CFA Franc</span>, with Abdoulaye Cissé and Joel Ferguson. 
+
 
 
 
