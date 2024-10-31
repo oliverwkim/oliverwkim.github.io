@@ -20,7 +20,7 @@ permalink: /research/
 
 <span class="sans">Land Reform in Taiwan, 1950-1961: Effects on Agriculture and Structural Change</span>, with Jen Kuan Wang. [<a href="{{ site.url }}/papers/KimWang_Taiwan.pdf">Latest Draft (October 2024)</a>]
 
-<em><span class="sans">Abstract:</span></em> 				We study Taiwan’s landmark 1950s land reform, long seen as central to its growth takeoff.Phase II of reform---which redistributed formerly Japanese public lands---boosted rice yields and increased the share of agricultural labor. By contrast, phase III---which broke up larger estates---did not increase yields and pushed female labor into manufacturing. Phase II likely improved yields by lifting crop choice constraints (though it can only explain one-sixth of observed 1950s rice yield growth), while phase III may have made farms inefficiently small. These results challenge longstanding views around land reform and the East Asian Miracle.
+<em><span class="sans">Abstract:</span></em> 				We study Taiwan’s landmark 1950s land reform, long seen as central to its growth takeoff .Phase II of reform---which redistributed formerly Japanese public lands---boosted rice yields and increased the share of agricultural labor. By contrast, phase III---which broke up larger estates---did not increase yields and pushed female labor into manufacturing. Phase II likely improved yields by lifting crop choice constraints (though it can only explain one-sixth of observed 1950s rice yield growth), while phase III may have made farms inefficiently small. These results challenge longstanding views around land reform and the East Asian Miracle.
 
 
 ## Work in Progress
