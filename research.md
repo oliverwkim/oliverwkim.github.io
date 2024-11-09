@@ -13,7 +13,7 @@ permalink: /research/
 
 <em><span class="sans">Abstract:</span></em> We study one of the central reforms in China’s economic miracle, the Household Responsibility System (HRS), which decollectivized agriculture starting in 1978. The HRS is commonly seen as having significantly boosted agricultural productivity—but this conclusion rests on unreliable official data. We use historical satellite imagery to generate new measurements of grain yield, independent of official Chinese statistics. Using a difference-in-discontinuities design, we find no causal evidence that provinces that adopted the HRS sooner experienced faster grain yield growth. These results challenge our conventional understanding of decollectivization, land reform, and the origins of the Chinese miracle.
 
-<em><span class="sans">Press:</span></em> The Atlantic's <em>Good on Paper</em> Podcast, Marginal Revolution, Phenomenal World, Financial Times Alphaville.
+<!--<em><span class="sans">Press:</span></em> The Atlantic's <em>Good on Paper</em> Podcast, Marginal Revolution, Phenomenal World, Financial Times Alphaville.-->
 
 
 <span class="sans">The Distribution of Power: Decentralization and Favoritism in Public Infrastructure</span>, with Catherine D. Wolfram, Susanna B. Berkouwer, Felipe Vial, Eric Hsu, and Edward Miguel. Submitted. [<a href="{{ site.url }}/papers/LMCP/LMCP_Political_Economy_Main_Submission_2024_06_04.pdf">Latest Draft (June 2024)</a>] [<a href="{{ site.url }}/papers/LMCP/LMCP_Political_Economy_Main_Submission_2024_06_04.pdf">Online Appendix</a>]
@@ -24,7 +24,7 @@ permalink: /research/
 
 <em><span class="sans">Abstract:</span></em> 				We study Taiwan’s landmark 1950s land reform, long seen as central to its growth takeoff .Phase II of reform---which redistributed formerly Japanese public lands---boosted rice yields and increased the share of agricultural labor. By contrast, phase III---which broke up larger estates---did not increase yields and pushed female labor into manufacturing. Phase II likely improved yields by lifting crop choice constraints (though it can only explain one-sixth of observed 1950s rice yield growth), while phase III may have made farms inefficiently small. These results challenge longstanding views around land reform and the East Asian Miracle.
 
-<em><span class="sans">Press:</span></em> The Atlantic's <em>Good on Paper</em> Podcast, Marginal Revolution.
+<!--<em><span class="sans">Press:</span></em> The Atlantic's <em>Good on Paper</em> Podcast, Marginal Revolution.-->
 
 
 ## Work in Progress
