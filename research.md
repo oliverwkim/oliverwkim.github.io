@@ -31,7 +31,7 @@ permalink: /research/
 
 <span class="sans">Privilège Exorbitant? The Developmental Effects of the CFA Franc</span>, with Abdoulaye Cissé and Joel Ferguson. 
 
-<span class="sans">Korea Project</span>, with Philipp Barteska. 
+<span class="sans">War Procurmement and the Korean Export Miracle</span>, with Philipp Barteska, Nathan Lane, and Seung Joo Lee. 
 
 
 
