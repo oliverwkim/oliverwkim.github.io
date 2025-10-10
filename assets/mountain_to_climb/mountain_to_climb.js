@@ -36,6 +36,8 @@ function updateProjection(lastGDP, lastGDPCatchup, yearsCatchup){
 }
 
 function getFlagEmoji(countryCode) {
+  if (!countryCode) return ''; // Return empty string if countryCode is undefined/null
+  
   var codePoints = countryCode
     .toUpperCase()
     .split('')
@@ -68,7 +70,7 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_1001.csv",
     // Extract unique countries and their ISO codes
     var countryData = {};
     data.forEach(function(d) {
-        if (!countryData[d.country]) {
+        if (d.country && d.iso2c && !countryData[d.country]) {
             countryData[d.country] = d.iso2c;
         }
     });
@@ -78,8 +80,8 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_1001.csv",
         return getFlagEmoji(countryData[country]);
     });
 
-    console.log('Countries:', countries);
-    console.log('Flags:', flags);
+    console.log('Countries:', countries.length);
+    console.log('Sample countries:', countries.slice(0, 5));
 
 
     var selectedCountry = "Kenya"
