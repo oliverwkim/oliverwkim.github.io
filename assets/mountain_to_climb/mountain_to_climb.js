@@ -65,18 +65,22 @@ var JapaneseMiracle = 0.079924659 // 1950-1973
 d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_1001.csv", 
 
   function(data) {
-    // Get unique country names
-    var uniqueCountries = d3.map(data, function(d){ return d.country; }).keys();
-    countries = uniqueCountries;
-
-    // get country names
-    //countries = d3.map(data, function(d){return d.country;}).keys()
-    //flags = d3.map(data, function(d){return getFlagEmoji(d.iso2c);}).keys()    
-    // Get corresponding flags
-    flags = uniqueCountries.map(function(country) {
-        var countryData = data.find(function(d) { return d.country === country; });
-        return getFlagEmoji(countryData.iso2c);
+    // Extract unique countries and their ISO codes
+    var countryData = {};
+    data.forEach(function(d) {
+        if (!countryData[d.country]) {
+            countryData[d.country] = d.iso2c;
+        }
     });
+
+    countries = Object.keys(countryData);
+    flags = countries.map(function(country) {
+        return getFlagEmoji(countryData[country]);
+    });
+
+    console.log('Countries:', countries);
+    console.log('Flags:', flags);
+
 
     var selectedCountry = "Kenya"
     var catchupCountry = "the United States"
