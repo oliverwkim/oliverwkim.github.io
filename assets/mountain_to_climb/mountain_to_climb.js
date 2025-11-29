@@ -69,6 +69,7 @@ var JapaneseMiracle = 0.079924659 // 1950-1973
 var ChineseMiracle = 0.08062386846 // 1978-2012
 
 
+
 d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv", 
 
   function(data) {
@@ -543,6 +544,22 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
             makeButtons(selectedOption, catchupCountry, growthRate);
 
         });
+
+
+        d3.select("#downloadBtn").on("click", function() {
+          // 1. Select the SVG element
+          var svgNode = document.querySelector("#forecasts svg");
+
+          // 2. Set options (optional but recommended)
+          var options = {
+              scale: 2,               // 2x resolution so it looks crisp on Retina screens
+              backgroundColor: "white", // Important! Otherwise background is transparent
+              encoderOptions: 1.0     // Max image quality
+          };
+
+          // 3. Trigger the download
+          saveSvgAsPng(svgNode, "mountain_to_climb.png", options);
+      });
 
 
 

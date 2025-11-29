@@ -18,6 +18,9 @@ excerpt: At current growth rates, how long will it take for developing countries
 </div>
 <div style="clear: both; margin-bottom: 2em;"></div>
 <div id="forecasts"></div>
+<button id="downloadBtn" style="margin-top: 10px; cursor: pointer;">
+    ⬇ Save Chart as Image
+</button>
 
 With this tool, you can calculate how long it will take for developing countries to reach higher income levels--the mountain to climb, so to speak--under a range of growth scenarios, ranging from the pessimistic to the optimistic.
 
@@ -49,5 +52,5 @@ _Version 0.9. [Comments and suggestions](https://twitter.com/oliverwkim) welcome
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="/assets/mountain_to_climb/mountain_to_climb.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/save-svg-as-png/1.4.17/saveSvgAsPng.min.js"></script>
 
