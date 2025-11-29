@@ -143,9 +143,9 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
 
     growthRates = [growth10yr, 
                     growthAll, 
-                    GermanMiracle, 
-                    ChineseMiracle, 
-                    JapaneseMiracle];
+                    GermanMiracle,  
+                    JapaneseMiracle,
+                    ChineseMiracle];
 
     yearsCatchup = calculateYears(GDPlast, lastGDPCatchup, growth10yr)
 
