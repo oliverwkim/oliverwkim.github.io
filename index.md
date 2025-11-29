@@ -12,7 +12,7 @@ My research interests are in development and economic history. My job market pap
 
 You can reach me by email at oliverwkim at gmail dot com. -->
 
-I am a Research Fellow at Open Philanthropy, researching cause areas to fund in global health and development. I have a PhD in Economics from UC Berkeley, completed in 2024. and an AB in Economics from Harvard College, finished in 2016. I also worked as a research analyst at the New York Fed from 2016-18.
+I am a Research Fellow at Coefficient Giving, researching cause areas to fund in global health and development. I have a PhD in Economics from UC Berkeley, completed in 2024. and an AB in Economics from Harvard College, finished in 2016. I also worked as a research analyst at the New York Fed from 2016-18.
 
 I also do academic research in development and economic history, broadly motivated around studying industrialization and structural transformation as solutions to extreme poverty. My research spans the historical causes of the East Asian Miracle to contemporary development questions in sub-Saharan Africa.
 
