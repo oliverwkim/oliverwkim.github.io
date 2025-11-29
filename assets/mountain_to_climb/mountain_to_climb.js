@@ -94,7 +94,7 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
 
 
     var selectedCountry = "Kenya"
-    var catchupCountry = "United States"
+    var catchupCountry = "the United States"
     var growthRate = "recent 10-year growth rates"
 
     // if in URL, use these instead
