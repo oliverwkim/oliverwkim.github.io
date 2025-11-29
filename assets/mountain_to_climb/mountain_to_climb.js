@@ -547,35 +547,60 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
 
 
 
-        
-      d3.select("#downloadBtn").on("click", function() {
+        d3.select("#downloadBtn").on("click", function() {
           
-          // 1. Get the current text/values from the dropdowns
-          var selected = d3.select("#selectCountry").property("value");
-          var catchup = d3.select("#catchupCountry").property("value");
-          
-          // 2. Clean the strings to make them "filename safe"
-          // This replaces spaces with underscores and removes special characters
-          var cleanSelected = selected.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
-          var cleanCatchup = catchup.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
-          
-          // 3. Build the filename (e.g., "Projection_China_vs_United_States.png")
-          var filename = "Projection_" + cleanSelected + "_vs_" + cleanCatchup + ".png";
+            // 1. Generate Dynamic Filename
+            var selected = d3.select("#selectCountry").property("value");
+            var catchup = d3.select("#catchupCountry").property("value");
+            // Clean up names for filenames (remove spaces and non-alphanumeric characters)
+            var cleanSelected = selected.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
+            var cleanCatchup = catchup.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
+            var filename = "Projection_" + cleanSelected + "_vs_" + cleanCatchup + ".png";
 
-          // 4. Select the SVG node
-          var svgNode = document.querySelector("#forecasts svg");
 
-          // 5. Set options (high res, white background)
+            // 2. Select the SVG using D3 so we can modify it
+            var svgSelection = d3.select("#forecasts svg");
+            var svgNode = svgSelection.node(); // The raw HTML node needed for the save function
+
+
+            // --- THE "SURGICAL STRIKE" ---
+
+            // A. Remember the current state on the webpage so we can restore it later.
+            var originalWidthAttr = svgSelection.attr("width");
+            var originalMarginLeftStyle = svgSelection.style("margin-left");
+
+
+            // B. Temporarily apply fixes JUST for the PNG export.
+
+            // Fix Left Cutoff: Your CSS shifts the chart 120px left.
+            // The exporter clips this. We reset it to 0 temporarily.
+          svgSelection.style("margin-left", "0px");
+
+          // Fix Right Empty Space: Your code defines a huge 250px right margin.
+          // We temporarily reduce the total declared width of the SVG to lop off that space.
+          // We subtract 220px, leaving a small 30px buffer so right-side labels don't get clipped.
+          var newTightWidth = parseInt(originalWidthAttr) - 220;
+          svgSelection.attr("width", newTightWidth);
+
+
+          // C. Set export options (high resolution, white background)
           var options = {
-              scale: 2,
+              scale: 3,               // 3x scale for very crisp text
               backgroundColor: "white",
-              encoderOptions: 1.0
+              encoderOptions: 1.0,
+              // Tell the exporter to respect the temporary dimensions we just set
+              width: newTightWidth,
+              height: svgSelection.attr("height")
           };
 
-          // 6. Trigger download
-          saveSvgAsPng(svgNode, filename, options);
-      });
-
+          // D. Trigger download, and immediately RESTORE the webpage state.
+          saveSvgAsPng(svgNode, filename, options).then(function() {
+              // This runs the millisecond after the image snapshot is taken.
+              // Put everything back exactly how it was so the webpage looks unchanged.
+              svgSelection.attr("width", originalWidthAttr);
+              svgSelection.style("margin-left", originalMarginLeftStyle);
+          });
+      });     
 
     }
 
