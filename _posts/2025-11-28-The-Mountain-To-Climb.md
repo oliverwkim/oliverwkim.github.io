@@ -11,7 +11,7 @@ excerpt: At current growth rates, how long will it take for developing countries
 <div id="interface">
 	At <select id = "growthRates" ></select>, when <br />
  	will <select id="selectCountry"></select> 
-	reach 2019 GDP per capita in
+	reach 2023 GDP per capita in
 	<select id="catchupCountry"></select>?
 </div>
 <div id="projection"></div>

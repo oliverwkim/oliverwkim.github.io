@@ -1,6 +1,11 @@
 // https://www.d3-graph-gallery.com/graph/line_basic.html
 // https://www.d3-graph-gallery.com/graph/line_select.html
 
+/*
+  Note: I processed the PWT 11 data to create GDP per capita (rgdpe_pc)
+  and changed the name of "United States" to "the United States" to look better
+*/
+
 
 function calculateRate (start, end, years){
   return Math.pow(end / start, 1 / years) - 1
@@ -60,8 +65,8 @@ var svg = d3.select("#forecasts")
 
 var TaiwaneseMiracle = 0.051376746 // 1951-2019
 var GermanMiracle = 0.057242325 // 1950-1973
-var ChineseMiracle = 0.067037168 // 1978-2012
 var JapaneseMiracle = 0.079924659 // 1950-1973
+var ChineseMiracle = 0.08062386846 // 1978-2012
 
 
 d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv", 
@@ -132,8 +137,8 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
     growthOptions = ['recent 10-year growth rates', 
                      'average historical growth rates',
                       getFlagEmoji('DE') + ' German miracle rates (1950-73)',
-                      getFlagEmoji('CN') + ' Chinese miracle rates (1978-2012)',
-                      getFlagEmoji('JP') + ' Japanese miracle rates (1950-73)'];
+                      getFlagEmoji('JP') + ' Japanese miracle rates (1950-73)',
+                      getFlagEmoji('CN') + ' Chinese miracle rates (1978-2012)'];
 
     growthRates = [growth10yr, 
                     growthAll, 
