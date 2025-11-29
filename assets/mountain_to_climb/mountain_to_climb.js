@@ -64,7 +64,7 @@ var ChineseMiracle = 0.067037168 // 1978-2012
 var JapaneseMiracle = 0.079924659 // 1950-1973
 
 
-d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_1001.csv", 
+d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv", 
 
   function(data) {
     // Extract unique countries and their ISO codes
