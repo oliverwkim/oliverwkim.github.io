@@ -546,21 +546,35 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
         });
 
 
-        d3.select("#downloadBtn").on("click", function() {
-          // 1. Select the SVG element
+
+        
+      d3.select("#downloadBtn").on("click", function() {
+          
+          // 1. Get the current text/values from the dropdowns
+          var selected = d3.select("#selectCountry").property("value");
+          var catchup = d3.select("#catchupCountry").property("value");
+          
+          // 2. Clean the strings to make them "filename safe"
+          // This replaces spaces with underscores and removes special characters
+          var cleanSelected = selected.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
+          var cleanCatchup = catchup.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
+          
+          // 3. Build the filename (e.g., "Projection_China_vs_United_States.png")
+          var filename = "Projection_" + cleanSelected + "_vs_" + cleanCatchup + ".png";
+
+          // 4. Select the SVG node
           var svgNode = document.querySelector("#forecasts svg");
 
-          // 2. Set options (optional but recommended)
+          // 5. Set options (high res, white background)
           var options = {
-              scale: 2,               // 2x resolution so it looks crisp on Retina screens
-              backgroundColor: "white", // Important! Otherwise background is transparent
-              encoderOptions: 1.0     // Max image quality
+              scale: 2,
+              backgroundColor: "white",
+              encoderOptions: 1.0
           };
 
-          // 3. Trigger the download
-          saveSvgAsPng(svgNode, "mountain_to_climb.png", options);
+          // 6. Trigger download
+          saveSvgAsPng(svgNode, filename, options);
       });
-
 
 
     }
