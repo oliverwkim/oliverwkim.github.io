@@ -73,7 +73,7 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
         if (d.country && d.iso2c && !countryData[d.country]) {
             countryData[d.country] = d.iso2c;
         }
-        
+
         d.year = +d.year;          // The "+" converts "2019" to 2019
         d.rgdpe_pc = +d.rgdpe_pc;  // Good practice to ensure this is a number too
     });
@@ -88,7 +88,7 @@ d3.csv("https://oliverwkim.com/assets/mountain_to_climb/pwt_110.csv",
 
 
     var selectedCountry = "Kenya"
-    var catchupCountry = "the United States"
+    var catchupCountry = "United States"
     var growthRate = "recent 10-year growth rates"
 
     // if in URL, use these instead
