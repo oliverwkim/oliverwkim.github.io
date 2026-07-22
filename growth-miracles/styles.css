@@ -94,18 +94,7 @@ a:hover { border-bottom-color: var(--accent-ink); }
   text-transform: uppercase;
   color: var(--ink3);
 }
-.sortbtn {
-  font-family: var(--serif);
-  font-size: 14.5px;
-  background: none;
-  border: none;
-  color: var(--ink2);
-  cursor: pointer;
-  padding: 2px 1px;
-  border-bottom: 2px solid transparent;
-}
-.sortbtn:hover { color: var(--ink); }
-.sortbtn.on { color: var(--ink); font-weight: 600; border-bottom-color: var(--accent); }
+.controls .grp:first-child { margin-left: 0; }
 .controls select, .controls input[type="search"] {
   font-family: var(--serif);
   font-size: 14px;
@@ -159,6 +148,16 @@ table.eps th {
   white-space: nowrap;
 }
 table.eps th.c-name { text-align: left; }
+table.eps th.sortable { cursor: pointer; user-select: none; }
+table.eps th.sortable:hover { color: var(--ink2); }
+table.eps th.sortable:focus-visible { outline: 1px solid var(--accent); outline-offset: 2px; }
+table.eps th.sortable.on { color: var(--ink); }
+table.eps th.sortable.on::after {
+  content: " \25BE";                 /* ▾ descending */
+  color: var(--accent);
+  font-size: 11px;
+}
+table.eps th.sortable.on.asc::after { content: " \25B4"; }   /* ▴ ascending */
 table.eps td {
   padding: 9px 8px;
   border-bottom: 1px solid var(--hair);

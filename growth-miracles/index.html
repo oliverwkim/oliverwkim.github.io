@@ -27,13 +27,6 @@
 <div class="wrap">
   <section class="controls" id="controls">
     <div class="grp">
-      <span class="lbl">Rank by</span>
-      <button class="sortbtn on" data-sort="expansion">Size</button>
-      <button class="sortbtn" data-sort="duration">Duration</button>
-      <button class="sortbtn" data-sort="g">Speed</button>
-      <button class="sortbtn" data-sort="start">Start year</button>
-    </div>
-    <div class="grp">
       <span class="lbl">Region</span>
       <select id="regionsel">
         <option>All</option><option>Africa</option><option>Americas</option>
@@ -56,10 +49,14 @@
         <thead>
           <tr>
             <th></th>
-            <th class="c-name">Episode</th>
-            <th title="Years from acceleration to end of sustained growth">Dur.</th>
-            <th title="Least-squares growth of real GDP per person over the episode">Growth<br>%/yr</th>
-            <th title="Ratio of income per person at end vs start">Income<br>gain</th>
+            <th class="c-name sortable" data-sort="start" tabindex="0"
+                title="Sort chronologically, by the year the acceleration began">Episode</th>
+            <th class="sortable" data-sort="duration" tabindex="0"
+                title="Years from acceleration to end of sustained growth &mdash; click to sort">Dur.</th>
+            <th class="sortable" data-sort="g" tabindex="0"
+                title="Least-squares growth of real GDP per person over the episode &mdash; click to sort">Growth<br>%/yr</th>
+            <th class="sortable" data-sort="expansion" tabindex="0"
+                title="Ratio of income per person at end vs start &mdash; click to sort">Income<br>gain</th>
             <th class="c-driver">Leading sector</th>
           </tr>
         </thead>

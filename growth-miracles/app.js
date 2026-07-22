@@ -47,14 +47,27 @@ const epById = new Map(EPS.map((e) => [e.id, e]));
 
 /* ---------------- state ---------------- */
 
-const state = { sort: "expansion", region: "All", sector: "All", q: "", sel: null };
-
-const SORTS = {
-  expansion: (a, b) => b.expansion - a.expansion,
-  duration: (a, b) => (b.duration - a.duration) || (b.expansion - a.expansion),
-  g: (a, b) => b.g - a.g,
-  start: (a, b) => (a.start - b.start) || a.country.localeCompare(b.country),
+// one entry per sortable column; dir is the direction a fresh click applies
+const SORT_DEFS = {
+  start: { get: (e) => e.start, dir: 1 },
+  duration: { get: (e) => e.duration, dir: -1 },
+  g: { get: (e) => e.g, dir: -1 },
+  expansion: { get: (e) => e.expansion, dir: -1 },
 };
+
+const state = {
+  sort: "expansion", dir: SORT_DEFS.expansion.dir,
+  region: "All", sector: "All", q: "", sel: null,
+};
+
+function comparator() {
+  const def = SORT_DEFS[state.sort];
+  return (a, b) => {
+    const d = (def.get(a) - def.get(b)) * state.dir;
+    if (d) return d;
+    return (b.expansion - a.expansion) || a.country.localeCompare(b.country);
+  };
+}
 
 /* ---------------- tooltip ---------------- */
 
@@ -88,7 +101,7 @@ function visibleEpisodes() {
     (state.sector === "All" || (e.decomp && e.decomp.driver === state.sector)) &&
     (!q || dn(e).toLowerCase().includes(q) || e.country.toLowerCase().includes(q) ||
       e.iso.toLowerCase().includes(q) || (e.title || "").toLowerCase().includes(q))
-  ).sort(SORTS[state.sort]);
+  ).sort(comparator());
 }
 
 function renderTable() {
@@ -548,12 +561,31 @@ function selectEpisode(id, opts = {}) {
 
 /* ---------------- controls ---------------- */
 
-document.querySelectorAll(".sortbtn").forEach((b) =>
-  b.addEventListener("click", () => {
-    state.sort = b.dataset.sort;
-    document.querySelectorAll(".sortbtn").forEach((x) => x.classList.toggle("on", x === b));
+// column headers are the sort control: click to sort, click again to reverse
+const sortHeaders = [...document.querySelectorAll("th.sortable")];
+function syncSortHeaders() {
+  sortHeaders.forEach((th) => {
+    const on = th.dataset.sort === state.sort;
+    th.classList.toggle("on", on);
+    th.classList.toggle("asc", on && state.dir === 1);
+    th.setAttribute("aria-sort",
+      on ? (state.dir === 1 ? "ascending" : "descending") : "none");
+  });
+}
+sortHeaders.forEach((th) => {
+  const apply = () => {
+    const key = th.dataset.sort;
+    if (state.sort === key) state.dir = -state.dir;
+    else { state.sort = key; state.dir = SORT_DEFS[key].dir; }
+    syncSortHeaders();
     renderTable();
-  }));
+  };
+  th.addEventListener("click", apply);
+  th.addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); apply(); }
+  });
+});
+syncSortHeaders();
 document.getElementById("regionsel").addEventListener("change", (ev) => {
   state.region = ev.target.value;
   renderTable();
