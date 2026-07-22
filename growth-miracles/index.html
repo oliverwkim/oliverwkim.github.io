@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Growth Miracle Atlas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead wrap">
+  <div class="rule-double"></div>
+  <div class="rule-thin"></div>
+  <h1>The Growth <span class="amp">Miracle</span> Atlas</h1>
+  <p class="dek">Every sustained growth acceleration in the postwar record — found by the
+  Hausmann&#8202;&ndash;&#8202;Rodrik&#8202;&ndash;&#8202;Pritchett filter, ranked by size and duration,
+  and decomposed by sector where the data allow.</p>
+  <p class="edition">
+    <b id="ed-eps">137</b> episodes <span class="sep">|</span>
+    <b id="ed-ctys">97</b> economies <span class="sep">|</span>
+    Penn World Table 11.0, 1950&ndash;2023 <span class="sep">|</span>
+    <a href="#methods">How the filter works</a>
+  </p>
+  <div class="rule-thin"></div>
+</header>
+
+<div class="wrap">
+  <section class="controls" id="controls">
+    <div class="grp">
+      <span class="lbl">Rank by</span>
+      <button class="sortbtn on" data-sort="expansion">Size</button>
+      <button class="sortbtn" data-sort="duration">Duration</button>
+      <button class="sortbtn" data-sort="g">Speed</button>
+      <button class="sortbtn" data-sort="start">Start year</button>
+    </div>
+    <div class="grp">
+      <span class="lbl">Region</span>
+      <select id="regionsel">
+        <option>All</option><option>Africa</option><option>Americas</option>
+        <option>Asia</option><option>Europe</option><option>Oceania</option>
+      </select>
+    </div>
+    <div class="grp">
+      <span class="lbl">Leading sector</span>
+      <select id="sectorsel"><option value="All">All</option></select>
+    </div>
+    <div class="grp">
+      <input type="search" id="q" placeholder="Search a country&hellip;" aria-label="Search">
+    </div>
+    <span class="count" id="count"></span>
+  </section>
+
+  <main class="layout">
+    <section class="list-pane">
+      <table class="eps" aria-label="Growth episodes">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="c-name">Episode</th>
+            <th title="Years from acceleration to end of sustained growth">Dur.</th>
+            <th title="Least-squares growth of real GDP per person over the episode">Growth<br>%/yr</th>
+            <th title="Ratio of income per person at end vs start">Income<br>gain</th>
+            <th class="c-driver">Leading sector</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+
+    <aside class="detail-pane">
+      <div class="map-card">
+        <svg id="map" role="img" aria-label="World map of growth miracles"></svg>
+        <div class="map-legend">
+          <span><span class="sw" style="background:var(--map1)"></span>1 episode</span>
+          <span><span class="sw" style="background:var(--map2)"></span>2</span>
+          <span><span class="sw" style="background:var(--map3)"></span>3+</span>
+          <span><span class="sw" style="background:var(--mapnone); border:1px solid var(--hair2)"></span>none recorded</span>
+          <span><span class="sw" style="background:var(--accent)"></span>selected</span>
+        </div>
+      </div>
+      <article class="dossier" id="dossier"></article>
+    </aside>
+  </main>
+
+  <section class="methods" id="methods">
+    <h2>How to read this atlas</h2>
+    <div class="cols">
+      <div class="m-sec">
+        <h3>The filter</h3>
+        <p>An episode enters the atlas if it passes the growth-acceleration filter of Hausmann, Pritchett
+        and Rodrik (2005), applied here to real GDP per person (<i>rgdpna</i>/<i>pop</i>) in Penn World
+        Table 11.0. Growth in year <i>t</i> must satisfy three conditions over an eight-year horizon:
+        least-squares growth from <i>t</i> to <i>t</i>+8 of at least 3.5 per cent a year; an increase of at
+        least 2 percentage points over growth in the preceding eight years; and income at <i>t</i>+8 above
+        its pre-episode peak, so that pure recovery from collapse does not count as a miracle. Where several
+        adjacent years qualify, the start year is the one that maximizes the F-statistic of a spline
+        regression with a slope break at <i>t</i> — the year the trend most decisively turns. Following the
+        original paper, countries with fewer than one million people are excluded, and accelerations less
+        than five years apart are merged.</p>
+      </div>
+      <div class="m-sec">
+        <h3>Duration and size</h3>
+        <p>Hausmann, Pritchett and Rodrik dated the <i>starts</i> of accelerations; this atlas also dates
+        their ends, so that episodes can be ranked by duration and size. An episode is extended one year at
+        a time beyond the eight-year minimum for as long as growth stays miraculous: average growth since
+        the start remains at least 3.5 per cent, trailing eight-year growth stays above 3 per cent, and
+        income avoids collapse (it may not fall more than 5 per cent below its within-episode peak).
+        <b>Size</b> is the ratio of income per person at the end of the episode to income at the start;
+        <b>duration</b> is simply end year minus start year. Episodes still under way in 2023, when the
+        data end, are marked as such — their true length is unknown.</p>
+      </div>
+      <div class="m-sec">
+        <h3>Which sector drove it</h3>
+        <p>Where the GGDC 10-Sector Database (1950&ndash;2012) or the GGDC/UNU-WIDER Economic
+        Transformation Database (1990&ndash;2019) covers an episode, labor-productivity growth is
+        decomposed in the manner of McMillan and Rodrik (2011): a <b>within-sector</b> term (each sector's
+        own productivity growth, weighted by its initial employment share) and a <b>reallocation</b> or
+        structural-change term (employment shifting toward sectors with higher productivity levels). The
+        &ldquo;leading sector&rdquo; is the one contributing most to aggregate productivity growth,
+        counting both terms. The decomposition uses constant-price value added and employment, over the
+        longest stretch of the episode the sectoral data cover; 52 of the 137 episodes can be decomposed.
+        The usual caveats apply — mining and real estate carry high measured productivity per worker, so
+        their reallocation terms can be large even when employment changes are small.</p>
+      </div>
+      <div class="m-sec">
+        <h3>Notable absences — and one graduation</h3>
+        <p>The filter is strict in ways worth knowing. <b>India</b> never qualifies on these data: its
+        acceleration was real but too gradual — the change in eight-year growth peaks at 1.8 points around
+        1982 and 1.6 points around 2002, always short of the required 2. Slow-burn transformations are the
+        filter's blind spot. <b>Bangladesh</b> was the same story on the previous data vintage; the revised
+        national accounts in PWT 11.0 lift its 2005 acceleration over the bar, and it now sits in the
+        atlas.</p>
+        <table class="near">
+          <thead><tr><th>Near miss</th><th>Best year</th><th>Growth after</th><th>Acceleration</th><th>Required</th></tr></thead>
+          <tbody>
+            <tr><td>India</td><td>1982</td><td>3.2%</td><td>+1.8 pp</td><td>+2.0 pp</td></tr>
+            <tr><td>India</td><td>2002</td><td>5.4%</td><td>+1.6 pp</td><td>+2.0 pp</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Bangladesh's promotion is a caution as much as a celebration: episode lists are
+        sensitive to the data vintage. Moving this atlas from PWT 10.01 to 11.0 created 23 episodes,
+        removed 17 (Egypt's <i>infitah</i> among them), and merged China's two reform-era episodes into
+        one — a sensitivity documented since Johnson, Larson, Papageorgiou and Subramanian (2013) asked
+        &ldquo;Is newer better?&rdquo;. Two censoring problems also shape the list. The data begin in 1950,
+        so the first detectable start year is 1958 — the West German <i>Wirtschaftswunder</i> and Japan's
+        earliest postwar surge lie just out of view (Japan's run is caught from 1958). And accelerations
+        after 2015 cannot yet show the required eight years of results. Finally, where national statistics
+        are doubtful — Myanmar, Turkmenistan, Somalia, Equatorial Guinea under Macías — the atlas reports
+        the numbers and says so plainly in the text.</p>
+      </div>
+      <div class="m-sec">
+        <h3>Sources</h3>
+        <p class="note">Hausmann, R., L. Pritchett and D. Rodrik (2005), &ldquo;Growth
+        Accelerations,&rdquo; <i>Journal of Economic Growth</i> 10(4). &nbsp;McMillan, M. and D. Rodrik
+        (2011), &ldquo;Globalization, Structural Change and Productivity Growth,&rdquo; NBER WP 17143.
+        &nbsp;Feenstra, R., R. Inklaar and M. Timmer (2015), &ldquo;The Next Generation of the Penn World
+        Table,&rdquo; <i>AER</i> 105(10) — PWT 11.0. &nbsp;Timmer, M., G. de Vries and K. de Vries (2015),
+        GGDC 10-Sector Database. &nbsp;Kruse, H., E. Mensah, K. Sen and G. de Vries (2023), GGDC/UNU-WIDER
+        Economic Transformation Database. Episode narratives were written for this atlas; they aim for
+        orientation, not citation.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>THE GROWTH MIRACLE ATLAS &mdash; compiled July 2026 from PWT 11.0 (1950&ndash;2023),
+    GGDC 10-Sector (Jan. 2015 release), GGDC/UNU-WIDER ETD (2023 release).</span>
+    <span>Income figures are real GDP per person at constant 2021 national prices, in 2021 US$.</span>
+    <span><a href="https://oliverwkim.com">oliverwkim.com</a></span>
+  </footer>
+</div>
+
+<div id="tooltip"></div>
+
+<script src="world.js"></script>
+<script src="data.js"></script>
+<script src="vendor/d3.v7.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
