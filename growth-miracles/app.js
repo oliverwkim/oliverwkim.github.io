@@ -559,18 +559,37 @@ document.getElementById("regionsel").addEventListener("change", (ev) => {
   renderTable();
 });
 const sectorSel = document.getElementById("sectorsel");
-[...new Set(EPS.filter((e) => e.decomp).map((e) => e.decomp.driver))]
-  .sort((a, b) => a.localeCompare(b))
-  .forEach((s) => {
-    const opt = document.createElement("option");
-    opt.value = s;
-    opt.textContent = SECTOR_SHORT[s] || s;
-    sectorSel.appendChild(opt);
-  });
+const sectorTally = new Map();
+EPS.forEach((e) => {
+  if (!e.decomp) return;
+  sectorTally.set(e.decomp.driver, (sectorTally.get(e.decomp.driver) || 0) + 1);
+});
+// most common first — the point of the list is the distribution
+const sectorsByCount = [...sectorTally.entries()]
+  .sort((a, b) => (b[1] - a[1]) || a[0].localeCompare(b[0]));
+const nDecomp = sectorsByCount.reduce((a, [, n]) => a + n, 0);
+sectorsByCount.forEach(([s, n]) => {
+  const opt = document.createElement("option");
+  opt.value = s;
+  opt.textContent = `${SECTOR_SHORT[s] || s} (${n})`;
+  sectorSel.appendChild(opt);
+});
 sectorSel.addEventListener("change", (ev) => {
   state.sector = ev.target.value;
   renderTable();
 });
+
+// tally of leading sectors in the methodology section
+const tallyBody = document.querySelector("#sector-tally tbody");
+if (tallyBody) {
+  tallyBody.innerHTML = sectorsByCount.map(([s, n]) => {
+    const ec = new Set(EPS.filter((e) => e.decomp && e.decomp.driver === s)
+      .map((e) => e.iso)).size;
+    return `<tr><td>${esc(s)}</td><td>${n}</td><td>${ec}</td></tr>`;
+  }).join("") +
+    `<tr><td><b>All decomposed</b></td><td><b>${nDecomp}</b></td><td></td></tr>` +
+    `<tr><td>No sectoral data</td><td>${EPS.length - nDecomp}</td><td></td></tr>`;
+}
 document.getElementById("q").addEventListener("input", (ev) => {
   state.q = ev.target.value;
   renderTable();
